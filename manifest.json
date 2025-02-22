@@ -1,30 +1,21 @@
 {
-  // this the manifest for you pack
-  // it contains basic information about your pack
-  // for more info on the manifest check: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#manifest
-  "name": "Metroid Dread PopTracker",
+  "name": "Metroid Dread Map Tracker",
   "game_name": "Metroid Dread",
-  "package_version": "1.0.0.0",
+  "package_version": "0.0.1",
   "package_uid": "md_maptracker_breakrice",
   "author": "Breakrice",
-  "platform": "switch",
+  "platform": "Switch",
   "min_poptracker_version": "0.30.3",
   "target_poptracker_version": "0.30.3",
   "variants": {
     "standard": {
       "display_name": "Map Tracker",
-      "flags": [
-        // enables AP autotracking interface - remove if not needed
-        "ap"
-      ]
+      "flags": []
     },
     "var_itemsonly": {
       "display_name": "Items Only",
-      "flags": [
-        // enables AP autotracking interface - remove if not needed
-        "ap"
-      ]
+      "flags": []
     }
   },
-  "versions_url": "TBD" //https://raw.githubusercontent.com/seto10987/MLSS-PopTracker/versions/versions.json
+  "versions_url": "https://github.com/Breakrice/Metroid-Dread-Poptracker" //https://raw.githubusercontent.com/seto10987/MLSS-PopTracker/versions/versions.json
 }

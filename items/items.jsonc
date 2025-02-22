@@ -1,56 +1,217 @@
 [
-  //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#items
   {
-    "name": "Toggle",
-    "type": "toggle",
-    "img": "images/items/toggle.png",
-    "codes": "toggle"
-  },
-  {
-    "name": "Progressive",
+    "name": "Beam",
     "type": "progressive",
     "allow_disabled": true,
     "initial_stage_idx": 0,
     "stages": [
       {
-        "img": "images/items/progressive.png",
-        "codes": "progressive",
+        "img": "images/items/Progressive Beam.png",
+        "codes": "pbeam",
         "inherit_codes": false
       },
       {
-        "img": "images/items/progressive_2.png",
-        "codes": "progressive_2",
-        "inherit_codes": false
+        "img": "images/items/Wide Beam.png",
+        "codes": "wide",
+        "inherit_codes": false,
+        "name": "Wide Beam"
+      },
+      {
+        "img": "images/items/Plasma Beam.png",
+        "codes": "plasma",
+        "inherit_codes": false,
+        "name": "Plasma Beam"
+      },
+      {
+        "img": "images/items/Wave Beam.png",
+        "codes": "wave",
+        "inherit_codes": false,
+        "name": "Wave Beam"
       }
     ]
   },
   {
-    "name": "Consumable",
-    "type": "consumable",
-    "img": "images/items/consumable.png",
-    "max_quantity": 8,
-    "increment": 1,
-    "decrement": 1,
-    "initial_quantity": 1,
-    "overlay_background": "#000000",
-    "overlay_font_size": 8,
-    "codes": "consumable"
-  },
-  {
-    "name": "Progressive Toggle",
-    "type": "progressive_toggle",
+    "name": "Charge Beam",
+    "type": "progressive",
+    "allow_disabled": true,
     "initial_stage_idx": 0,
     "stages": [
       {
-        "img": "images/items/progressive.png",
-        "codes": "progressive_toggle",
+        "img": "images/items/Progressive Charge.png",
+        "codes": "pcharge",
         "inherit_codes": false
       },
       {
-        "img": "images/items/progressive_2.png",
-        "codes": "progressive_toggle_2",
+        "img": "images/items/Charge Beam.png",
+        "codes": "charge",
         "inherit_codes": false
+      },
+      {
+        "img": "images/items/Diffusion Beam.png",
+        "codes": "diffusion",
+        "inherit_codes": false,
+        "name": "Diffusion Beam"
       }
     ]
+  },
+  {
+    "name": "Morph Bomb",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/Progressive Bombs.png",
+        "codes": "pbomb",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/Morph Bomb.png",
+        "codes": "bomb",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/Cross Bomb.png",
+        "codes": "crossbomb",
+        "inherit_codes": false,
+        "name": "Cross Bomb"
+      }
+    ]
+  },
+  {
+    "name": "Missle",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/Progressive Missile.png",
+        "codes": "pmissle",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/Super Missile.png",
+        "codes": "super",
+        "inherit_codes": false,
+        "name": "Super Missile"
+      },
+      {
+        "img": "images/items/Ice Missile.png",
+        "codes": "ice",
+        "inherit_codes": false,
+        "name": "Ice Missile"
+      }
+    ]
+  },
+  {
+    "name": "Progressive Jump",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/Progressive Jump.png",
+        "codes": "pjump",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/Spin Boost.png",
+        "codes": "spin",
+        "inherit_codes": false,
+        "name": "Spin Boost"
+      },
+      {
+        "img": "images/items/Space Jump.png",
+        "codes": "space",
+        "inherit_codes": false,
+        "name": "Space Jump"
+      }
+    ]
+  },
+  {
+    "name": "Progressive Suit",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/Progressive Suit.png",
+        "codes": "psuit",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/Varia Suit.png",
+        "codes": "varia",
+        "inherit_codes": false,
+        "name": "Varia Suit"
+      },
+      {
+        "img": "images/items/Gravity Suit.png",
+        "codes": "gravity",
+        "inherit_codes": false,
+        "name": "Gravity Suit"
+      }
+    ]
+  },
+  {
+    "name": "Grapple Beam",
+    "type": "toggle",
+    "img": "images/items/Grapple Beam.png",
+    "codes": "grapple"
+  },
+  {
+    "name": "Morph Ball",
+    "type": "toggle",
+    "img": "images/items/Morph Ball.png",
+    "codes": "morph"
+  },
+  {
+    "name": "Power Bomb",
+    "type": "toggle",
+    "img": "images/items/Power Bomb.png",
+    "codes": "powerbomb"
+  },
+  {
+    "name": "Spider Magnet",
+    "type": "toggle",
+    "img": "images/items/Spider Magnet.png",
+    "codes": "spider"
+  },
+  {
+    "name": "Speed Booster",
+    "type": "toggle",
+    "img": "images/items/Speed Booster.png",
+    "codes": "speed"
+  },
+  {
+    "name": "Screw Attack",
+    "type": "toggle",
+    "img": "images/items/Screw Attack.png",
+    "codes": "screw"
+  },
+  {
+    "name": "Phantom Cloak",
+    "type": "toggle",
+    "img": "images/items/Phantom Cloak.png",
+    "codes": "phantomcloak"
+  },
+  {
+    "name": "Flash Shift",
+    "type": "toggle",
+    "img": "images/items/Flash Shift.png",
+    "codes": "flash"
+  }
+  ,
+  {
+    "name": "Scan Pulse",
+    "type": "toggle",
+    "img": "images/items/Scan Pulse.png",
+    "codes": "scan"
+  },
+  {
+    "name": "Released X Parasite",
+    "type": "toggle",
+    "img": "images/items/X Parasite.png",
+    "codes": "xpar"
   }
 ]
