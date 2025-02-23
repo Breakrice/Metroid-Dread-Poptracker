@@ -10,7 +10,7 @@
         "sections": [
           {
             "name": "Missile",
-            "access_rules": ["$DESTROYBOMBBLOCKS","space"]
+            "access_rules": []
           }
         ],
         "map_locations": 
@@ -48,7 +48,7 @@
         "sections": [
           {
             "name": "Missile",
-            "access_rules": ["$DESTROYBOMBBLOCKS,spin"]
+            "access_rules": []
           }
         ],
         "map_locations": 

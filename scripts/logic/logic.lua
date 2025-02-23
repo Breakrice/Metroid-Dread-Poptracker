@@ -7,6 +7,3 @@ function has(item, amount)
         return count == amount
     end
 end
-function DESTROYBOMBBLOCKS()
-    return
-    has("morph") and (has("bomb") or has("crossbomb") or has("powerbomb"))
