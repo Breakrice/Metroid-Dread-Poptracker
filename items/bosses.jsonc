@@ -2,157 +2,169 @@
   {
   "name": "Corpius",
   "type": "toggle",
+  "loop": "true",
   "img": "images/bosses/Corpius Icon.png",
   "codes": "corpius"
-  },
-  {
-    "name": "Drogyga",
-    "type": "toggle",
-    "img": "images/bosses/Drogyga Icon.png",
-    "codes": "drogyga"
-  },
-  {
-    "name": "Escue",
-    "type": "toggle",
-    "img": "images/bosses/Escue Icon.png",
-    "codes": "escue"
-  },
-  {
-    "name": "Golzuna",
-    "type": "toggle",
-    "img": "images/bosses/Golzuna Icon.png",
-    "codes": "golzuna"
-  },
-  {
-    "name": "Kraid",
-    "type": "toggle",
-    "img": "images/bosses/Kraid Icon.png",
-    "codes": "kraid"
-  },
-  {
-    "name": "Z-57",
-    "type": "toggle",
-    "img": "images/bosses/Z-57 Icon.png",
-    "codes": "z57"
-  },
-  {
-    "name": "Cyan EMMI",
-    "type": "toggle",
-    "img": "images/bosses/Cyan EMMI.png",
-    "codes": "cyan"
-  },
-  {
-    "name": "Green EMMI",
-    "type": "toggle",
-    "img": "images/bosses/Green EMMI.png",
-    "codes": "green"
-  },
-  {
-    "name": "Orange EMMI",
-    "type": "toggle",
-    "img": "images/bosses/Orange EMMI.png",
-    "codes": "orange"
-  },
-  {
-    "name": "Purple EMMI",
-    "type": "toggle",
-    "img": "images/bosses/Purple EMMI.png",
-    "codes": "purple"
-  },
-  {
-    "name": "White EMMI",
-    "type": "toggle",
-    "img": "images/bosses/White EMMI.png",
-    "codes": "white"
-  },
-  {
-    "name": "Yellow EMMI",
-    "type": "toggle",
-    "img": "images/bosses/Yellow EMMI.png",
-    "codes": "yellow"
   },
   {
       "name": "DNA",
       "type": "toggle_badged",
       "base_item": "corpius",
       "img": "images/bosses/DNA128.png",
-      "codes": "dnac"
+      "codes": "corpiusdna"
   },
   {
-      "name": "DNA",
-      "type": "toggle_badged",
-      "base_item": "cyan",
-      "img": "images/bosses/DNA128.png",
-      "codes": "dnace"
+    "name": "Drogyga",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/Drogyga Icon.png",
+    "codes": "drogyga"
   },
   {
       "name": "DNA",
       "type": "toggle_badged",
       "base_item": "drogyga",
       "img": "images/bosses/DNA128.png",
-      "codes": "dnad"
+      "codes": "drogygadna"
+  },
+  {
+    "name": "Escue",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/Escue Icon.png",
+    "codes": "escue"
   },
   {
       "name": "DNA",
       "type": "toggle_badged",
       "base_item": "escue",
       "img": "images/bosses/DNA128.png",
-      "codes": "dnae"
+      "codes": "escuedna"
+  },
+  {
+    "name": "Golzuna",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/Golzuna Icon Scaled.png",
+    "codes": "golzuna"
   },
   {
       "name": "DNA",
       "type": "toggle_badged",
       "base_item": "golzuna",
       "img": "images/bosses/DNA128.png",
-      "codes": "dnag"
+      "codes": "golzunadna"
   },
   {
-      "name": "DNA",
-      "type": "toggle_badged",
-      "base_item": "green",
-      "img": "images/bosses/DNA128.png",
-      "codes": "dnage"
+    "name": "Kraid",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/Kraid Icon.png",
+    "codes": "kraid"
   },
   {
       "name": "DNA",
       "type": "toggle_badged",
       "base_item": "kraid",
       "img": "images/bosses/DNA128.png",
-      "codes": "dnak"
+      "codes": "kraiddna"
   },
   {
-      "name": "DNA",
-      "type": "toggle_badged",
-      "base_item": "orange",
-      "img": "images/bosses/DNA128.png",
-      "codes": "dnaoe"
-  },
-  {
-      "name": "DNA",
-      "type": "toggle_badged",
-      "base_item": "purple",
-      "img": "images/bosses/DNA128.png",
-      "codes": "dnape"
-  },
-  {
-      "name": "DNA",
-      "type": "toggle_badged",
-      "base_item": "white",
-      "img": "images/bosses/DNA128.png",
-      "codes": "dnawe"
-  },
-  {
-      "name": "DNA",
-      "type": "toggle_badged",
-      "base_item": "yellow",
-      "img": "images/bosses/DNA128.png",
-      "codes": "dnaye"
+    "name": "Z-57",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/Z-57 Icon.png",
+    "codes": "z57"
   },
   {
       "name": "DNA",
       "type": "toggle_badged",
       "base_item": "z57",
       "img": "images/bosses/DNA128.png",
-      "codes": "dnaz"
+      "codes": "z57dna"
+  },
+  {
+    "name": "Cyan EMMI",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/Cyan Icon Scaled.png",
+    "codes": "cyan"
+  },
+  {
+      "name": "DNA",
+      "type": "toggle_badged",
+      "base_item": "cyan",
+      "img": "images/bosses/DNA128.png",
+      "codes": "cyandna"
+  },
+  {
+    "name": "Green EMMI",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/Green Icon Scaled.png",
+    "codes": "green"
+  },
+  {
+      "name": "DNA",
+      "type": "toggle_badged",
+      "base_item": "green",
+      "img": "images/bosses/DNA128.png",
+      "codes": "greendna"
+  },
+  {
+    "name": "Orange EMMI",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/Orange Icon Scaled.png",
+    "codes": "orange"
+  },
+  {
+      "name": "DNA",
+      "type": "toggle_badged",
+      "base_item": "orange",
+      "img": "images/bosses/DNA128.png",
+      "codes": "orangedna"
+  },
+  {
+    "name": "Purple EMMI",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/Purple Icon Scaled.png",
+    "codes": "purple"
+  },
+  {
+      "name": "DNA",
+      "type": "toggle_badged",
+      "base_item": "purple",
+      "img": "images/bosses/DNA128.png",
+      "codes": "purpledna"
+  },
+  {
+    "name": "White EMMI",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/White Icon Scaled.png",
+    "codes": "white"
+  },
+  {
+      "name": "DNA",
+      "type": "toggle_badged",
+      "base_item": "white",
+      "img": "images/bosses/DNA128.png",
+      "codes": "whitedna"
+  },
+  {
+    "name": "Yellow EMMI",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/Yellow Icon Scaled.png",
+    "codes": "yellow"
+  },
+  {
+      "name": "DNA",
+      "type": "toggle_badged",
+      "base_item": "yellow",
+      "img": "images/bosses/DNA128.png",
+      "codes": "yellowdna"
   }
 ]

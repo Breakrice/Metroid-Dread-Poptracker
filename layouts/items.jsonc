@@ -1,31 +1,33 @@
 {
-  // sets layouts for shadred items grids
-  // bigger example: https://github.com/Cyb3RGER/sm_ap_tracker/blob/main/layouts/items.json
-  "shared_item_grid": {
+  "item_grid": {
     "type": "array",
     "orientation": "vertical",
-    "margin": "0,0",
     "content": [
       {
-        "type": "array",
-        "orientation": "horizontal",
-        "margin": "0,0",
-        "content": [
-          {
-            "type": "itemgrid",
-            "item_margin": "10, 10",
-            "h_alignment": "left",
-            "rows": [
-              [
-                "toggle",
-                "progressive"
-              ],
-              [
-                "consumable",
-                "progressive_toggle"
-              ]
-            ]
-          }
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_size": "40",
+        "item_margin": "2,2",
+        "rows": [
+          [ "pbeam","pcharge","grapple","morph","pbomb","powerbomb"],
+          [ "pmissile","smissile","spider","speed","pjump","screw" ],
+          [ "psuit","phantomcloak","flash","pulse", "" ,"xpar"]
+        ]
+      }
+    ]
+  },
+  "boss_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "content": [
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_size": "40",
+        "item_margin": "2,2",
+        "rows": [
+          ["corpiusdna","kraiddna","drogygadna","escuedna","z57dna","golzunadna"],
+          ["whitedna","greendna","yellowdna","cyandna","purpledna","orangedna"]
         ]
       }
     ]

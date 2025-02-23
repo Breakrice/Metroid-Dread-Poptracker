@@ -70,7 +70,19 @@
                 "type": "layout",
                 "h_alignment": "center",
                 "v_alignment": "center",
-                "key": "shared_item_grid"
+                "key": "item_grid"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Bosses",
+              "dock": "left",
+              "margin": "0,0,3,0",
+              "content": {
+                "type": "layout",
+                "h_alignment": "center",
+                "v_alignment": "center",
+                "key": "boss_grid"
               }
             }
           ]
@@ -79,20 +91,83 @@
           "type": "tabbed",
           "tabs": [
             {
-              "title": "Map 1",
+              "title": "ZDR",
               "content": {
                 "type": "map",
                 "maps": [
-                  "map1"
+                  "zdr"
                 ]
               }
             },
             {
-              "title": "Map 2",
+              "title": "Artaria",
               "content": {
                 "type": "map",
                 "maps": [
-                  "map2"
+                  "artaria"
+                ]
+              }
+            },
+            {
+              "title": "Cataris",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "cataris"
+                ]
+              }
+            },
+            {
+              "title": "Dairon",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "dairon"
+                ]
+              }
+            },
+            {
+              "title": "Burenia",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "burenia"
+                ]
+              }
+            },
+            {
+              "title": "Ferenia",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "ferenia"
+                ]
+              }
+            },
+            {
+              "title": "Ghavoran",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "ghavoran"
+                ]
+              }
+            },
+            {
+              "title": "Elun",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "elun"
+                ]
+              }
+            },
+            {
+              "title": "Hanubia",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "hanubia"
                 ]
               }
             }

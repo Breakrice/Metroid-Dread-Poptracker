@@ -1,8 +1,8 @@
 [
   {
-    "name": "Beam",
+    "name": "Basic Beam",
     "type": "progressive",
-    "allow_disabled": true,
+    "allow_disabled": false,
     "initial_stage_idx": 0,
     "stages": [
       {
@@ -31,9 +31,9 @@
     ]
   },
   {
-    "name": "Charge Beam",
+    "name": "No Charge Beam",
     "type": "progressive",
-    "allow_disabled": true,
+    "allow_disabled": false,
     "initial_stage_idx": 0,
     "stages": [
       {
@@ -44,7 +44,8 @@
       {
         "img": "images/items/Charge Beam.png",
         "codes": "charge",
-        "inherit_codes": false
+        "inherit_codes": false,
+        "name": "Charge Beam"
       },
       {
         "img": "images/items/Diffusion Beam.png",
@@ -55,9 +56,9 @@
     ]
   },
   {
-    "name": "Morph Bomb",
+    "name": "No Morph Bomb",
     "type": "progressive",
-    "allow_disabled": true,
+    "allow_disabled": false,
     "initial_stage_idx": 0,
     "stages": [
       {
@@ -68,7 +69,8 @@
       {
         "img": "images/items/Morph Bomb.png",
         "codes": "bomb",
-        "inherit_codes": false
+        "inherit_codes": false,
+        "name": "Bomb"
       },
       {
         "img": "images/items/Cross Bomb.png",
@@ -79,14 +81,14 @@
     ]
   },
   {
-    "name": "Missle",
+    "name": "Basic Missile",
     "type": "progressive",
-    "allow_disabled": true,
+    "allow_disabled": false,
     "initial_stage_idx": 0,
     "stages": [
       {
         "img": "images/items/Progressive Missile.png",
-        "codes": "pmissle",
+        "codes": "pmissile",
         "inherit_codes": false
       },
       {
@@ -104,9 +106,9 @@
     ]
   },
   {
-    "name": "Progressive Jump",
+    "name": "Basic Jump",
     "type": "progressive",
-    "allow_disabled": true,
+    "allow_disabled": false,
     "initial_stage_idx": 0,
     "stages": [
       {
@@ -129,9 +131,9 @@
     ]
   },
   {
-    "name": "Progressive Suit",
+    "name": "No Suit",
     "type": "progressive",
-    "allow_disabled": true,
+    "allow_disabled": false,
     "initial_stage_idx": 0,
     "stages": [
       {
@@ -172,6 +174,12 @@
     "codes": "powerbomb"
   },
   {
+    "name": "Storm Missile",
+    "type": "toggle",
+    "img": "images/items/Storm Missile.png",
+    "codes": "smissile"
+  },
+  {
     "name": "Spider Magnet",
     "type": "toggle",
     "img": "images/items/Spider Magnet.png",
@@ -206,7 +214,7 @@
     "name": "Scan Pulse",
     "type": "toggle",
     "img": "images/items/Scan Pulse.png",
-    "codes": "scan"
+    "codes": "pulse"
   },
   {
     "name": "Released X Parasite",
