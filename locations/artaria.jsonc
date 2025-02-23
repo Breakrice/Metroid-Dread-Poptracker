@@ -5,19 +5,670 @@
     [
       {
         "name": "Missile",
+        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
+        "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
           {
-            "name": "Missile",
-            "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-            "chest_opened_img": "images/checks/Missile opened.png"
+            "name": "Melee Tutorial Room",
+            "access_rules": []
           }
         ],
         "map_locations": 
         [
           {
             "map": "artaria",
-            "x": 0,
-            "y": 0
+            "x": 2467,
+            "y": 1022
+          }
+        ]
+      },
+      {
+        "name": "Missile",
+        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
+        "chest_opened_img": "images/checks/Missile opened.png",
+        "sections": [
+          {
+            "name": "Melee Tutorial Room",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "artaria",
+            "x": 2640,
+            "y": 945
+          }
+        ]
+      },
+      {
+        "name": "Missile",
+        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
+        "chest_opened_img": "images/checks/Missile opened.png",
+        "sections": [
+          {
+            "name": "Proto EMMI Introduciton",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "artaria",
+            "x": 2780,
+            "y": 915
+          }
+        ]
+      },
+      {
+        "name": "Missile",
+        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
+        "chest_opened_img": "images/checks/Missile opened.png",
+        "sections": [
+          {
+            "name": "Invisible Corpius Room",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "artaria",
+            "x": 2706,
+            "y": 685
+          }
+        ]
+      },
+      {
+        "name": "Missile",
+        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
+        "chest_opened_img": "images/checks/Missile opened.png",
+        "sections": [
+          {
+            "name": "Thermal Device",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "artaria",
+            "x": 2931,
+            "y": 730
+          }
+        ]
+      },
+      {
+        "name": "Missile",
+        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
+        "chest_opened_img": "images/checks/Missile opened.png",
+        "sections": [
+          {
+            "name": "East Lava Missile Room",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "artaria",
+            "x": 2993,
+            "y": 644
+          }
+        ]
+      },
+      {
+        "name": "Missile",
+        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
+        "chest_opened_img": "images/checks/Missile opened.png",
+        "sections": [
+          {
+            "name": "Hot Cataris Shortcut",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "artaria",
+            "x": 3508,
+            "y": 589
+          }
+        ]
+      },
+      {
+        "name": "Missile",
+        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
+        "chest_opened_img": "images/checks/Missile opened.png",
+        "sections": [
+          {
+            "name": "David Jaffe Room",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "artaria",
+            "x": 2628,
+            "y": 637
+          }
+        ]
+      },
+      {
+        "name": "Missile",
+        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
+        "chest_opened_img": "images/checks/Missile opened.png",
+        "sections": [
+          {
+            "name": "Arbitrary Enky Room",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "artaria",
+            "x": 2336,
+            "y": 590
+          }
+        ]
+      },
+      {
+        "name": "Missile",
+        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
+        "chest_opened_img": "images/checks/Missile opened.png",
+        "sections": [
+          {
+            "name": "EMMI Zone First Entrance",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "artaria",
+            "x": 2181,
+            "y": 843
+          }
+        ]
+      },
+      {
+        "name": "Missile",
+        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
+        "chest_opened_img": "images/checks/Missile opened.png",
+        "sections": [
+          {
+            "name": "EMMI Zone Exit North",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "artaria",
+            "x": 1867,
+            "y": 606
+          }
+        ]
+      },
+      {
+        "name": "Missile",
+        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
+        "chest_opened_img": "images/checks/Missile opened.png",
+        "sections": [
+          {
+            "name": "EMMI Zone Spinner",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "artaria",
+            "x": 1836,
+            "y": 960
+          }
+        ]
+      },
+      {
+        "name": "Missile",
+        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
+        "chest_opened_img": "images/checks/Missile opened.png",
+        "sections": [
+          {
+            "name": "EMMI Zone Exit Northwest",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "artaria",
+            "x": 1414,
+            "y": 738
+          }
+        ]
+      },
+      {
+        "name": "Missile",
+        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
+        "chest_opened_img": "images/checks/Missile opened.png",
+        "sections": [
+          {
+            "name": "Teleport to Cataris",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "artaria",
+            "x": 1134,
+            "y": 794
+          }
+        ]
+      },
+      {
+        "name": "Missile",
+        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
+        "chest_opened_img": "images/checks/Missile opened.png",
+        "sections": [
+          {
+            "name": "Teleport to Cataris",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "artaria",
+            "x": 1054,
+            "y": 549
+          }
+        ]
+      },
+      {
+        "name": "Missile",
+        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
+        "chest_opened_img": "images/checks/Missile opened.png",
+        "sections": [
+          {
+            "name": "Waterfall",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "artaria",
+            "x": 850,
+            "y": 840
+          }
+        ]
+      },
+      {
+        "name": "Missile",
+        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
+        "chest_opened_img": "images/checks/Missile opened.png",
+        "sections": [
+          {
+            "name": "Waterfall",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "artaria",
+            "x": 460,
+            "y": 934
+          }
+        ]
+      },
+      {
+        "name": "Missile",
+        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
+        "chest_opened_img": "images/checks/Missile opened.png",
+        "sections": [
+          {
+            "name": "Waterfall",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "artaria",
+            "x": 442,
+            "y": 1094
+          }
+        ]
+      },
+      {
+        "name": "Missile",
+        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
+        "chest_opened_img": "images/checks/Missile opened.png",
+        "sections": [
+          {
+            "name": "Transport to Burenia",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "artaria",
+            "x": 79,
+            "y": 936
+          }
+        ]
+      },
+      {
+        "name": "Missile",
+        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
+        "chest_opened_img": "images/checks/Missile opened.png",
+        "sections": [
+          {
+            "name": "Freezer",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "artaria",
+            "x": 654,
+            "y": 1025
+          }
+        ]
+      },
+      {
+        "name": "Missile",
+        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
+        "chest_opened_img": "images/checks/Missile opened.png",
+        "sections": [
+          {
+            "name": "Charge Beam Access",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "artaria",
+            "x": 1346,
+            "y": 1356
+          }
+        ]
+      },
+      {
+        "name": "Missile",
+        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
+        "chest_opened_img": "images/checks/Missile opened.png",
+        "sections": [
+          {
+            "name": "Energy Recharge Station South",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "artaria",
+            "x": 1454,
+            "y": 1232
+          }
+        ]
+      },
+      {
+        "name": "Missile+",
+        "chest_unopened_img": "images/checks/Missile+ Hud Icon.png",
+        "chest_opened_img": "images/checks/Missile+ opened.png",
+        "sections": [
+          {
+            "name": "Varia Suit Tutorial North",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "artaria",
+            "x": 1300,
+            "y": 330
+          }
+        ]
+      },
+      {
+        "name": "Missile+",
+        "chest_unopened_img": "images/checks/Missile+ Hud Icon.png",
+        "chest_opened_img": "images/checks/Missile+ opened.png",
+        "sections": [
+          {
+            "name": "Speed Hallway",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "artaria",
+            "x": 1156,
+            "y": 1246
+          }
+        ]
+      },
+      {
+        "name": "E-Tank",
+        "chest_unopened_img": "images/checks/E-Tank Hud Icon.png",
+        "chest_opened_img": "images/checks/E-Tank opened.png",
+        "sections": [
+          {
+            "name": "Charge Tutorial",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "artaria",
+            "x": 2250,
+            "y": 1392
+          }
+        ]
+      },
+      {
+        "name": "E-Tank",
+        "chest_unopened_img": "images/checks/E-Tank Hud Icon.png",
+        "chest_opened_img": "images/checks/E-Tank opened.png",
+        "sections": [
+          {
+            "name": "Shutter Platform Puzzle",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "artaria",
+            "x": 758,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "E-Tank Part",
+        "chest_unopened_img": "images/checks/E-Tank part Hud Icon.png",
+        "chest_opened_img": "images/checks/E-Tank part opened.png",
+        "sections": [
+          {
+            "name": "Waterfall",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "artaria",
+            "x": 800,
+            "y": 738
+          }
+        ]
+      },
+      {
+        "name": "E-Tank Part",
+        "chest_unopened_img": "images/checks/E-Tank part Hud Icon.png",
+        "chest_opened_img": "images/checks/E-Tank part opened.png",
+        "sections": [
+          {
+            "name": "Speed Hallway",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "artaria",
+            "x": 950,
+            "y": 1260
+          }
+        ]
+      },
+      {
+        "name": "Power Bomb",
+        "chest_unopened_img": "images/checks/Power Bomb Hud Icon.png",
+        "chest_opened_img": "images/checks/Power bomb opened.png",
+        "sections": [
+          {
+            "name": "EMMI Zone Hub",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "artaria",
+            "x": 1565,
+            "y": 710
+          }
+        ]
+      },
+      {
+        "name": "White EMMI",
+        "sections": [
+          {
+            "chest_unopened_img": "images/bosses/White Icon Scaled.png",
+            "chest_opened_img": "images/checks/White Defeated.png",
+            "access_rules": []
+          },
+          {
+            "name": "Spider Magnet",
+            "chest_unopened_img": "images/items/Spider Magnet.png",
+            "chest_opened_img": "images/checks/Spider opened.png"
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "artaria",
+            "x": 2328,
+            "y": 1088
+          }
+        ]
+      },
+      {
+        "name": "Corpius",
+        "sections": [
+          {
+            "chest_unopened_img": "images/bosses/Corpius Icon.png",
+            "chest_opened_img": "images/checks/Corpius Defeated.png",
+            "access_rules": []
+          },
+          {
+            "name": "Phantom Cloak",
+            "chest_unopened_img": "images/items/Phantom Cloak.png",
+            "chest_opened_img": "images/checks/cloak opened.png"
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "artaria",
+            "x": 2966,
+            "y": 830
+          }
+        ]
+      },
+      {
+        "name": "Grapple Beam",
+        "sections": [
+          {
+            "chest_unopened_img": "images/items/Grapple Beam.png",
+            "chest_opened_img": "images/checks/Grapple opened.png",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "artaria",
+            "x": 2337,
+            "y": 476
+          }
+        ]
+      },
+      {
+        "name": "Varia Suit",
+        "sections": [
+          {
+            "chest_unopened_img": "images/items/Varia Suit.png",
+            "chest_opened_img": "images/checks/Varia opened.png",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "artaria",
+            "x": 1123,
+            "y": 196
+          }
+        ]
+      },
+      {
+        "name": "Screw Attack",
+        "sections": [
+          {
+            "chest_unopened_img": "images/items/Screw Attack.png",
+            "chest_opened_img": "images/checks/Screw opened.png",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "artaria",
+            "x": 483,
+            "y": 1010
+          }
+        ]
+      },
+      {
+        "name": "Charge Beam",
+        "sections": [
+          {
+            "chest_unopened_img": "images/items/Charge Beam.png",
+            "chest_opened_img": "images/checks/Charge opened.png",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "artaria",
+            "x": 1225,
+            "y": 1399
           }
         ]
       }
