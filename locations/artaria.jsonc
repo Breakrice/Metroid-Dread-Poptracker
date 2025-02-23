@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Artaria",
+    "children" :
+    [
+      {
+        "name": "Missile",
+        "sections": [
+          {
+            "name": "Missile",
+            "chest_unopened_img": "images/checks/Missile Hud Icon.png",
+            "chest_opened_img": "images/checks/Missile opened.png"
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "artaria",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  }
+]
