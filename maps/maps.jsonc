@@ -8,50 +8,50 @@
   },
   {
     "name": "burenia",
-    "location_size": 48,
+    "location_size": 24,
     "location_border_thickness": 4,
     "img": "images/maps/Burenia.jpeg"
   },
   {
     "name": "cataris",
-    "location_size": 48,
+    "location_size": 24,
     "location_border_thickness": 4,
     "img": "images/maps/Cataris.jpeg"
   },
   {
     "name": "dairon",
-    "location_size": 48,
+    "location_size": 24,
     "location_border_thickness": 4,
     "img": "images/maps/Dairon.jpeg"
   },
   {
     "name": "elun",
-    "location_size": 48,
+    "location_size": 24,
     "location_border_thickness": 4,
     "img": "images/maps/Elun.jpeg"
   },
   {
     "name": "ferenia",
-    "location_size": 48,
+    "location_size": 24,
     "location_border_thickness": 4,
     "img": "images/maps/Ferenia.jpeg"
   },
   {
     "name": "ghavoran",
-    "location_size": 48,
+    "location_size": 24,
     "location_border_thickness": 4,
     "img": "images/maps/Ghavoran.jpeg"
   },
   {
     "name": "hanubia",
-    "location_size": 48,
+    "location_size": 24,
     "location_border_thickness": 4,
     "img": "images/maps/Hanubia.jpeg"
   },
   {
     "name": "zdr",
-    "location_size": 48,
-    "location_border_thickness": 4,
+    "location_size": 18,
+    "location_border_thickness": 2,
     "img": "images/maps/ZDR.jpeg"
   }
 ]

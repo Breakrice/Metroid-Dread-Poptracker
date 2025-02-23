@@ -1,0 +1,88 @@
+[
+  {
+    "name": "Hanubia",
+    "children" :
+    [
+      {
+        "name": "Total Recharge Station North",
+        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
+        "chest_opened_img": "images/checks/Missile opened.png",
+        "sections": [
+          {
+            "name": "Missile",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "hanubia",
+            "x": 1311,
+            "y": 193
+          }
+        ]
+      },
+      {
+        "name": "Ferenia Shortcut",
+        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
+        "chest_opened_img": "images/checks/Missile opened.png",
+        "sections": [
+          {
+            "name": "Missile",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "hanubia",
+            "x": 1144,
+            "y": 444
+          }
+        ]
+      },
+      {
+        "name": "Vertical Bomb Maze",
+        "chest_unopened_img": "images/checks/Power Bomb Hud Icon.png",
+        "chest_opened_img": "images/checks/Power bomb opened.png",
+        "sections": [
+          {
+            "name": "Power Bomb",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "hanubia",
+            "x": 1345,
+            "y": 329
+          }
+        ]
+      },
+      {
+        "name": "Orange EMMI",
+        "sections": [
+          {
+            "chest_unopened_img": "images/bosses/Orange Icon Scaled.png",
+            "chest_opened_img": "images/checks/Orange Defeated.png",
+            "access_rules": []
+          },
+          {
+            "name": "Power Bomb",
+            "chest_unopened_img": "images/items/Power Bomb.png",
+            "chest_opened_img": "images/checks/powerbomb opened.png"
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "hanubia",
+            "x": 1672,
+            "y": 439
+          }
+        ]
+      }
+    ]
+  }
+]

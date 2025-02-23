@@ -1,0 +1,466 @@
+[
+  {
+    "name": "Cataris",
+    "children" :
+    [
+      {
+        "name": "Lava Button East Access",
+        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
+        "chest_opened_img": "images/checks/Missile opened.png",
+        "sections": [
+          {
+            "name": "Missile",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "cataris",
+            "x": 2600,
+            "y": 736
+          }
+        ]
+      },
+      {
+        "name": "Teleport to Artaria (Blue)",
+        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
+        "chest_opened_img": "images/checks/Missile opened.png",
+        "sections": [
+          {
+            "name": "Missile",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "cataris",
+            "x": 2805,
+            "y": 543
+          }
+        ]
+      },
+      {
+        "name": "Double Obsydomithon Room",
+        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
+        "chest_opened_img": "images/checks/Missile opened.png",
+        "sections": [
+          {
+            "name": "Missile",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "cataris",
+            "x": 2288,
+            "y": 370
+          }
+        ]
+      },
+      {
+        "name": "EMMI Zone Hidden Missile Room",
+        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
+        "chest_opened_img": "images/checks/Missile opened.png",
+        "sections": [
+          {
+            "name": "Missile",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "cataris",
+            "x": 1864,
+            "y": 668
+          }
+        ]
+      },
+      {
+        "name": "Dairon Transport Access",
+        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
+        "chest_opened_img": "images/checks/Missile opened.png",
+        "sections": [
+          {
+            "name": "Missile",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "cataris",
+            "x": 1763,
+            "y": 162
+          }
+        ]
+      },
+      {
+        "name": "EMMI Zone Exits West",
+        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
+        "chest_opened_img": "images/checks/Missile opened.png",
+        "sections": [
+          {
+            "name": "Missile",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "cataris",
+            "x": 793,
+            "y": 664
+          }
+        ]
+      },
+      {
+        "name": "Teleport to Ghavoran",
+        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
+        "chest_opened_img": "images/checks/Missile opened.png",
+        "sections": [
+          {
+            "name": "Missile (Top)",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "cataris",
+            "x": 512,
+            "y": 528
+          }
+        ]
+      },
+      {
+        "name": "Teleport to Ghavoran",
+        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
+        "chest_opened_img": "images/checks/Missile opened.png",
+        "sections": [
+          {
+            "name": "Missile (Bottom)",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "cataris",
+            "x": 604,
+            "y": 754
+          }
+        ]
+      },
+      {
+        "name": "Kraid Eyedoor Room",
+        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
+        "chest_opened_img": "images/checks/Missile opened.png",
+        "sections": [
+          {
+            "name": "Missile",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "cataris",
+            "x": 640,
+            "y": 1152
+          }
+        ]
+      },
+      {
+        "name": "Teleport to Dairon",
+        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
+        "chest_opened_img": "images/checks/Missile opened.png",
+        "sections": [
+          {
+            "name": "Missile",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "cataris",
+            "x": 842,
+            "y": 930
+          }
+        ]
+      },
+      {
+        "name": "Z-57 Heat Room West (Right)",
+        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
+        "chest_opened_img": "images/checks/Missile opened.png",
+        "sections": [
+          {
+            "name": "Missile",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "cataris",
+            "x": 1415,
+            "y": 990
+          }
+        ]
+      },
+      {
+        "name": "Above Z-57 Fight",
+        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
+        "chest_opened_img": "images/checks/Missile opened.png",
+        "sections": [
+          {
+            "name": "Missile",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "cataris",
+            "x": 1611,
+            "y": 1256
+          }
+        ]
+      },
+      {
+        "name": "Z-57 Heat Room East",
+        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
+        "chest_opened_img": "images/checks/Missile opened.png",
+        "sections": [
+          {
+            "name": "Missile",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "cataris",
+            "x": 2053,
+            "y": 1041
+          }
+        ]
+      },
+      {
+        "name": "Transport to Artaria",
+        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
+        "chest_opened_img": "images/checks/Missile opened.png",
+        "sections": [
+          {
+            "name": "Missile",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "cataris",
+            "x": 2175,
+            "y": 1360
+          }
+        ]
+      },
+      {
+        "name": "Teleport to Artaria (Red)",
+        "chest_unopened_img": "images/checks/Missile+ Hud Icon.png",
+        "chest_opened_img": "images/checks/Missile+ opened.png",
+        "sections": [
+          {
+            "name": "Missile+",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "cataris",
+            "x": 316,
+            "y": 840
+          }
+        ]
+      },
+      {
+        "name": "Thermal Device Room North",
+        "chest_unopened_img": "images/checks/E-Tank Hud Icon.png",
+        "chest_opened_img": "images/checks/E-Tank opened.png",
+        "sections": [
+          {
+            "name": "E-Tank",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "cataris",
+            "x": 2003,
+            "y": 420
+          }
+        ]
+      },
+      {
+        "name": "Thermal Device Room North",
+        "chest_unopened_img": "images/checks/E-Tank part Hud Icon.png",
+        "chest_opened_img": "images/checks/E-Tank part opened.png",
+        "sections": [
+          {
+            "name": "E-Tank Part",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "cataris",
+            "x": 1930,
+            "y": 447
+          }
+        ]
+      },
+      {
+        "name": "Underlava Puzzle Room 2",
+        "chest_unopened_img": "images/checks/E-Tank part Hud Icon.png",
+        "chest_opened_img": "images/checks/E-Tank part opened.png",
+        "sections": [
+          {
+            "name": "E-Tank Part",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "cataris",
+            "x": 1340,
+            "y": 1214
+          }
+        ]
+      },
+      {
+        "name": "Teleport to Artaria (Blue)",
+        "chest_unopened_img": "images/checks/Power Bomb Hud Icon.png",
+        "chest_opened_img": "images/checks/Power bomb opened.png",
+        "sections": [
+          {
+            "name": "Power Bomb",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "cataris",
+            "x": 2510,
+            "y": 360
+          }
+        ]
+      },
+      {
+        "name": "EMMI Zone Item Tunnel",
+        "chest_unopened_img": "images/checks/Power Bomb Hud Icon.png",
+        "chest_opened_img": "images/checks/Power bomb opened.png",
+        "sections": [
+          {
+            "name": "Power Bomb",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "cataris",
+            "x": 1138,
+            "y": 740
+          }
+        ]
+      },
+      {
+        "name": "Diffusion Beam Room",
+        "chest_unopened_img": "images/checks/Power Bomb Hud Icon.png",
+        "chest_opened_img": "images/checks/Power bomb opened.png",
+        "sections": [
+          {
+            "name": "Power Bomb",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "cataris",
+            "x": 738,
+            "y": 1293
+          }
+        ]
+      },
+      {
+        "name": "Green EMMI",
+        "sections": [
+          {
+            "chest_unopened_img": "images/bosses/Green Icon Scaled.png",
+            "chest_opened_img": "images/checks/Green Defeated.png",
+            "access_rules": []
+          },
+          {
+            "name": "Morph Ball",
+            "chest_unopened_img": "images/items/Morph Ball.png",
+            "chest_opened_img": "images/checks/Morph opened.png"
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "cataris",
+            "x": 898,
+            "y": 446
+          }
+        ]
+      },
+      {
+        "name": "Kraid",
+        "sections": [
+          {
+            "chest_unopened_img": "images/bosses/Kraid Icon.png",
+            "chest_opened_img": "images/checks/Kraid Defeated.png",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "cataris",
+            "x": 444,
+            "y": 1270
+          }
+        ]
+      },
+      {
+        "name": "Diffusion Beam",
+        "sections": [
+          {
+            "chest_unopened_img": "images/items/Diffusion Beam.png",
+            "chest_opened_img": "images/checks/Diffusion opened.png",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "cataris",
+            "x": 664,
+            "y": 1254
+          }
+        ]
+      }
+    ]
+  }
+]

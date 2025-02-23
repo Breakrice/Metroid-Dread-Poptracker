@@ -1,0 +1,447 @@
+[
+  {
+    "name": "Dairon",
+    "children" :
+    [
+      {
+        "name": "Teleport to Artaria",
+        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
+        "chest_opened_img": "images/checks/Missile opened.png",
+        "sections": [
+          {
+            "name": "Missile",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "dairon",
+            "x": 2915,
+            "y": 226
+          }
+        ]
+      },
+      {
+        "name": "Big Hub",
+        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
+        "chest_opened_img": "images/checks/Missile opened.png",
+        "sections": [
+          {
+            "name": "Missile",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "dairon",
+            "x": 2540,
+            "y": 430
+          }
+        ]
+      },
+      {
+        "name": "Early Grapple Room",
+        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
+        "chest_opened_img": "images/checks/Missile opened.png",
+        "sections": [
+          {
+            "name": "Missile (Speedboost)",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "dairon",
+            "x": 2570,
+            "y": 808
+          }
+        ]
+      },
+      {
+        "name": "Early Grapple Room",
+        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
+        "chest_opened_img": "images/checks/Missile opened.png",
+        "sections": [
+          {
+            "name": "Missile (Tunnel)",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "dairon",
+            "x": 2410,
+            "y": 713
+          }
+        ]
+      },
+      {
+        "name": "Cross Bomb Puzzle Room",
+        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
+        "chest_opened_img": "images/checks/Missile opened.png",
+        "sections": [
+          {
+            "name": "Missile",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "dairon",
+            "x": 1666,
+            "y": 424
+          }
+        ]
+      },
+      {
+        "name": "Bomb Room",
+        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
+        "chest_opened_img": "images/checks/Missile opened.png",
+        "sections": [
+          {
+            "name": "Missile",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "dairon",
+            "x": 1616,
+            "y": 305
+          }
+        ]
+      },
+      {
+        "name": "EMMI Zone Exit Northwest",
+        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
+        "chest_opened_img": "images/checks/Missile opened.png",
+        "sections": [
+          {
+            "name": "Missile",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "dairon",
+            "x": 1305,
+            "y": 670
+          }
+        ]
+      },
+      {
+        "name": "Freezer",
+        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
+        "chest_opened_img": "images/checks/Missile opened.png",
+        "sections": [
+          {
+            "name": "Missile (Upper)",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "dairon",
+            "x": 1082,
+            "y": 370
+          }
+        ]
+      },
+      {
+        "name": "Freezer",
+        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
+        "chest_opened_img": "images/checks/Missile opened.png",
+        "sections": [
+          {
+            "name": "Missile (Lower)",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "dairon",
+            "x": 1098,
+            "y": 538
+          }
+        ]
+      },
+      {
+        "name": "Hidden Grapple Shortcut Room",
+        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
+        "chest_opened_img": "images/checks/Missile opened.png",
+        "sections": [
+          {
+            "name": "Missile",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "dairon",
+            "x": 1048,
+            "y": 718
+          }
+        ]
+      },
+      {
+        "name": "Save Station West Tunnels",
+        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
+        "chest_opened_img": "images/checks/Missile opened.png",
+        "sections": [
+          {
+            "name": "Missile",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "dairon",
+            "x": 950,
+            "y": 711
+          }
+        ]
+      },
+      {
+        "name": "Storm Missile Gate Room",
+        "chest_unopened_img": "images/checks/Missile+ Hud Icon.png",
+        "chest_opened_img": "images/checks/Missile+ opened.png",
+        "sections": [
+          {
+            "name": "Missile+",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "dairon",
+            "x": 1334,
+            "y": 858
+          }
+        ]
+      },
+      {
+        "name": "Shinespark Tutorial",
+        "chest_unopened_img": "images/checks/E-Tank Hud Icon.png",
+        "chest_opened_img": "images/checks/E-Tank opened.png",
+        "sections": [
+          {
+            "name": "E-Tank",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "dairon",
+            "x": 1624,
+            "y": 550
+          }
+        ]
+      },
+      {
+        "name": "Early Grapple Access",
+        "chest_unopened_img": "images/checks/E-Tank part Hud Icon.png",
+        "chest_opened_img": "images/checks/E-Tank part opened.png",
+        "sections": [
+          {
+            "name": "E-Tank Part",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "dairon",
+            "x": 2164,
+            "y": 725
+          }
+        ]
+      },
+      {
+        "name": "Yellow EMMI Introduction",
+        "chest_unopened_img": "images/checks/E-Tank part Hud Icon.png",
+        "chest_opened_img": "images/checks/E-Tank part opened.png",
+        "sections": [
+          {
+            "name": "E-Tank Part",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "dairon",
+            "x": 1998,
+            "y": 362
+          }
+        ]
+      },
+      {
+        "name": "Energy Recharge Station West",
+        "chest_unopened_img": "images/checks/E-Tank part Hud Icon.png",
+        "chest_opened_img": "images/checks/E-Tank part opened.png",
+        "sections": [
+          {
+            "name": "E-Tank Part",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "dairon",
+            "x": 1010,
+            "y": 263
+          }
+        ]
+      },
+      {
+        "name": "Central Unit Access",
+        "chest_unopened_img": "images/checks/E-Tank part Hud Icon.png",
+        "chest_opened_img": "images/checks/E-Tank part opened.png",
+        "sections": [
+          {
+            "name": "E-Tank Part",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "dairon",
+            "x": 1060,
+            "y": 1022
+          }
+        ]
+      },
+      {
+        "name": "Transport to Artaria",
+        "chest_unopened_img": "images/checks/Power Bomb Hud Icon.png",
+        "chest_opened_img": "images/checks/Power bomb opened.png",
+        "sections": [
+          {
+            "name": "Power Bomb",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "dairon",
+            "x": 2635,
+            "y": 725
+          }
+        ]
+      },
+      {
+        "name": "EMMI Zone Exit North",
+        "chest_unopened_img": "images/checks/Power Bomb Hud Icon.png",
+        "chest_opened_img": "images/checks/Power bomb opened.png",
+        "sections": [
+          {
+            "name": "Power Bomb",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "dairon",
+            "x": 1818,
+            "y": 363
+          }
+        ]
+      },
+      {
+        "name": "Lake Puzzle Room",
+        "chest_unopened_img": "images/checks/Power Bomb Hud Icon.png",
+        "chest_opened_img": "images/checks/Power bomb opened.png",
+        "sections": [
+          {
+            "name": "Power Bomb",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "dairon",
+            "x": 1620,
+            "y": 873
+          }
+        ]
+      },
+      {
+        "name": "Yellow EMMI",
+        "sections": [
+          {
+            "chest_unopened_img": "images/bosses/Yellow Icon Scaled.png",
+            "chest_opened_img": "images/checks/Yellow Defeated.png",
+            "access_rules": []
+          },
+          {
+            "name": "Speed Booster",
+            "chest_unopened_img": "images/items/Speed Booster.png",
+            "chest_opened_img": "images/checks/Speed opened.png"
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "dairon",
+            "x": 1168,
+            "y": 976
+          }
+        ]
+      },
+      {
+        "name": "Morph Bomb",
+        "sections": [
+          {
+            "chest_unopened_img": "images/items/Morph Bomb.png",
+            "chest_opened_img": "images/checks/morphbomb opened.png",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "dairon",
+            "x": 1606,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Wide Beam",
+        "sections": [
+          {
+            "chest_unopened_img": "images/items/Wide Beam.png",
+            "chest_opened_img": "images/checks/Wide opened.png",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "dairon",
+            "x": 2200,
+            "y": 507
+          }
+        ]
+      }
+    ]
+  }
+]

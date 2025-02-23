@@ -4,12 +4,12 @@
     "children" :
     [
       {
-        "name": "Missile",
+        "name": "Melee Tutorial Room",
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
           {
-            "name": "Melee Tutorial Room",
+            "name": "Missile",
             "access_rules": []
           }
         ],
@@ -23,12 +23,12 @@
         ]
       },
       {
-        "name": "Missile",
+        "name": "Melee Tutorial Room",
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
           {
-            "name": "Melee Tutorial Room",
+            "name": "Missile",
             "access_rules": []
           }
         ],
@@ -42,12 +42,12 @@
         ]
       },
       {
-        "name": "Missile",
+        "name": "Proto EMMI Introduciton",
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
           {
-            "name": "Proto EMMI Introduciton",
+            "name": "Missile",
             "access_rules": []
           }
         ],
@@ -61,12 +61,12 @@
         ]
       },
       {
-        "name": "Missile",
+        "name": "Invisible Corpius Room",
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
           {
-            "name": "Invisible Corpius Room",
+            "name": "Missile",
             "access_rules": []
           }
         ],
@@ -80,12 +80,12 @@
         ]
       },
       {
-        "name": "Missile",
+        "name": "Thermal Device",
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
           {
-            "name": "Thermal Device",
+            "name": "Missile",
             "access_rules": []
           }
         ],
@@ -99,12 +99,12 @@
         ]
       },
       {
-        "name": "Missile",
+        "name": "East Lava Missile Room",
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
           {
-            "name": "East Lava Missile Room",
+            "name": "Missile",
             "access_rules": []
           }
         ],
@@ -118,12 +118,12 @@
         ]
       },
       {
-        "name": "Missile",
+        "name": "Hot Cataris Shortcut",
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
           {
-            "name": "Hot Cataris Shortcut",
+            "name": "Missile",
             "access_rules": []
           }
         ],
@@ -137,12 +137,12 @@
         ]
       },
       {
-        "name": "Missile",
+        "name": "David Jaffe Room",
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
           {
-            "name": "David Jaffe Room",
+            "name": "Missile",
             "access_rules": []
           }
         ],
@@ -156,12 +156,12 @@
         ]
       },
       {
-        "name": "Missile",
+        "name": "Arbitrary Enky Room",
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
           {
-            "name": "Arbitrary Enky Room",
+            "name": "Missile",
             "access_rules": []
           }
         ],
@@ -175,12 +175,12 @@
         ]
       },
       {
-        "name": "Missile",
+        "name": "EMMI Zone First Entrance",
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
           {
-            "name": "EMMI Zone First Entrance",
+            "name": "Missile",
             "access_rules": []
           }
         ],
@@ -194,12 +194,12 @@
         ]
       },
       {
-        "name": "Missile",
+        "name": "EMMI Zone Exit North",
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
           {
-            "name": "EMMI Zone Exit North",
+            "name": "Missile",
             "access_rules": []
           }
         ],
@@ -213,12 +213,12 @@
         ]
       },
       {
-        "name": "Missile",
+        "name": "EMMI Zone Spinner",
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
           {
-            "name": "EMMI Zone Spinner",
+            "name": "Missile",
             "access_rules": []
           }
         ],
@@ -232,12 +232,12 @@
         ]
       },
       {
-        "name": "Missile",
+        "name": "EMMI Zone Exit Northwest",
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
           {
-            "name": "EMMI Zone Exit Northwest",
+            "name": "Missile",
             "access_rules": []
           }
         ],
@@ -251,12 +251,12 @@
         ]
       },
       {
-        "name": "Missile",
+        "name": "Teleport to Cataris",
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
           {
-            "name": "Teleport to Cataris",
+            "name": "Missile",
             "access_rules": []
           }
         ],
@@ -270,12 +270,12 @@
         ]
       },
       {
-        "name": "Missile",
+        "name": "Teleport to Cataris",
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
           {
-            "name": "Teleport to Cataris",
+            "name": "Missile",
             "access_rules": []
           }
         ],
@@ -289,12 +289,12 @@
         ]
       },
       {
-        "name": "Missile",
+        "name": "Waterfall",
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
           {
-            "name": "Waterfall",
+            "name": "Missile",
             "access_rules": []
           }
         ],
@@ -308,12 +308,12 @@
         ]
       },
       {
-        "name": "Missile",
+        "name": "Screw Attack Room",
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
           {
-            "name": "Waterfall",
+            "name": "Missile",
             "access_rules": []
           }
         ],
@@ -327,12 +327,12 @@
         ]
       },
       {
-        "name": "Missile",
+        "name": "Scew Attack Room",
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
           {
-            "name": "Waterfall",
+            "name": "Missile",
             "access_rules": []
           }
         ],
@@ -346,12 +346,12 @@
         ]
       },
       {
-        "name": "Missile",
+        "name": "Transport to Burenia",
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
           {
-            "name": "Transport to Burenia",
+            "name": "Missile",
             "access_rules": []
           }
         ],
@@ -365,12 +365,12 @@
         ]
       },
       {
-        "name": "Missile",
+        "name": "Freezer",
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
           {
-            "name": "Freezer",
+            "name": "Missile",
             "access_rules": []
           }
         ],
@@ -384,12 +384,12 @@
         ]
       },
       {
-        "name": "Missile",
+        "name": "Charge Beam Access",
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
           {
-            "name": "Charge Beam Access",
+            "name": "Missile",
             "access_rules": []
           }
         ],
@@ -403,12 +403,12 @@
         ]
       },
       {
-        "name": "Missile",
+        "name": "Energy Recharge Station South",
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
           {
-            "name": "Energy Recharge Station South",
+            "name": "Missile",
             "access_rules": []
           }
         ],
@@ -422,12 +422,12 @@
         ]
       },
       {
-        "name": "Missile+",
+        "name": "Varia Suit Tutorial North",
         "chest_unopened_img": "images/checks/Missile+ Hud Icon.png",
         "chest_opened_img": "images/checks/Missile+ opened.png",
         "sections": [
           {
-            "name": "Varia Suit Tutorial North",
+            "name": "Missile+",
             "access_rules": []
           }
         ],
@@ -441,12 +441,12 @@
         ]
       },
       {
-        "name": "Missile+",
+        "name": "Speed Hallway",
         "chest_unopened_img": "images/checks/Missile+ Hud Icon.png",
         "chest_opened_img": "images/checks/Missile+ opened.png",
         "sections": [
           {
-            "name": "Speed Hallway",
+            "name": "Missile+",
             "access_rules": []
           }
         ],
@@ -460,12 +460,12 @@
         ]
       },
       {
-        "name": "E-Tank",
+        "name": "Charge Tutorial",
         "chest_unopened_img": "images/checks/E-Tank Hud Icon.png",
         "chest_opened_img": "images/checks/E-Tank opened.png",
         "sections": [
           {
-            "name": "Charge Tutorial",
+            "name": "E-Tank",
             "access_rules": []
           }
         ],
@@ -479,12 +479,12 @@
         ]
       },
       {
-        "name": "E-Tank",
+        "name": "Shutter Platform Puzzle",
         "chest_unopened_img": "images/checks/E-Tank Hud Icon.png",
         "chest_opened_img": "images/checks/E-Tank opened.png",
         "sections": [
           {
-            "name": "Shutter Platform Puzzle",
+            "name": "E-Tank",
             "access_rules": []
           }
         ],
@@ -498,12 +498,12 @@
         ]
       },
       {
-        "name": "E-Tank Part",
+        "name": "Waterfall",
         "chest_unopened_img": "images/checks/E-Tank part Hud Icon.png",
         "chest_opened_img": "images/checks/E-Tank part opened.png",
         "sections": [
           {
-            "name": "Waterfall",
+            "name": "E-Tank Part",
             "access_rules": []
           }
         ],
@@ -517,12 +517,12 @@
         ]
       },
       {
-        "name": "E-Tank Part",
+        "name": "Speed Hallway",
         "chest_unopened_img": "images/checks/E-Tank part Hud Icon.png",
         "chest_opened_img": "images/checks/E-Tank part opened.png",
         "sections": [
           {
-            "name": "Speed Hallway",
+            "name": "E-Tank Part",
             "access_rules": []
           }
         ],
@@ -536,12 +536,12 @@
         ]
       },
       {
-        "name": "Power Bomb",
+        "name": "EMMI Zone Hub",
         "chest_unopened_img": "images/checks/Power Bomb Hud Icon.png",
         "chest_opened_img": "images/checks/Power bomb opened.png",
         "sections": [
           {
-            "name": "EMMI Zone Hub",
+            "name": "Power Bomb",
             "access_rules": []
           }
         ],

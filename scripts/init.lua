@@ -31,7 +31,15 @@ if not IS_ITEMS_ONLY then -- <--- use variant info to optimize loading
     -- Maps
     Tracker:AddMaps("maps/maps.jsonc")
     -- Locations
+    Tracker:AddLocations("locations/zdr.jsonc")
     Tracker:AddLocations("locations/artaria.jsonc")
+    Tracker:AddLocations("locations/cataris.jsonc")
+    Tracker:AddLocations("locations/dairon.jsonc")
+    Tracker:AddLocations("locations/burenia.jsonc")
+    Tracker:AddLocations("locations/ferenia.jsonc")
+    Tracker:AddLocations("locations/ghavoran.jsonc")
+    Tracker:AddLocations("locations/elun.jsonc")
+    Tracker:AddLocations("locations/hanubia.jsonc")
 end
 
 -- Layout

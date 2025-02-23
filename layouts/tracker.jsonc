@@ -42,11 +42,83 @@
           "type": "tabbed",
           "tabs": [
             {
+              "title": "ZDR",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "zdr"
+                ]
+              }
+            },
+            {
               "title": "Artaria",
               "content": {
                 "type": "map",
                 "maps": [
                   "artaria"
+                ]
+              }
+            },
+            {
+              "title": "Cataris",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "cataris"
+                ]
+              }
+            },
+            {
+              "title": "Dairon",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "dairon"
+                ]
+              }
+            },
+            {
+              "title": "Burenia",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "burenia"
+                ]
+              }
+            },
+            {
+              "title": "Ferenia",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "ferenia"
+                ]
+              }
+            },
+            {
+              "title": "Ghavoran",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "ghavoran"
+                ]
+              }
+            },
+            {
+              "title": "Elun",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "elun"
+                ]
+              }
+            },
+            {
+              "title": "Hanubia",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "hanubia"
                 ]
               }
             }

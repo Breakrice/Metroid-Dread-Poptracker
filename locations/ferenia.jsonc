@@ -1,0 +1,333 @@
+[
+  {
+    "name": "Ferenia",
+    "children" :
+    [
+      {
+        "name": "Escue Eyedoor Room",
+        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
+        "chest_opened_img": "images/checks/Missile opened.png",
+        "sections": [
+          {
+            "name": "Missile",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "ferenia",
+            "x": 2131,
+            "y": 618
+          }
+        ]
+      },
+      {
+        "name": "Cold Room (Storm Missile Gate)",
+        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
+        "chest_opened_img": "images/checks/Missile opened.png",
+        "sections": [
+          {
+            "name": "Missile",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "ferenia",
+            "x": 1623,
+            "y": 390
+          }
+        ]
+      },
+      {
+        "name": "Space Jump Room",
+        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
+        "chest_opened_img": "images/checks/Missile opened.png",
+        "sections": [
+          {
+            "name": "Missile",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "ferenia",
+            "x": 927,
+            "y": 418
+          }
+        ]
+      },
+      {
+        "name": "Seperate Tunnels Room",
+        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
+        "chest_opened_img": "images/checks/Missile opened.png",
+        "sections": [
+          {
+            "name": "Missile (Right)",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "ferenia",
+            "x": 872,
+            "y": 555
+          }
+        ]
+      },
+      {
+        "name": "Seperate Tunnels Room",
+        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
+        "chest_opened_img": "images/checks/Missile opened.png",
+        "sections": [
+          {
+            "name": "Missile (Left)",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "ferenia",
+            "x": 804,
+            "y": 541
+          }
+        ]
+      },
+      {
+        "name": "Pitfall Puzzle Room",
+        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
+        "chest_opened_img": "images/checks/Missile opened.png",
+        "sections": [
+          {
+            "name": "Missile",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "ferenia",
+            "x": 690,
+            "y": 420
+          }
+        ]
+      },
+      {
+        "name": "Fan Room",
+        "chest_unopened_img": "images/checks/Missile+ Hud Icon.png",
+        "chest_opened_img": "images/checks/Missile+ opened.png",
+        "sections": [
+          {
+            "name": "Missile+",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "ferenia",
+            "x": 948,
+            "y": 808
+          }
+        ]
+      },
+      {
+        "name": "Space Jump Room",
+        "chest_unopened_img": "images/checks/Missile+ Hud Icon.png",
+        "chest_opened_img": "images/checks/Missile+ opened.png",
+        "sections": [
+          {
+            "name": "Missile+",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "ferenia",
+            "x": 814,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Path to Escue",
+        "chest_unopened_img": "images/checks/E-Tank part Hud Icon.png",
+        "chest_opened_img": "images/checks/E-Tank part opened.png",
+        "sections": [
+          {
+            "name": "E-Tank Part",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "ferenia",
+            "x": 2001,
+            "y": 673
+          }
+        ]
+      },
+      {
+        "name": "Energy Rechartge Station Secret",
+        "chest_unopened_img": "images/checks/E-Tank part Hud Icon.png",
+        "chest_opened_img": "images/checks/E-Tank part opened.png",
+        "sections": [
+          {
+            "name": "E-Tank Part",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "ferenia",
+            "x": 1525,
+            "y": 446
+          }
+        ]
+      },
+      {
+        "name": "Total Recharge Station",
+        "chest_unopened_img": "images/checks/E-Tank part Hud Icon.png",
+        "chest_opened_img": "images/checks/E-Tank part opened.png",
+        "sections": [
+          {
+            "name": "E-Tank Part",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "ferenia",
+            "x": 1493,
+            "y": 839
+          }
+        ]
+      },
+      {
+        "name": "Speedboost Slopes Maze",
+        "chest_unopened_img": "images/checks/E-Tank part Hud Icon.png",
+        "chest_opened_img": "images/checks/E-Tank part opened.png",
+        "sections": [
+          {
+            "name": "E-Tank Part",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "ferenia",
+            "x": 680,
+            "y": 627
+          }
+        ]
+      },
+      {
+        "name": "Purple EMMI Introduction",
+        "chest_unopened_img": "images/checks/Power Bomb Hud Icon.png",
+        "chest_opened_img": "images/checks/Power bomb opened.png",
+        "sections": [
+          {
+            "name": "Power Bomb",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "ferenia",
+            "x": 1214,
+            "y": 763
+          }
+        ]
+      },
+      {
+        "name": "Twin Robot Arena",
+        "chest_unopened_img": "images/checks/Power Bomb Hud Icon.png",
+        "chest_opened_img": "images/checks/Power bomb opened.png",
+        "sections": [
+          {
+            "name": "Power Bomb",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "ferenia",
+            "x": 1212,
+            "y": 405
+          }
+        ]
+      },
+      {
+        "name": "Purple EMMI",
+        "sections": [
+          {
+            "chest_unopened_img": "images/bosses/Purple Icon Scaled.png",
+            "chest_opened_img": "images/checks/Purple Defeated.png",
+            "access_rules": []
+          },
+          {
+            "name": "Wave Beam",
+            "chest_unopened_img": "images/items/Wave Beam.png",
+            "chest_opened_img": "images/checks/Wave opened.png"
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "ferenia",
+            "x": 2218,
+            "y": 300
+          }
+        ]
+      },
+      {
+        "name": "Storm Missiles",
+        "sections": [
+          {
+            "chest_unopened_img": "images/items/Storm Missile.png",
+            "chest_opened_img": "images/checks/Storm opened.png",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "ferenia",
+            "x": 2009,
+            "y": 730
+          }
+        ]
+      },
+      {
+        "name": "Space Jump",
+        "sections": [
+          {
+            "chest_unopened_img": "images/items/Space Jump.png",
+            "chest_opened_img": "images/checks/space opened.png",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "ferenia",
+            "x": 882,
+            "y": 390
+          }
+        ]
+      }
+    ]
+  }
+]

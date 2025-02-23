@@ -70,7 +70,7 @@
         "img": "images/items/Morph Bomb.png",
         "codes": "bomb",
         "inherit_codes": false,
-        "name": "Bomb"
+        "name": "Morph Bomb"
       },
       {
         "img": "images/items/Cross Bomb.png",
@@ -211,7 +211,7 @@
   }
   ,
   {
-    "name": "Scan Pulse",
+    "name": "Pulse Radar",
     "type": "toggle",
     "img": "images/items/Scan Pulse.png",
     "codes": "pulse"

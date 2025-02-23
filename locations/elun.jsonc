@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Elun",
+    "children" :
+    [
+      {
+        "name": "Horizontal Bomb Maze",
+        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
+        "chest_opened_img": "images/checks/Missile opened.png",
+        "sections": [
+          {
+            "name": "Missile",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "elun",
+            "x": 1980,
+            "y": 41
+          }
+        ]
+      },
+      {
+        "name": "Fan Room",
+        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
+        "chest_opened_img": "images/checks/Missile opened.png",
+        "sections": [
+          {
+            "name": "Missile",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "elun",
+            "x": 1933,
+            "y": 381
+          }
+        ]
+      },
+      {
+        "name": "Ammo Recharge Station",
+        "chest_unopened_img": "images/checks/E-Tank Hud Icon.png",
+        "chest_opened_img": "images/checks/E-Tank opened.png",
+        "sections": [
+          {
+            "name": "E-Tank Part",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "elun",
+            "x": 1667,
+            "y": 137
+          }
+        ]
+      },
+      {
+        "name": "Vertical Bomb Maze",
+        "chest_unopened_img": "images/checks/Power Bomb Hud Icon.png",
+        "chest_opened_img": "images/checks/Power bomb opened.png",
+        "sections": [
+          {
+            "name": "Power Bomb",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "elun",
+            "x": 2110,
+            "y": 225
+          }
+        ]
+      },
+      {
+        "name": "Plasma Beam",
+        "sections": [
+          {
+            "chest_unopened_img": "images/items/Plasma Beam.png",
+            "chest_opened_img": "images/checks/Plasma opened.png",
+            "access_rules": []
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "elun",
+            "x": 1854,
+            "y": 366
+          }
+        ]
+      }
+    ]
+  }
+]
