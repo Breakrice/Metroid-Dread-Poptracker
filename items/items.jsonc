@@ -1,6 +1,6 @@
 [
   {
-    "name": "Basic Beam",
+    "name": "Power Beam",
     "type": "progressive",
     "allow_disabled": false,
     "initial_stage_idx": 0,
@@ -8,7 +8,8 @@
       {
         "img": "images/items/Progressive Beam.png",
         "codes": "pbeam",
-        "inherit_codes": false
+        "inherit_codes": false,
+        "img_mods": "@disabled"
       },
       {
         "img": "images/items/Wide Beam.png",
@@ -39,7 +40,8 @@
       {
         "img": "images/items/Progressive Charge.png",
         "codes": "pcharge",
-        "inherit_codes": false
+        "inherit_codes": false,
+        "img_mods": "@disabled"
       },
       {
         "img": "images/items/Charge Beam.png",
@@ -64,7 +66,8 @@
       {
         "img": "images/items/Progressive Bombs.png",
         "codes": "pbomb",
-        "inherit_codes": false
+        "inherit_codes": false,
+        "img_mods": "@disabled"
       },
       {
         "img": "images/items/Morph Bomb.png",
@@ -81,7 +84,7 @@
     ]
   },
   {
-    "name": "Basic Missile",
+    "name": "Missile",
     "type": "progressive",
     "allow_disabled": false,
     "initial_stage_idx": 0,
@@ -89,7 +92,8 @@
       {
         "img": "images/items/Progressive Missile.png",
         "codes": "pmissile",
-        "inherit_codes": false
+        "inherit_codes": false,
+        "img_mods": "@disabled"
       },
       {
         "img": "images/items/Super Missile.png",
@@ -114,7 +118,8 @@
       {
         "img": "images/items/Progressive Jump.png",
         "codes": "pjump",
-        "inherit_codes": false
+        "inherit_codes": false,
+        "img_mods": "@disabled"
       },
       {
         "img": "images/items/Spin Boost.png",
@@ -131,7 +136,7 @@
     ]
   },
   {
-    "name": "No Suit",
+    "name": "Power Suit",
     "type": "progressive",
     "allow_disabled": false,
     "initial_stage_idx": 0,
@@ -139,7 +144,8 @@
       {
         "img": "images/items/Progressive Suit.png",
         "codes": "psuit",
-        "inherit_codes": false
+        "inherit_codes": false,
+        "img_mods": "@disabled"
       },
       {
         "img": "images/items/Varia Suit.png",
