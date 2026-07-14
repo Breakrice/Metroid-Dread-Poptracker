@@ -1,0 +1,52 @@
+{
+  "item_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "content": [
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_size": "40",
+        "item_margin": "2,2",
+        "rows": [
+          [ "wide", "plasma", "wave", "grapple", "morph", "pbomb", "powerbomb", "CONpowerbomb", "" ],
+          [ "pcharge", "super", "ice", "smissile", "pjump", "screw", "psuit", "CONmissile", "" ],
+          [ "spider", "speed", "cloak", "flash", "pulse", "", "xpar", "CONetank", "CONetank part" ]
+        ]
+      }
+    ]
+  },
+  "boss_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "content": [
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_size": "40",
+        "item_margin": "2,2",
+        "rows": [
+          ["corpiusdna","kraiddna","drogygadna","escuedna","z57dna","golzunadna"],
+          ["whitedna","greendna","yellowdna","cyandna","purpledna","orangedna"],
+          ["","","","","","dna"]
+        ]
+      }
+    ]
+  },
+  "settings": {
+    "type": "array",
+    "orientation": "vertical",
+		"h_alignment": "left",
+    "content": [
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_size": "40",
+        "item_margin": "2,2",
+        "rows": [
+          ["RequiredDNA"]
+        ]
+      }
+    ]
+  }
+}

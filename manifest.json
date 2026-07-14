@@ -1,0 +1,17 @@
+{
+  "name": "Metroid Dread Map Tracker",
+  "game_name": "Metroid Dread",
+  "package_version": "1.0.0",
+  "package_uid": "md_maptracker_breakrice",
+  "author": "Breakrice",
+  "platform": "Switch",
+  "min_poptracker_version": "0.30.3",
+  "target_poptracker_version": "0.35.3",
+  "variants": {
+    "standard": {
+      "display_name": "Map Tracker",
+      "flags": []
+    }
+  },
+  "versions_url": "https://github.com/Breakrice/Metroid-Dread-Poptracker"
+}

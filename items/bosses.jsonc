@@ -1,0 +1,178 @@
+[
+  {
+  "name": "Corpius",
+  "type": "toggle",
+  "loop": "true",
+  "img": "images/bosses/Corpius Icon.png",
+  "codes": "corpius"
+  },
+  {
+      "name": "Corpius has Metroid DNA",
+      "type": "toggle_badged",
+      "base_item": "corpius",
+      "img": "images/bosses/DNA128.png",
+      "codes": "corpiusdna"
+  },
+  {
+    "name": "Drogyga",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/Drogyga Icon.png",
+    "codes": "drogyga"
+  },
+  {
+      "name": "Drogyga has Metroid DNA",
+      "type": "toggle_badged",
+      "base_item": "drogyga",
+      "img": "images/bosses/DNA128.png",
+      "codes": "drogygadna"
+  },
+  {
+    "name": "Escue",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/Escue Icon.png",
+    "codes": "escue"
+  },
+  {
+      "name": "Escue has Metroid DNA",
+      "type": "toggle_badged",
+      "base_item": "escue",
+      "img": "images/bosses/DNA128.png",
+      "codes": "escuedna"
+  },
+  {
+    "name": "Golzuna",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/Golzuna Icon Scaled.png",
+    "codes": "golzuna"
+  },
+  {
+      "name": "Golzuna has Metroid DNA",
+      "type": "toggle_badged",
+      "base_item": "golzuna",
+      "img": "images/bosses/DNA128.png",
+      "codes": "golzunadna"
+  },
+  {
+    "name": "Kraid",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/Kraid Icon.png",
+    "codes": "kraid"
+  },
+  {
+      "name": "Kraid has Metroid DNA",
+      "type": "toggle_badged",
+      "base_item": "kraid",
+      "img": "images/bosses/DNA128.png",
+      "codes": "kraiddna"
+  },
+  {
+    "name": "Z-57",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/Z-57 Icon.png",
+    "codes": "z57"
+  },
+  {
+      "name": "Z-57 has Metroid DNA",
+      "type": "toggle_badged",
+      "base_item": "z57",
+      "img": "images/bosses/DNA128.png",
+      "codes": "z57dna"
+  },
+  {
+    "name": "Cyan EMMI",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/Cyan Icon Scaled.png",
+    "codes": "cyan"
+  },
+  {
+      "name": "Cyan EMMI has Metroid DNA",
+      "type": "toggle_badged",
+      "base_item": "cyan",
+      "img": "images/bosses/DNA128.png",
+      "codes": "cyandna"
+  },
+  {
+    "name": "Green EMMI",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/Green Icon Scaled.png",
+    "codes": "green"
+  },
+  {
+      "name": "Green EMMI has Metroid DNA",
+      "type": "toggle_badged",
+      "base_item": "green",
+      "img": "images/bosses/DNA128.png",
+      "codes": "greendna"
+  },
+  {
+    "name": "Orange EMMI",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/Orange Icon Scaled.png",
+    "codes": "orange"
+  },
+  {
+      "name": "Orange EMMI has Metroid DNA",
+      "type": "toggle_badged",
+      "base_item": "orange",
+      "img": "images/bosses/DNA128.png",
+      "codes": "orangedna"
+  },
+  {
+    "name": "Purple EMMI",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/Purple Icon Scaled.png",
+    "codes": "purple"
+  },
+  {
+      "name": "Purple EMMI has Metroid DNA",
+      "type": "toggle_badged",
+      "base_item": "purple",
+      "img": "images/bosses/DNA128.png",
+      "codes": "purpledna"
+  },
+  {
+    "name": "White EMMI",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/White Icon Scaled.png",
+    "codes": "white"
+  },
+  {
+      "name": "White EMMI has Metroid DNA",
+      "type": "toggle_badged",
+      "base_item": "white",
+      "img": "images/bosses/DNA128.png",
+      "codes": "whitedna"
+  },
+  {
+    "name": "Yellow EMMI",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/Yellow Icon Scaled.png",
+    "codes": "yellow"
+  },
+  {
+      "name": "Yellow EMMI has Metroid DNA",
+      "type": "toggle_badged",
+      "base_item": "yellow",
+      "img": "images/bosses/DNA128.png",
+      "codes": "yellowdna"
+  },
+  {
+    "name": "DNA",
+    "type": "consumable",
+    "loop": "true",
+    "img": "images/checks/DNA_Full.png",
+    "codes": "dna",
+    "max_quantity": 12
+  }
+]

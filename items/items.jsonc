@@ -1,0 +1,248 @@
+[
+  {
+    "name": "Wide Beam",
+    "type": "toggle",
+    "img": "images/items/Wide Beam.png",
+    "codes": "wide"
+  },
+  {
+    "name": "Plasma Beam",
+    "type": "toggle",
+    "img": "images/items/Plasma Beam.png",
+    "codes": "plasma"
+  },
+  {
+    "name": "Wave Beam",
+    "type": "toggle",
+    "img": "images/items/Wave Beam.png",
+    "codes": "wave"
+  },
+  {
+    "name": "Charge Beam",
+    "type": "toggle",
+    "img": "images/items/Charge Beam.png",
+    "codes": "charge"
+  },
+  {
+    "name": "Diffusion Beam",
+    "type": "toggle",
+    "img": "images/items/Diffusion Beam.png",
+    "codes": "diffusion",
+    "inherit_codes": "charge"
+  },
+  {
+    "name": "No Charge Beam",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/Progressive Charge.png",
+        "codes": "pcharge",
+        "inherit_codes": false,
+        "img_mods": "@disabled"
+      },
+      {
+        "img": "images/items/Charge Beam.png",
+        "codes": "charge",
+        "inherit_codes": false,
+        "name": "Charge Beam"
+      },
+      {
+        "img": "images/items/Diffusion Beam.png",
+        "codes": "diffusion",
+        "inherit_codes": "charge",
+        "name": "Diffusion Beam"
+      }
+    ]
+  },
+  {
+    "name": "No Morph Bomb",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/Progressive Bombs.png",
+        "codes": "pbomb",
+        "inherit_codes": false,
+        "img_mods": "@disabled"
+      },
+      {
+        "img": "images/items/Morph Bomb.png",
+        "codes": "bomb",
+        "inherit_codes": false,
+        "name": "Morph Bomb"
+      },
+      {
+        "img": "images/items/Cross Bomb.png",
+        "codes": "crossbomb",
+        "inherit_codes": "bomb",
+        "name": "Cross Bomb"
+      }
+    ]
+  },
+  {
+    "name": "Super Missile",
+    "type": "toggle",
+    "img": "images/items/Super Missile.png",
+    "codes": "super"
+  },
+  {
+    "name": "Ice Missile",
+    "type": "toggle",
+    "img": "images/items/Ice Missile.png",
+    "codes": "ice"
+  },
+  {
+    "name": "Basic Jump",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/Progressive Jump.png",
+        "codes": "pjump",
+        "inherit_codes": false,
+        "img_mods": "@disabled"
+      },
+      {
+        "img": "images/items/Spin Boost.png",
+        "codes": "spin",
+        "inherit_codes": false,
+        "name": "Spin Boost"
+      },
+      {
+        "img": "images/items/Space Jump.png",
+        "codes": "space",
+        "inherit_codes": "spin",
+        "name": "Space Jump"
+      }
+    ]
+  },
+  {
+    "name": "Power Suit",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/Progressive Suit.png",
+        "codes": "psuit",
+        "inherit_codes": false,
+        "img_mods": "@disabled"
+      },
+      {
+        "img": "images/items/Varia Suit.png",
+        "codes": "varia",
+        "inherit_codes": false,
+        "name": "Varia Suit"
+      },
+      {
+        "img": "images/items/Gravity Suit.png",
+        "codes": "gravity",
+        "inherit_codes": "varia",
+        "name": "Gravity Suit"
+      }
+    ]
+  },
+  {
+    "name": "Grapple Beam",
+    "type": "toggle",
+    "img": "images/items/Grapple Beam.png",
+    "codes": "grapple"
+  },
+  {
+    "name": "Morph Ball",
+    "type": "toggle",
+    "img": "images/items/Morph Ball.png",
+    "codes": "morph"
+  },
+  {
+    "name": "Power Bomb",
+    "type": "toggle",
+    "img": "images/items/Power Bomb.png",
+    "codes": "powerbomb"
+  },
+  {
+    "name": "Storm Missile",
+    "type": "toggle",
+    "img": "images/items/Storm Missile.png",
+    "codes": "smissile"
+  },
+  {
+    "name": "Spider Magnet",
+    "type": "toggle",
+    "img": "images/items/Spider Magnet.png",
+    "codes": "spider"
+  },
+  {
+    "name": "Speed Booster",
+    "type": "toggle",
+    "img": "images/items/Speed Booster.png",
+    "codes": "speed"
+  },
+  {
+    "name": "Screw Attack",
+    "type": "toggle",
+    "img": "images/items/Screw Attack.png",
+    "codes": "screw"
+  },
+  {
+    "name": "Phantom Cloak",
+    "type": "toggle",
+    "img": "images/items/Phantom Cloak.png",
+    "codes": "cloak"
+  },
+  {
+    "name": "Flash Shift",
+    "type": "toggle",
+    "img": "images/items/Flash Shift.png",
+    "codes": "flash"
+  }
+  ,
+  {
+    "name": "Pulse Radar",
+    "type": "toggle",
+    "img": "images/items/Scan Pulse.png",
+    "codes": "pulse"
+  },
+  {
+    "name": "Released X Parasite",
+    "type": "toggle",
+    "img": "images/items/X Parasite.png",
+    "codes": "xpar"
+  },
+  {
+    "name": "E-Tanks",
+    "type": "consumable",
+    "img": "images/checks/E-Tank Hud Icon.png",
+    "codes": "CONetank",
+    "max_quantity": 8
+  },
+  {
+    "name": "E-Tank Parts",
+    "type": "consumable",
+    "img": "images/checks/E-Tank part Hud Icon.png",
+    "codes": "CONetank part",
+    "max_quantity": 16
+  },
+  {
+    "name": "Missiles",
+    "type": "consumable",
+    "img": "images/checks/Missile Hud Icon.png",
+    "codes": "CONmissile",
+    "static": true,
+    "initial_quantity": 15,
+    "increment": 2,
+    "decrement": 2,
+    "max_quantity": 285
+  },
+  {
+    "name": "Powerbombs",
+    "type": "consumable",
+    "img": "images/checks/Power Bomb Hud Icon.png",
+    "codes": "CONpowerbomb",
+    "max_quantity": 15
+  }
+]

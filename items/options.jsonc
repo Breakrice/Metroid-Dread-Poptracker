@@ -1,0 +1,11 @@
+[
+    {
+        "name": "Required DNA",
+        "codes": "RequiredDNA",
+        "type": "consumable",
+        "img": "images/checks/DNA_Full.png",
+        "min_quantity": 0,
+        "max_quantity": 12,
+        "initial_quantity": 3
+    }
+]

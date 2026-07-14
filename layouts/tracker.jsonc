@@ -1,0 +1,146 @@
+{
+  "tracker_horizontal": {
+    "type": "container",
+    "background": "#000000",
+    "content": {
+      "type": "dock",
+      "dropshadow": true,
+      "content": [
+        {
+          "type": "dock",
+          "dock": "bottom",
+          "content": [
+            {
+              "type": "group",
+              "header": "Items",
+              "dock": "left",
+              "margin": "0,0,3,0",
+              "content": {
+                "type": "layout",
+                "h_alignment": "center",
+                "v_alignment": "center",
+                "key": "item_grid"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Bosses",
+              "dock": "left",
+              "margin": "0,0,3,0",
+              "content": {
+                "type": "layout",
+                "h_alignment": "center",
+                "v_alignment": "center",
+                "key": "boss_grid"
+              }
+            }
+          ]
+        },
+        {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "ZDR",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "zdr"
+                ]
+              }
+            },
+            {
+              "title": "Artaria",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "artaria"
+                ]
+              }
+            },
+            {
+              "title": "Cataris",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "cataris"
+                ]
+              }
+            },
+            {
+              "title": "Dairon",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "dairon"
+                ]
+              }
+            },
+            {
+              "title": "Burenia",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "burenia"
+                ]
+              }
+            },
+            {
+              "title": "Ferenia",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "ferenia"
+                ]
+              }
+            },
+            {
+              "title": "Ghavoran",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "ghavoran"
+                ]
+              }
+            },
+            {
+              "title": "Elun",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "elun"
+                ]
+              }
+            },
+            {
+              "title": "Hanubia",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "hanubia"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "settings_popup":
+  {
+    "type": "array",
+    "orientation": "horizontal",
+    "background": "#000000",
+    "h_alignment": "left",
+    "content": [
+      {
+      "type": "group",
+      "header": "Settings",
+      "dock": "bottom",
+      "content": {
+      "type": "layout",
+      "key": "settings"
+        }	
+      }
+    ]
+  }
+}
