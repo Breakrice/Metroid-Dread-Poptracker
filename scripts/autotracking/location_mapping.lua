@@ -38,8 +38,8 @@ LOCATION_MAPPING = {
 	[31179] = {{"@Artaria/Grapple Beam Room/Pedestal"}},
 	[31177] = {{"@Artaria/Varia Suit Room/Pedestal"}},
 	[31181] = {{"@Artaria/Screw Attack Room/Pedestal"}},
-	[31292] = {{"@Artaria/Corpius/"}, {"@Artaria/Corpius/Phantom Cloak"}},
-	[31293] = {{"@Artaria/Central Unit/White EMMI"}, {"@Artaria/Central Unit/Spider Magnet"}},
+	[31292] = {{"corpius"}, {"@Artaria/Corpius/Phantom Cloak"}},
+	[31293] = {{"white"}, {"@Artaria/Central Unit/Spider Magnet"}},
 	-- Burenia
 	[31234] = {{"@Burenia/Underneath Drogyga/Missile"}},
 	[31246] = {{"@Burenia/Upper Burenia Hub/Missile"}},
@@ -60,7 +60,7 @@ LOCATION_MAPPING = {
 	[31239] = {{"@Burenia/Gravity Suit Room (Lower)/Power Bomb Tank"}},
 	[31232] = {{"@Burenia/Flash Shift Room/"}},
 	[31233] = {{"@Burenia/Gravity Suit Room/"}},
-	[31294] = {{"@Burenia/Drogyga/"}},
+	[31294] = {{"drogyga"}},
 	-- Cataris
 	[31200] = {{"@Cataris/Lava Button East Access/Missile"}},
 	[31199] = {{"@Cataris/Blue Teleport to Artaria (Main Room)/Missile"}},
@@ -84,9 +84,9 @@ LOCATION_MAPPING = {
 	[31187] = {{"@Cataris/EMMI Zone Item Tunnel/Power Bomb Tank"}},
 	[31205] = {{"@Cataris/Diffusion Beam Room (Bomb Maze)/Power Bomb Tank"}},
 	[31189] = {{"@Cataris/Diffusion Beam Room/Pedestal"}},
-	[31302] = {{"@Cataris/Kraid/"}},
-	[31298] = {{"@Cataris/Central Unit/Green EMMI"}, {"@Cataris/Central Unit/Morph Ball"}},
-	[31295] = {{"Cataris/Experiment No. Z-57/"}},
+	[31302] = {{"kraid"}},
+	[31298] = {{"green"}, {"@Cataris/Central Unit/Morph Ball"}},
+	[31295] = {{"z57"}},
 	-- Dairon
 	[31214] = {{"@Dairon/Teleport to Artaria/Missile"}},
 	[31213] = {{"@Dairon/Big Hub/Missile"}},
@@ -110,7 +110,7 @@ LOCATION_MAPPING = {
 	[31219] = {{"@Dairon/Lake Puzzle Room/Power Bomb Tank"}},
 	[31212] = {{"@Dairon/Morph Bomb Room/Pedestal"}},
 	[31211] = {{"@Dairon/Wide Beam Room/Pedestal"}},
-	[31301] = {{"@Dairon/Central Unit/Yellow EMMI"}, {"@Dairon/Central Unit/Speed Booster"}},
+	[31301] = {{"yellow"}, {"@Dairon/Central Unit/Speed Booster"}},
 	-- Elun
 	[31272] = {{"@Elun/Horizontal Bomb Maze/Missile"}, {"xpar"}},
 	[31271] = {{"@Elun/Fan Room/Missile"}, {"xpar"}},
@@ -133,8 +133,8 @@ LOCATION_MAPPING = {
 	[31281] = {{"@Ferenia/Purple EMMI Introduction/Power Bomb Tank"}},
 	[31280] = {{"@Ferenia/Twin Robot Arena/Power Bomb Tank"}},
 	[31273] = {{"@Ferenia/Space Jump Room/Pedestal"}},
-	[31296] = {{"@Ferenia/Escue/"}, {"@Ferenia/Escue/Storm Missiles"}},
-	[31297] = {{"@Ferenia/Central Unit/Purple EMMI"}, {"@Ferenia/Central Unit/Wave Beam"}},
+	[31296] = {{"escue"}, {"@Ferenia/Escue/Storm Missiles"}},
+	[31297] = {{"purple"}, {"@Ferenia/Central Unit/Wave Beam"}},
 	-- Ghavoran
 	[31252] = {{"@Ghavoran/Cross Bomb Tutorial/Missile"}},
 	[31261] = {{"@Ghavoran/Energy Recharge Station North/Missile"}},
@@ -154,11 +154,11 @@ LOCATION_MAPPING = {
 	[31264] = {{"@Ghavoran/Pulse Radar Room/Pedestal"}},
 	[31254] = {{"@Ghavoran/Super Missile Room/Pedestal"}},
 	[31258] = {{"@Ghavoran/Spin Boost Room/Pedestal"}},
-	[31300] = {{"@Ghavoran/Central Unit/Cyan EMMI"}, {"@Ghavoran/Central Unit/Ice Missiles"}},
-	[31299] = {{"@Ghavoran/Golzuna/"}, {"@Ghavoran/Golzuna/Cross Bomb"}},
+	[31300] = {{"cyan"}, {"@Ghavoran/Central Unit/Ice Missiles"}},
+	[31299] = {{"golzuna"}, {"@Ghavoran/Golzuna/Cross Bomb"}},
 	-- Hanubia
 	[31288] = {{"@Hanubia/Total Recharge Station North/Missile"}},
 	[31290] = {{"@Hanubia/Ferenia Shortcut/Missile"}},
 	[31289] = {{"@Hanubia/Speedboost Puzzle Room/Power Bomb Tank"}},
-	[31291] = {{"@Hanubia/Central Unit/Orange EMMI"}, {"@Hanubia/Central Unit/Power Bomb"}}
+	[31291] = {{"orange"}, {"@Hanubia/Red Chozo Soldier/Power Bomb"}}
 }

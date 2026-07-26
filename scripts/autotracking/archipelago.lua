@@ -7,6 +7,8 @@
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
 
+ScriptHost:LoadScript("scripts/custom_items/split_progressive.lua")
+
 CUR_INDEX = -1
 LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
@@ -25,7 +27,7 @@ function resetItem(item_code, item_type)
 			obj.CurrentStage = 0
 			obj.Active = false
 		elseif item_type == "consumable" then
-			obj.AcquiredCount = 0
+			obj.AcquiredCount = obj.MinCount
 		elseif item_type == "custom" then
 			-- your code for your custom lua items goes here
 		elseif item_type == "static" and AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
@@ -54,14 +56,22 @@ function incrementItem(item_code, item_type, multiplier)
 			obj.Active = true
 		elseif item_type == "progressive" or item_type == "progressive_toggle" then
 			if obj.Active then
-				obj.CurrentStage = obj.CurrentStage + 1
+				-- Use multiplier as stage to *advance* to
+				if multiplier then
+					obj.Active = true
+					obj.CurrentStage = math.max(obj.CurrentStage, multiplier)
+				else
+					obj.CurrentStage = obj.CurrentStage + 1
+				end
 			else
 				obj.Active = true
 			end
 		elseif item_type == "consumable" then
-			obj.AcquiredCount = obj.AcquiredCount + obj.Increment * multiplier
+			obj.AcquiredCount = obj.AcquiredCount + obj.Increment * (multiplier or 1)
 		elseif item_type == "custom" then
 			-- your code for your custom lua items goes here
+			--- @cast obj LuaItem
+			obj:OnLeftClickFunc()
 		elseif item_type == "static" and AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
 			print(string.format("incrementItem: tried to increment static item %s", item_code))
 		elseif item_type == "composite_toggle" and AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
@@ -84,7 +94,7 @@ end
 -- called right after an AP slot is connected
 function onClear(slot_data)
 	-- use bulk update to pause logic updates until we are done resetting all items/locations
-	Tracker.BulkUpdate = true	
+	Tracker.BulkUpdate = true
 	if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
 		print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))
 	end
@@ -168,7 +178,7 @@ function onItem(index, item_id, item_name, player_number)
 		if item_table then
 			local item_code = item_table[1]
 			local item_type = item_table[2]
-			local multiplier = item_table[3] or 1
+			local multiplier = item_table[3]
 			if item_code then
 				incrementItem(item_code, item_type, multiplier)
 				-- keep track which items we touch are local and which are global

@@ -1,13 +1,54 @@
 -- use this file to map the AP item ids to your items
 -- first value is the code of the target item and the second is the item type override. The third value is an optional increment multiplier for consumables. (feel free to expand the table with any other values you might need (i.e. special initial values, etc.)!)
 -- here are the SM items as an example: https://github.com/Cyb3RGER/sm_ap_tracker/blob/main/scripts/autotracking/item_mapping.lua
-BASE_ITEM_ID = 0
 ITEM_MAPPING = {
-	[BASE_ITEM_ID + 00000] = { { "toggle" } },
-	[BASE_ITEM_ID + 00001] = { { "progressive" } },
-	[BASE_ITEM_ID + 00002] = { { "consumable" } },
-	-- handle progressive_toggle as toggle, only changing it's active state
-	[BASE_ITEM_ID + 00003] = { { "progressive_toggle", "toggle" } },
-	-- multiple items on this id, add the consumable 3 times
-	[BASE_ITEM_ID + 00004] = { { "toggle" }, { "consumable", nil, 3 } }
+	[21524] = {{"morph"}},
+	[21525] = {{"pbomb", nil, 1}}, -- bomb
+	[21526] = {{"pbomb", nil, 2}}, -- cross bomb
+	[21527] = {{"powerbomb"}},
+	[21528] = {{"pcharge", nil, 1}},
+	[21529] = {{"wide"}},
+	[21530] = {{"plasma"}},
+	[21531] = {{"wave"}},
+	[21532] = {{"pcharge", nil, 2}},
+	[21533] = {{"grapple"}},
+	[21534] = {{"ice"}},
+	[21535] = {{"smissile"}},
+	[21536] = {{"psuit", nil, 1}},
+	[21537] = {{"psuit", nil, 2}},
+	[21538] = {{"cloak"}},
+	[21539] = {{"flash"}},
+	[21540] = {{"pulse"}},
+	[21541] = {{"speed"}},
+	[21542] = {{"spider"}},
+	[21543] = {{"pjump", nil, 1}}, -- spin boost
+	[21544] = {{"pjump", nil, 2}}, -- space jump
+	[21545] = {{"screw"}},
+	-- [21546] = {{"slide"}},
+	[21547] = {{"CONetank"}},
+	[21548] = {{"CONmissile", nil, 10}}, -- missile+
+	-- [21549] = {{""}}, -- flash upgrade
+	-- [21550] = {{""}}, -- speed upgrade
+	[21551] = {{"CONmissile", nil, 2}}, -- missile
+	[21552] = {{"CONpowerbomb"}},
+	[21553] = {{"CONetank part"}},
+	[21554] = {{"super"}},
+	[21555] = {{"psuit"}},
+	[21556] = {{"pjump"}},
+	[21557] = {{"pcharge"}},
+	[21558] = {{"pbeam", "custom"}}, -- progressive beam
+	[21559] = {{"pmissile", "custom"}}, -- progressive missile
+	[21560] = {{"pbomb"}},
+	[21738] = {{"dna"}}, -- dna 1
+	[21739] = {{"dna"}}, -- dna 2
+	[21740] = {{"dna"}}, -- dna 3
+	[21741] = {{"dna"}}, -- dna 4
+	[21742] = {{"dna"}}, -- dna 5
+	[21743] = {{"dna"}}, -- dna 6
+	[21744] = {{"dna"}}, -- dna 7
+	[21745] = {{"dna"}}, -- dna 8
+	[21746] = {{"dna"}}, -- dna 9
+	[21747] = {{"dna"}}, -- dna 10
+	[21748] = {{"dna"}}, -- dna 11
+	[21749] = {{"dna"}}, -- dna 12
 }
