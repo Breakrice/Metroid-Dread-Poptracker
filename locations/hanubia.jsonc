@@ -45,7 +45,7 @@
         "chest_opened_img": "images/checks/Power bomb opened.png",
         "sections": [
           {
-            "name": "Power Bomb"
+            "name": "Power Bomb Tank"
           }
         ],
         "map_locations": 
@@ -60,10 +60,6 @@
       {
         "name": "Orange EMMI",
         "sections": [
-          {
-            "chest_unopened_img": "images/bosses/Orange Icon Scaled.png",
-            "chest_opened_img": "images/checks/Orange Defeated.png"
-          },
           {
             "name": "Power Bomb",
             "chest_unopened_img": "images/items/Power Bomb.png",

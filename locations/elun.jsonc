@@ -45,7 +45,7 @@
         "chest_opened_img": "images/checks/E-Tank opened.png",
         "sections": [
           {
-            "name": "E-Tank Part"
+            "name": "E-Tank"
           }
         ],
         "map_locations": 
@@ -63,7 +63,7 @@
         "chest_opened_img": "images/checks/Power bomb opened.png",
         "sections": [
           {
-            "name": "Power Bomb"
+            "name": "Power Bomb Tank"
           }
         ],
         "map_locations": 
@@ -76,9 +76,10 @@
         ]
       },
       {
-        "name": "Plasma Beam",
+        "name": "Plasma Beam Room",
         "sections": [
           {
+            "name": "Pedestal",
             "chest_unopened_img": "images/items/Plasma Beam.png",
             "chest_opened_img": "images/checks/Plasma opened.png"
           }

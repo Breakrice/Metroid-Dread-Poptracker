@@ -4,7 +4,7 @@
     "children" :
     [
       {
-        "name": "Melee Tutorial Room",
+        "name": "Melee Tutorial Room (Near White EMMI)",
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
@@ -22,7 +22,7 @@
         ]
       },
       {
-        "name": "Melee Tutorial Room",
+        "name": "Melee Tutorial Room (Near Proto EMMI)",
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
@@ -238,7 +238,7 @@
         ]
       },
       {
-        "name": "Teleport to Cataris",
+        "name": "Teleport to Cataris (Near Red Teleportal)",
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
@@ -256,7 +256,7 @@
         ]
       },
       {
-        "name": "Teleport to Cataris",
+        "name": "Teleport to Cataris (Super Missile Door)",
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
@@ -274,7 +274,7 @@
         ]
       },
       {
-        "name": "Waterfall",
+        "name": "Waterfall (After Map Station)",
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
@@ -292,7 +292,7 @@
         ]
       },
       {
-        "name": "Screw Attack Room",
+        "name": "Screw Attack Room (Screw Attack Blocks)",
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
@@ -310,7 +310,7 @@
         ]
       },
       {
-        "name": "Scew Attack Room",
+        "name": "Screw Attack Room (Underwater)",
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
@@ -418,7 +418,7 @@
         ]
       },
       {
-        "name": "Speed Hallway",
+        "name": "Speed Hallway (Speed Puzzle)",
         "chest_unopened_img": "images/checks/Missile+ Hud Icon.png",
         "chest_opened_img": "images/checks/Missile+ opened.png",
         "sections": [
@@ -472,7 +472,7 @@
         ]
       },
       {
-        "name": "Waterfall",
+        "name": "Waterfall (Path to Varia)",
         "chest_unopened_img": "images/checks/E-Tank part Hud Icon.png",
         "chest_opened_img": "images/checks/E-Tank part opened.png",
         "sections": [
@@ -513,7 +513,7 @@
         "chest_opened_img": "images/checks/Power bomb opened.png",
         "sections": [
           {
-            "name": "Power Bomb"
+            "name": "Power Bomb Tank"
           }
         ],
         "map_locations": 
@@ -528,10 +528,6 @@
       {
         "name": "White EMMI",
         "sections": [
-          {
-            "chest_unopened_img": "images/bosses/White Icon Scaled.png",
-            "chest_opened_img": "images/checks/White Defeated.png"
-          },
           {
             "name": "Spider Magnet",
             "chest_unopened_img": "images/items/Spider Magnet.png",
@@ -551,10 +547,6 @@
         "name": "Corpius",
         "sections": [
           {
-            "chest_unopened_img": "images/bosses/Corpius Icon.png",
-            "chest_opened_img": "images/checks/Corpius Defeated.png"
-          },
-          {
             "name": "Phantom Cloak",
             "chest_unopened_img": "images/items/Phantom Cloak.png",
             "chest_opened_img": "images/checks/cloak opened.png"
@@ -570,9 +562,10 @@
         ]
       },
       {
-        "name": "Grapple Beam",
+        "name": "Grapple Beam Room",
         "sections": [
           {
+            "name": "Pedestal",
             "chest_unopened_img": "images/items/Grapple Beam.png",
             "chest_opened_img": "images/checks/Grapple opened.png"
           }
@@ -587,9 +580,10 @@
         ]
       },
       {
-        "name": "Varia Suit",
+        "name": "Varia Suit Room",
         "sections": [
           {
+            "name": "Pedestal",
             "chest_unopened_img": "images/items/Varia Suit.png",
             "chest_opened_img": "images/checks/Varia opened.png"
           }
@@ -604,9 +598,10 @@
         ]
       },
       {
-        "name": "Screw Attack",
+        "name": "Screw Attack Room",
         "sections": [
           {
+            "name": "Pedestal",
             "chest_unopened_img": "images/items/Screw Attack.png",
             "chest_opened_img": "images/checks/Screw opened.png"
           }
@@ -621,9 +616,10 @@
         ]
       },
       {
-        "name": "Charge Beam",
+        "name": "Charge Beam Room",
         "sections": [
           {
+            "name": "Pedestal",
             "chest_unopened_img": "images/items/Charge Beam.png",
             "chest_opened_img": "images/checks/Charge opened.png"
           }

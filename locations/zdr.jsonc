@@ -13,189 +13,144 @@
                 ],
                 "sections": [
                     {
-                        "name": "Melee Tutorial Room (Near White EMMI)",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "name": "Melee Tutorial Room (Near Proto EMMI)",
+                        "ref": "Artaria/Melee Tutorial Room (Near Proto EMMI)/Missile"
                     },
                     {
-                        "name": "Melee Tutorial Room (Near Proto EMMI)",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "name": "Melee Tutorial Room (Near White EMMI)",
+                        "ref": "Artaria/Melee Tutorial Room (Near White EMMI)/Missile"
                     },
                     {
                         "name": "Proto EMMI Introduciton",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "ref": "Artaria/Proto EMMI Introduciton/Missile"
                     },
                     {
                         "name": "Invisible Corpius Room",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "ref": "Artaria/Invisible Corpius Room/Missile"
                     },
                     {
                         "name": "Thermal Device",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "ref": "Artaria/Thermal Device/Missile"
                     },
                     {
                         "name": "East Lava Missile Room",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "ref": "Artaria/East Lava Missile Room/Missile"
                     },
                     {
                         "name": "Hot Cataris Shortcut",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "ref": "Artaria/Hot Cataris Shortcut/Missile"
                     },
                     {
                         "name": "David Jaffe Room",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "ref": "Artaria/David Jaffe Room/Missile"
                     },
                     {
                         "name": "Arbitrary Enky Room",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "ref": "Artaria/Arbitrary Enky Room/Missile"
                     },
                     {
                         "name": "EMMI Zone First Entrance",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "ref": "Artaria/EMMI Zone First Entrance/Missile"
                     },
                     {
                         "name": "EMMI Zone Exit North",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "ref": "Artaria/EMMI Zone Exit North/Missile"
                     },
                     {
                         "name": "EMMI Zone Spinner",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "ref": "Artaria/EMMI Zone Spinner/Missile"
                     },
                     {
                         "name": "EMMI Zone Exit Northwest",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "ref": "Artaria/EMMI Zone Exit Northwest/Missile"
                     },
                     {
-                        "name": "Teleport to Cataris",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "name": "Teleport to Cataris (Near Red Teleportal)",
+                        "ref": "Artaria/Teleport to Cataris (Near Red Teleportal)/Missile"
                     },
                     {
-                        "name": "Teleport to Cataris",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "name": "Teleport to Cataris (Super Missile Door)",
+                        "ref": "Artaria/Teleport to Cataris (Super Missile Door)/Missile"
                     },
                     {
-                        "name": "Waterfall",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "name": "Waterfall (After Map Station)",
+                        "ref": "Artaria/Waterfall (After Map Station)/Missile"
                     },
                     {
                         "name": "Screw Attack Room (Screw Attack Blocks)",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "ref": "Artaria/Screw Attack Room (Screw Attack Blocks)/Missile"
                     },
                     {
                         "name": "Scew Attack Room (Underwater)",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "ref": "Artaria/Screw Attack Room (Underwater)/Missile"
                     },
                     {
                         "name": "Transport to Burenia",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "ref": "Artaria/Transport to Burenia/Missile"
                     },
                     {
                         "name": "Freezer",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "ref": "Artaria/Freezer/Missile"
                     },
                     {
                         "name": "Charge Beam Access",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "ref": "Artaria/Charge Beam Access/Missile"
                     },
                     {
                         "name": "Energy Recharge Station South",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "ref": "Artaria/Energy Recharge Station South/Missile"
                     },
                     {
                         "name": "Varia Suit Tutorial North",
-                        "chest_unopened_img": "images/checks/Missile+ Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile+ opened.png"
+                        "ref": "Artaria/Varia Suit Tutorial North/Missile+"
                     },
                     {
-                        "name": "Speed Hallway",
-                        "chest_unopened_img": "images/checks/Missile+ Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile+ opened.png"
+                        "name": "Speed Hallway (Speed Puzzle)",
+                        "ref": "Artaria/Speed Hallway (Speed Puzzle)/Missile+"
                     },
                     {
                         "name": "Charge Tutorial",
-                        "chest_unopened_img": "images/checks/E-Tank Hud Icon.png",
-                        "chest_opened_img": "images/checks/E-Tank opened.png"
+                        "ref": "Artaria/Charge Tutorial/E-Tank"
                     },
                     {
                         "name": "Shutter Platform Puzzle",
-                        "chest_unopened_img": "images/checks/E-Tank Hud Icon.png",
-                        "chest_opened_img": "images/checks/E-Tank opened.png"
+                        "ref": "Artaria/Shutter Platform Puzzle/E-Tank"
                     },
                     {
-                        "name": "Waterfall",
-                        "chest_unopened_img": "images/checks/E-Tank part Hud Icon.png",
-                        "chest_opened_img": "images/checks/E-Tank part opened.png"
+                        "name": "Waterfall (Path to Varia)",
+                        "ref": "Artaria/Waterfall (Path to Varia)/E-Tank Part"
                     },
                     {
                         "name": "Speed Hallway",
-                        "chest_unopened_img": "images/checks/E-Tank part Hud Icon.png",
-                        "chest_opened_img": "images/checks/E-Tank part opened.png"
+                        "ref": "Artaria/Speed Hallway/E-Tank Part"
                     },
                     {
                         "name": "EMMI Zone Hub",
-                        "chest_unopened_img": "images/checks/Power Bomb Hud Icon.png",
-                        "chest_opened_img": "images/checks/Power bomb opened.png"
+                        "ref": "Artaria/EMMI Zone Hub/Power Bomb Tank"
                     },
                     {
-                        "name": "Charge Beam",
-                        "chest_unopened_img": "images/items/Charge Beam.png",
-                        "chest_opened_img": "images/checks/Charge opened.png"
+                        "name": "Charge Beam Room",
+                        "ref": "Artaria/Charge Beam Room/Pedestal"
                     },
                     {
-                        "name": "Grapple Beam",
-                        "chest_unopened_img": "images/items/Grapple Beam.png",
-                        "chest_opened_img": "images/checks/Grapple opened.png"
+                        "name": "Grapple Beam Room",
+                        "ref": "Artaria/Grapple Beam Room/Pedestal"
                     },
                     {
-                        "name": "Varia Suit",
-                        "chest_unopened_img": "images/items/Varia Suit.png",
-                        "chest_opened_img": "images/checks/Varia opened.png"
+                        "name": "Varia Suit Room",
+                        "ref": "Artaria/Varia Suit Room/Pedestal"
                     },
                     {
-                        "name": "Screw Attack",
-                        "chest_unopened_img": "images/items/Screw Attack.png",
-                        "chest_opened_img": "images/checks/Screw opened.png"
+                        "name": "Screw Attack Room",
+                        "ref": "Artaria/Screw Attack Room/Pedestal"
                     },
                     {
-                        "name": "Phantom Cloak",
-                        "chest_unopened_img": "images/items/Phantom Cloak.png",
-                        "chest_opened_img": "images/checks/cloak opened.png"
+                        "name": "Phantom Cloak / Corpius",
+                        "ref": "Artaria/Corpius/Phantom Cloak"
                     },
                     {
-                        "name": "Corpius",
-                        "chest_unopened_img": "images/bosses/Corpius Icon.png",
-                        "chest_opened_img": "images/checks/Corpius Defeated.png"
-                    },
-                    {
-                        "name": "Spider Magnet",
-                        "chest_unopened_img": "images/items/Spider Magnet.png",
-                        "chest_opened_img": "images/checks/Spider opened.png"
-                    },
-                    {
-                        "name": "White EMMI",
-                        "chest_unopened_img": "images/bosses/White Icon Scaled.png",
-                        "chest_opened_img": "images/checks/White Defeated.png"
+                        "name": "Spider Magnet / White EMMI",
+                        "ref": "Artaria/White EMMI/Spider Magnet"
                     }
                 ]
             }
@@ -216,103 +171,83 @@
                 "sections": [
                     {
                         "name": "Underneath Drogyga",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "ref": "Burenia/Underneath Drogyga/Missile"
                     },
                     {
                         "name": "Upper Burenia Hub",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "ref": "Burenia/Upper Burenia Hub/Missile"
                     },
                     {
-                        "name": "Main Hub Tower Top",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "name": "Main Hub Tower Top (Cross Bomb Puzzle)",
+                        "ref": "Burenia/Main Hub Tower Top (Cross Bomb Puzzle)/Missile"
                     },
                     {
-                        "name": "Burenia Hub to Dairon",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "name": "Burenia Hub to Dairon (Underwater)",
+                        "ref": "Burenia/Burenia Hub to Dairon (Underwater)/Missile"
                     },
                     {
-                        "name": "Gravity Suit Tower",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "name": "Gravity Suit Tower (After Twin Chozo Fight)",
+                        "ref": "Burenia/Gravity Suit Tower (After Twin Chozo Fight)/Missile"
                     },
                     {
-                        "name": "Main Hub Tower Middle",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "name": "Main Hub Tower Middle (Shinespark)",
+                        "ref": "Burenia/Main Hub Tower Middle (Shinespark)/Missile"
                     },
                     {
                         "name": "Energy Recharge South",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "ref": "Burenia/Energy Recharge South/Missile"
                     },
                     {
                         "name": "Transport to Artaria",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "ref": "Burenia/Transport to Artaria/Missile"
                     },
                     {
                         "name": "Teleport to Ferenia",
-                        "chest_unopened_img": "images/checks/Missile+ Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile+ opened.png"
+                        "ref": "Burenia/Teleport to Ferenia/Missile+"
                     },
                     {
                         "name": "Main Hub Tower Middle",
-                        "chest_unopened_img": "images/checks/Missile+ Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile+ opened.png"
+                        "ref": "Burenia/Main Hub Tower Middle/Missile+"
                     },
                     {
                         "name": "Early Gravity Speedboost Room 1 (Lower)",
-                        "chest_unopened_img": "images/checks/Missile+ Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile+ opened.png"
+                        "ref": "Burenia/Early Gravity Speedboost Room 1 (Lower)/Missile+"
                     },
                     {
-                        "name": "Gravity Suit Tower",
-                        "chest_unopened_img": "images/checks/Missile+ Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile+ opened.png"
+                        "name": "Gravity Suit Tower (Screw Attack Blocks)",
+                        "ref": "Burenia/Gravity Suit Tower (Screw Attack Blocks)/Missile+"
                     },
                     {
-                        "name": "Main Hub Tower Top",
-                        "chest_unopened_img": "images/checks/E-Tank Hud Icon.png",
-                        "chest_opened_img": "images/checks/E-Tank opened.png"
+                        "name": "Main Hub Tower Top (Cubby)",
+                        "ref": "Burenia/Main Hub Tower Top (Cubby)/E-Tank"
                     },
                     {
                         "name": "Storm Missile Gate Room",
-                        "chest_unopened_img": "images/checks/E-Tank Hud Icon.png",
-                        "chest_opened_img": "images/checks/E-Tank opened.png"
+                        "ref": "Burenia/Storm Missile Gate Room/E-Tank"
                     },
                     {
-                        "name": "Burenia Hub to Dairon",
-                        "chest_unopened_img": "images/checks/E-Tank part Hud Icon.png",
-                        "chest_opened_img": "images/checks/E-Tank part opened.png"
+                        "name": "Burenia Hub to Dairon (Fan)",
+                        "ref": "Burenia/Burenia Hub to Dairon (Fan)/E-Tank Part"
                     },
                     {
                         "name": "Early Gravity Speedboost Room 1 (Upper)",
-                        "chest_unopened_img": "images/checks/E-Tank part Hud Icon.png",
-                        "chest_opened_img": "images/checks/E-Tank part opened.png"
+                        "ref": "Burenia/Early Gravity Speedboost Room 1 (Upper)/E-Tank Part"
                     },
                     {
                         "name": "Gravity Suit Room (Lower)",
-                        "chest_unopened_img": "images/checks/Power Bomb Hud Icon.png",
-                        "chest_opened_img": "images/checks/Power bomb opened.png"
+                        "ref": "Burenia/Gravity Suit Room (Lower)/Power Bomb Tank"
                     },
                     {
-                        "name": "Flash Shift",
-                        "chest_unopened_img": "images/items/Flash Shift.png",
-                        "chest_opened_img": "images/checks/flash opened.png"
+                        "name": "Flash Shift Room",
+                        "ref": "Burenia/Flash Shift Room/"
                     },
                     {
-                        "name": "Gravity Suit",
-                        "chest_unopened_img": "images/items/Gravity Suit.png",
-                        "chest_opened_img": "images/checks/Gravity opened.png"
+                        "name": "Gravity Suit Room",
+                        "ref": "Burenia/Gravity Suit Room/"
                     },
                     {
                         "name": "Drogyga",
-                        "chest_unopened_img": "images/bosses/Drogyga Icon.png",
-                        "chest_opened_img": "images/checks/Drogyga Defeated.png"
+                        "ref": "Burenia/Drogyga/Item"
                     }
                 ]
             }
@@ -333,128 +268,99 @@
                 "sections": [
                     {
                         "name": "Lava Button East Access",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "ref": "Cataris/Lava Button East Access/Missile"
                     },
                     {
-                        "name": "Teleport to Artaria (Blue)",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "name": "Blue Teleport to Artaria (Main Room)",
+                        "ref": "Cataris/Blue Teleport to Artaria (Main Room)/Missile"
                     },
                     {
                         "name": "Double Obsydomithon Room",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "ref": "Cataris/Double Obsydomithon Room/Missile"
                     },
                     {
                         "name": "EMMI Zone Hidden Missile Room",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "ref": "Cataris/EMMI Zone Hidden Missile Room/Missile"
                     },
                     {
                         "name": "Dairon Transport Access",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "ref": "Cataris/Dairon Transport Access/Missile"
                     },
                     {
                         "name": "EMMI Zone Exits West",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "ref": "Cataris/EMMI Zone Exits West/Missile"
                     },
                     {
-                        "name": "Teleport to Ghavoran",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "name": "Teleport to Ghavoran (Top)",
+                        "ref": "Cataris/Teleport to Ghavoran (Top)/Missile"
                     },
                     {
-                        "name": "Teleport to Ghavoran",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "name": "Teleport to Ghavoran (Bottom)",
+                        "ref": "Cataris/Teleport to Ghavoran (Bottom)/Missile"
                     },
                     {
                         "name": "Kraid Eyedoor Room",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "ref": "Cataris/Kraid Eyedoor Room/Missile"
                     },
                     {
                         "name": "Teleport to Dairon",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "ref": "Cataris/Teleport to Dairon/Missile"
                     },
                     {
                         "name": "Z-57 Heat Room West (Right)",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "ref": "Cataris/Z-57 Heat Room West (Right)/Missile"
                     },
                     {
                         "name": "Above Z-57 Fight",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "ref": "Cataris/Above Z-57 Fight/Missile"
                     },
                     {
                         "name": "Z-57 Heat Room East",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "ref": "Cataris/Z-57 Heat Room East/Missile"
                     },
                     {
                         "name": "Transport to Artaria",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "ref": "Cataris/Transport to Artaria/Missile"
                     },
                     {
                         "name": "Teleport to Artaria (Red)",
-                        "chest_unopened_img": "images/checks/Missile+ Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile+ opened.png"
+                        "ref": "Cataris/Teleport to Artaria (Red)/Missile+"
                     },
                     {
-                        "name": "Thermal Device Room North",
-                        "chest_unopened_img": "images/checks/E-Tank Hud Icon.png",
-                        "chest_opened_img": "images/checks/E-Tank opened.png"
+                        "name": "Thermal Device Room North (After Thermal Device)",
+                        "ref": "Cataris/Thermal Device Room North (After Thermal Device)/E-Tank"
                     },
                     {
-                        "name": "Thermal Device Room North",
-                        "chest_unopened_img": "images/checks/E-Tank part Hud Icon.png",
-                        "chest_opened_img": "images/checks/E-Tank part opened.png"
+                        "name": "Thermal Device Room North (Spiral)",
+                        "ref": "Cataris/Thermal Device Room North (Spiral)/E-Tank Part"
                     },
                     {
                         "name": "Underlava Puzzle Room 2",
-                        "chest_unopened_img": "images/checks/E-Tank part Hud Icon.png",
-                        "chest_opened_img": "images/checks/E-Tank part opened.png"
+                        "ref": "Cataris/Underlava Puzzle Room 2/E-Tank Part"
                     },
                     {
-                        "name": "Teleport to Artaria (Blue)",
-                        "chest_unopened_img": "images/checks/Power Bomb Hud Icon.png",
-                        "chest_opened_img": "images/checks/Power bomb opened.png"
+                        "name": "Blue Teleport to Artaria (Missile Puzzle)",
+                        "ref": "Cataris/Blue Teleport to Artaria (Missile Puzzle)/Power Bomb Tank"
                     },
                     {
                         "name": "EMMI Zone Item Tunnel",
-                        "chest_unopened_img": "images/checks/Power Bomb Hud Icon.png",
-                        "chest_opened_img": "images/checks/Power bomb opened.png"
+                        "ref": "Cataris/EMMI Zone Item Tunnel/Power Bomb Tank"
                     },
                     {
-                        "name": "Diffusion Beam Room",
-                        "chest_unopened_img": "images/checks/Power Bomb Hud Icon.png",
-                        "chest_opened_img": "images/checks/Power bomb opened.png"
+                        "name": "Diffusion Beam Room (Bomb Maze)",
+                        "ref": "Cataris/Diffusion Beam Room (Bomb Maze)/Power Bomb Tank"
                     },
                     {
                         "name": "Diffusion Beam",
-                        "chest_unopened_img": "images/items/Diffusion Beam.png",
-                        "chest_opened_img": "images/checks/Diffusion opened.png"
+                        "ref": "Cataris/Diffusion Beam Room/Pedestal"
                     },
                     {
                         "name": "Kraid",
-                        "chest_unopened_img": "images/bosses/Kraid Icon.png",
-                        "chest_opened_img": "images/checks/Kraid Defeated.png"
+                        "ref": "Cataris/Kraid/Item"
                     },
                     {
-                        "name": "Morph Ball",
-                        "chest_unopened_img": "images/items/Morph Ball.png",
-                        "chest_opened_img": "images/checks/Morph opened.png"
-                    },
-                    {
-                        "name": "Green EMMI",
-                        "chest_unopened_img": "images/bosses/Green Icon Scaled.png",
-                        "chest_opened_img": "images/checks/Green Defeated.png"
+                        "name": "Morph Ball / Green EMMI",
+                        "ref": "Cataris/Green EMMI/Morph Ball"
                     }
                 ]
             }
@@ -475,123 +381,95 @@
                 "sections": [
                     {
                         "name": "Teleport to Artaria",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "ref": "Dairon/Teleport to Artaria/Missile"
                     },
                     {
                         "name": "Big Hub",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "ref": "Dairon/Big Hub/Missile"
                     },
                     {
-                        "name": "Early Grapple Room",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "name": "Early Grapple Room (Speed Puzzle)",
+                        "ref": "Dairon/Early Grapple Room (Speed Puzzle)/Missile"
                     },
                     {
-                        "name": "Early Grapple Room",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "name": "Early Grapple Room (Tunnel)",
+                        "ref": "Dairon/Early Grapple Room (Tunnel)/Missile"
                     },
                     {
                         "name": "Cross Bomb Puzzle Room",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "ref": "Dairon/Cross Bomb Puzzle Room/Missile"
                     },
                     {
                         "name": "Bomb Room",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "ref": "Dairon/Bomb Room/Missile"
                     },
                     {
                         "name": "EMMI Zone Exit Northwest",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "ref": "Dairon/EMMI Zone Exit Northwest/Missile"
                     },
                     {
                         "name": "Freezer (Upper)",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "ref": "Dairon/Freezer (Upper)/Missile"
                     },
                     {
                         "name": "Freezer (Lower)",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "ref": "Dairon/Freezer (Lower)/Missile"
                     },
                     {
                         "name": "Hidden Grapple Shortcut Room",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "ref": "Dairon/Hidden Grapple Shortcut Room/Missile"
                     },
                     {
                         "name": "Save Station West Tunnels",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "ref": "Dairon/Save Station West Tunnels/Missile"
                     },
                     {
                         "name": "Storm Missile Gate Room",
-                        "chest_unopened_img": "images/checks/Missile+ Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile+ opened.png"
+                        "ref": "Dairon/Storm Missile Gate Room/Missile+"
                     },
                     {
                         "name": "Shinespark Tutorial",
-                        "chest_unopened_img": "images/checks/E-Tank Hud Icon.png",
-                        "chest_opened_img": "images/checks/E-Tank opened.png"
+                        "ref": "Dairon/Shinespark Tutorial/E-Tank"
                     },
                     {
                         "name": "Early Grapple Access",
-                        "chest_unopened_img": "images/checks/E-Tank part Hud Icon.png",
-                        "chest_opened_img": "images/checks/E-Tank part opened.png"
+                        "ref": "Dairon/Early Grapple Access/E-Tank Part"
                     },
                     {
                         "name": "Yellow EMMI Introduction",
-                        "chest_unopened_img": "images/checks/E-Tank part Hud Icon.png",
-                        "chest_opened_img": "images/checks/E-Tank part opened.png"
+                        "ref": "Dairon/Yellow EMMI Introduction/E-Tank Part"
                     },
                     {
                         "name": "Energy Recharge Station West",
-                        "chest_unopened_img": "images/checks/E-Tank part Hud Icon.png",
-                        "chest_opened_img": "images/checks/E-Tank part opened.png"
+                        "ref": "Dairon/Energy Recharge Station West/E-Tank Part"
                     },
                     {
                         "name": "Central Unit Access",
-                        "chest_unopened_img": "images/checks/E-Tank part Hud Icon.png",
-                        "chest_opened_img": "images/checks/E-Tank part opened.png"
+                        "ref": "Dairon/Central Unit Access/E-Tank Part"
                     },
                     {
                         "name": "Transport to Artaria",
-                        "chest_unopened_img": "images/checks/Power Bomb Hud Icon.png",
-                        "chest_opened_img": "images/checks/Power bomb opened.png"
+                        "ref": "Dairon/Transport to Artaria/Power Bomb Tank"
                     },
                     {
                         "name": "EMMI Zone Exit North",
-                        "chest_unopened_img": "images/checks/Power Bomb Hud Icon.png",
-                        "chest_opened_img": "images/checks/Power bomb opened.png"
+                        "ref": "Dairon/EMMI Zone Exit North/Power Bomb Tank"
                     },
                     {
                         "name": "Lake Puzzle Room",
-                        "chest_unopened_img": "images/checks/Power Bomb Hud Icon.png",
-                        "chest_opened_img": "images/checks/Power bomb opened.png"
+                        "ref": "Dairon/Lake Puzzle Room/Power Bomb Tank"
                     },
                     {
-                        "name": "Morph Bomb",
-                        "chest_unopened_img": "images/items/Morph Bomb.png",
-                        "chest_opened_img": "images/checks/morphbomb opened.png"
+                        "name": "Morph Bomb Room",
+                        "ref": "Dairon/Morph Bomb Room/Pedestal"
                     },
                     {
-                        "name": "Wide Beam",
-                        "chest_unopened_img": "images/items/Wide Beam.png",
-                        "chest_opened_img": "images/checks/Wide opened.png"
+                        "name": "Wide Beam Room",
+                        "ref": "Dairon/Wide Beam Room/Pedestal"
                     },
                     {
-                        "name": "Speed Booster",
-                        "chest_unopened_img": "images/items/Speed Booster.png",
-                        "chest_opened_img": "images/checks/Speed opened.png"
-                    },
-                    {
-                        "name": "Yellow EMMI",
-                        "chest_unopened_img": "images/bosses/Yellow Icon Scaled.png",
-                        "chest_opened_img": "images/checks/Yellow Defeated.png"
+                        "name": "Speed Booster / Yellow EMMI",
+                        "ref": "Dairon/Yellow EMMI/Speed Booster"
                     }
                 ]
             }
@@ -612,28 +490,23 @@
                 "sections": [
                     {
                         "name": "Horizontal Bomb Maze",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "ref": "Elun/Horizontal Bomb Maze/Missile"
                     },
                     {
                         "name": "Fan Room",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "ref": "Elun/Fan Room/Missile"
                     },
                     {
                         "name": "Ammo Recharge Station",
-                        "chest_unopened_img": "images/checks/E-Tank Hud Icon.png",
-                        "chest_opened_img": "images/checks/E-Tank opened.png"
+                        "ref": "Elun/Ammo Recharge Station/E-Tank"
                     },
                     {
                         "name": "Vertical Bomb Maze",
-                        "chest_unopened_img": "images/checks/Power Bomb Hud Icon.png",
-                        "chest_opened_img": "images/checks/Power bomb opened.png"
+                        "ref": "Elun/Vertical Bomb Maze/Power Bomb Tank"
                     },
                     {
-                        "name": "Plasma Beam",
-                        "chest_unopened_img": "images/items/Plasma Beam.png",
-                        "chest_opened_img": "images/checks/Plasma opened.png"
+                        "name": "Plasma Beam Room",
+                        "ref": "Elun/Plasma Beam Room/Pedestal"
                     }
                 ]
             }
@@ -654,93 +527,71 @@
                 "sections": [
                     {
                         "name": "Escue Eyedoor Room",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "ref": "Ferenia/Escue Eyedoor Room/Missile"
                     },
                     {
                         "name": "Cold Room (Storm Missile Gate)",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "ref": "Ferenia/Cold Room (Storm Missile Gate)/Missile"
                     },
                     {
-                        "name": "Space Jump Room",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "name": "Space Jump Room (Bomb Puzzle)",
+                        "ref": "Ferenia/Space Jump Room (Bomb Puzzle)/Missile"
                     },
                     {
                         "name": "Seperate Tunnels Room (Right)",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "ref": "Ferenia/Seperate Tunnels Room (Right)/Missile"
                     },
                     {
                         "name": "Seperate Tunnels Room (Left)",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "ref": "Ferenia/Seperate Tunnels Room (Left)/Missile"
                     },
                     {
                         "name": "Pitfall Puzzle Room",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "ref": "Ferenia/Pitfall Puzzle Room/Missile"
                     },
                     {
                         "name": "Fan Room",
-                        "chest_unopened_img": "images/checks/Missile+ Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile+ opened.png"
+                        "ref": "Ferenia/Fan Room/Missile+"
                     },
                     {
-                        "name": "Space Jump Room",
-                        "chest_unopened_img": "images/checks/Missile+ Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile+ opened.png"
+                        "name": "Space Jump Room (Speed Puzzle)",
+                        "ref": "Ferenia/Space Jump Room (Speed Puzzle)/Missile+"
                     },
                     {
                         "name": "Path to Escue",
-                        "chest_unopened_img": "images/checks/E-Tank part Hud Icon.png",
-                        "chest_opened_img": "images/checks/E-Tank part opened.png"
+                        "ref": "Ferenia/Path to Escue/E-Tank Part"
                     },
                     {
-                        "name": "Energy Rechartge Station Secret",
-                        "chest_unopened_img": "images/checks/E-Tank part Hud Icon.png",
-                        "chest_opened_img": "images/checks/E-Tank part opened.png"
+                        "name": "Energy Recharge Station Secret",
+                        "ref": "Ferenia/Energy Recharge Station Secret/E-Tank Part"
                     },
                     {
                         "name": "Total Recharge Station",
-                        "chest_unopened_img": "images/checks/E-Tank part Hud Icon.png",
-                        "chest_opened_img": "images/checks/E-Tank part opened.png"
+                        "ref": "Ferenia/Total Recharge Station/E-Tank Part"
                     },
                     {
                         "name": "Speedboost Slopes Maze",
-                        "chest_unopened_img": "images/checks/E-Tank part Hud Icon.png",
-                        "chest_opened_img": "images/checks/E-Tank part opened.png"
+                        "ref": "Ferenia/Speedboost Slopes Maze/E-Tank Part"
                     },
                     {
                         "name": "Purple EMMI Introduction",
-                        "chest_unopened_img": "images/checks/Power Bomb Hud Icon.png",
-                        "chest_opened_img": "images/checks/Power bomb opened.png"
+                        "ref": "Ferenia/Purple EMMI Introduction/Power Bomb Tank"
                     },
                     {
                         "name": "Twin Robot Arena",
-                        "chest_unopened_img": "images/checks/Power Bomb Hud Icon.png",
-                        "chest_opened_img": "images/checks/Power bomb opened.png"
+                        "ref": "Ferenia/Twin Robot Arena/Power Bomb Tank"
                     },
                     {
-                        "name": "Storm Missiles",
-                        "chest_unopened_img": "images/items/Storm Missile.png",
-                        "chest_opened_img": "images/checks/Storm opened.png"
+                        "name": "Storm Missiles Room",
+                        "ref": "Ferenia/Storm Missiles Room/Pedestal"
                     },
                     {
-                        "name": "Space Jump",
-                        "chest_unopened_img": "images/items/Space Jump.png",
-                        "chest_opened_img": "images/checks/space opened.png"
+                        "name": "Space Jump Room",
+                        "ref": "Ferenia/Space Jump Room/Pedestal"
                     },
                     {
-                        "name": "Wave Beam",
-                        "chest_unopened_img": "images/items/Wave Beam.png",
-                        "chest_opened_img": "images/checks/Wave opened.png"
-                    },
-                    {
-                        "name": "Purple EMMI",
-                        "chest_unopened_img": "images/bosses/Purple Icon Scaled.png",
-                        "chest_opened_img": "images/checks/Purple Defeated.png"
+                        "name": "Wave Beam / Purple EMMI",
+                        "ref": "Ferenia/Purple EMMI/Wave Beam"
                     }
                 ]
             }
@@ -761,103 +612,83 @@
                 "sections": [
                     {
                         "name": "Cross Bomb Tutorial",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "ref": "Ghavoran/Cross Bomb Tutorial/Missile"
                     },
                     {
-                        "name": "Teleport to Burenia",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "name": "Teleport to Burenia (Storm Gate)",
+                        "ref": "Ghavoran/Teleport to Burenia (Storm Gate)/Missile"
                     },
                     {
-                        "name": "Teleport to Burenia",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "name": "Teleport to Burenia (Tunnel)",
+                        "ref": "Ghavoran/Teleport to Burenia (Tunnel)/Missile"
                     },
                     {
-                        "name": "Golzuna Tower",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "name": "Golzuna Tower (Tunnel)",
+                        "ref": "Ghavoran/Golzuna Tower (Tunnel)/Missile"
                     },
                     {
                         "name": "Above Pulse Radar",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "ref": "Ghavoran/Above Pulse Radar/Missile"
                     },
                     {
                         "name": "Dairon Transport Access",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "ref": "Ghavoran/Dairon Transport Access/Missile"
                     },
                     {
                         "name": "Elun Transport Access",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "ref": "Ghavoran/Elun Transport Access/Missile"
                     },
                     {
                         "name": "Map Station Access Secret",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "ref": "Ghavoran/Map Station Access Secret/Missile"
                     },
                     {
                         "name": "Right Entrance",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "ref": "Ghavoran/Right Entrance/Missile"
                     },
                     {
                         "name": "Left Entrance",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "ref": "Ghavoran/Left Entrance/Missile"
                     },
                     {
                         "name": "Super Missile Room Access",
-                        "chest_unopened_img": "images/checks/Missile+ Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile+ opened.png"
+                        "ref": "Ghavoran/Super Missile Room Access/Missile+"
                     },
                     {
-                        "name": "Spin Boost Tower",
-                        "chest_unopened_img": "images/checks/E-Tank Hud Icon.png",
-                        "chest_opened_img": "images/checks/E-Tank opened.png"
+                        "name": "Spin Boost Tower (Near Enky)",
+                        "ref": "Ghavoran/Spin Boost Tower (Near Enky)/E-Tank"
                     },
                     {
-                        "name": "Golzuna Tower",
-                        "chest_unopened_img": "images/checks/E-Tank part Hud Icon.png",
-                        "chest_opened_img": "images/checks/E-Tank part opened.png"
+                        "name": "Golzuna Tower (Top)",
+                        "ref": "Ghavoran/Golzuna Tower (Top)/E-Tank Part"
                     },
                     {
-                        "name": "Spin Boost Tower",
-                        "chest_unopened_img": "images/checks/E-Tank part Hud Icon.png",
-                        "chest_opened_img": "images/checks/E-Tank part opened.png"
+                        "name": "Spin Boost Tower (Ice Puzzle)",
+                        "ref": "Ghavoran/Spin Boost Tower (Ice Puzzle)/E-Tank Part"
                     },
                     {
-                        "name": "Spin Boost Tower",
-                        "chest_unopened_img": "images/checks/Power Bomb Hud Icon.png",
-                        "chest_opened_img": "images/checks/Power bomb opened.png"
+                        "name": "Spin Boost Tower (Top)",
+                        "ref": "Ghavoran/Spin Boost Tower (Top)/Power Bomb Tank"
                     },
                     {
-                        "name": "Pulse Radar",
-                        "chest_unopened_img": "images/items/Scan Pulse.png",
-                        "chest_opened_img": "images/checks/pulse opened.png"
+                        "name": "Pulse Radar Room",
+                        "ref": "Ghavoran/Pulse Radar Room/Pedestal"
                     },
                     {
-                        "name": "Cross Bomb",
-                        "chest_unopened_img": "images/items/Cross Bomb.png",
-                        "chest_opened_img": "images/checks/Cross opened.png"
+                        "name": "Cross Bomb / Golzuna",
+                        "ref": "Ghavoran/Golzuna/Cross Bomb"
                     },
                     {
-                        "name": "Golzuna",
-                        "chest_unopened_img": "images/bosses/Golzuna Icon Scaled.png",
-                        "chest_opened_img": "images/checks/Golzuna Defeated.png"
+                        "name": "Super Missile Room",
+                        "ref": "Ghavoran/Super Missile Room/Pedestal"
                     },
                     {
-                        "name": "Ice Missiles",
-                        "chest_unopened_img": "images/items/Ice Missile.png",
-                        "chest_opened_img": "images/checks/Ice opened.png"
+                        "name": "Spin Boost Room",
+                        "ref": "Ghavoran/Spin Boost Room/Pedestal"
                     },
                     {
-                        "name": "Cyan EMMI",
-                        "chest_unopened_img": "images/bosses/Cyan Icon Scaled.png",
-                        "chest_opened_img": "images/checks/Cyan Defeated.png"
+                        "name": "Ice Missiles / Cyan EMMI",
+                        "ref": "Ghavoran/Cyan EMMI/Ice Missiles"
                     }
                 ]
             }
@@ -878,23 +709,19 @@
                 "sections": [
                     {
                         "name": "Total Recharge Station North",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "ref": "Hanubia/Total Recharge Station North/Missile"
                     },
                     {
                         "name": "Ferenia Shortcut",
-                        "chest_unopened_img": "images/checks/Missile Hud Icon.png",
-                        "chest_opened_img": "images/checks/Missile opened.png"
+                        "ref": "Hanubia/Ferenia Shortcut/Missile"
                     },
                     {
-                        "name": "Power Bomb",
-                        "chest_unopened_img": "images/items/Power Bomb.png",
-                        "chest_opened_img": "images/checks/powerbomb opened.png"
+                        "name": "Vertical Bomb Maze",
+                        "ref": "Hanubia/Vertical Bomb Maze/Power Bomb Tank"
                     },
                     {
-                        "name": "Orange EMMI",
-                        "chest_unopened_img": "images/bosses/Orange Icon Scaled.png",
-                        "chest_opened_img": "images/checks/Orange Defeated.png"
+                        "name": "Power Bomb / Orange EMMI",
+                        "ref": "Hanubia/Orange EMMI/Power Bomb"
                     }
                 ]
             }

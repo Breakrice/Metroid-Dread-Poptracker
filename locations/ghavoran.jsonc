@@ -22,12 +22,12 @@
         ]
       },
       {
-        "name": "Teleport to Burenia",
+        "name": "Teleport to Burenia (Storm Gate)",
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
           {
-            "name": "Missile (Storm Gate)"
+            "name": "Missile"
           }
         ],
         "map_locations": 
@@ -40,12 +40,12 @@
         ]
       },
       {
-        "name": "Teleport to Burenia",
+        "name": "Teleport to Burenia (Tunnel)",
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
           {
-            "name": "Missile (Tunnel)"
+            "name": "Missile"
           }
         ],
         "map_locations": 
@@ -58,12 +58,12 @@
         ]
       },
       {
-        "name": "Golzuna Tower",
+        "name": "Golzuna Tower (Tunnel)",
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
           {
-            "name": "Missile (Tunnel)"
+            "name": "Missile"
           }
         ],
         "map_locations": 
@@ -202,7 +202,7 @@
         ]
       },
       {
-        "name": "Spin Boost Tower",
+        "name": "Spin Boost Tower (Near Enky)",
         "chest_unopened_img": "images/checks/E-Tank Hud Icon.png",
         "chest_opened_img": "images/checks/E-Tank opened.png",
         "sections": [
@@ -220,7 +220,7 @@
         ]
       },
       {
-        "name": "Golzuna Tower",
+        "name": "Golzuna Tower (Top)",
         "chest_unopened_img": "images/checks/E-Tank part Hud Icon.png",
         "chest_opened_img": "images/checks/E-Tank part opened.png",
         "sections": [
@@ -238,7 +238,7 @@
         ]
       },
       {
-        "name": "Spin Boost Tower",
+        "name": "Spin Boost Tower (Ice Puzzle)",
         "chest_unopened_img": "images/checks/E-Tank part Hud Icon.png",
         "chest_opened_img": "images/checks/E-Tank part opened.png",
         "sections": [
@@ -256,12 +256,12 @@
         ]
       },
       {
-        "name": "Spin Boost Tower",
+        "name": "Spin Boost Tower (Top)",
         "chest_unopened_img": "images/checks/Power Bomb Hud Icon.png",
         "chest_opened_img": "images/checks/Power bomb opened.png",
         "sections": [
           {
-            "name": "Power Bomb"
+            "name": "Power Bomb Tank"
           }
         ],
         "map_locations": 
@@ -276,10 +276,6 @@
       {
         "name": "Golzuna",
         "sections": [
-          {
-            "chest_unopened_img": "images/bosses/Golzuna Icon Scaled.png",
-            "chest_opened_img": "images/checks/Golzuna Defeated.png"
-          },
           {
             "name": "Cross Bomb",
             "chest_unopened_img": "images/items/Cross Bomb.png",
@@ -299,10 +295,6 @@
         "name": "Cyan EMMI",
         "sections": [
           {
-            "chest_unopened_img": "images/bosses/Cyan Icon Scaled.png",
-            "chest_opened_img": "images/checks/Cyan Defeated.png"
-          },
-          {
             "name": "Ice Missiles",
             "chest_unopened_img": "images/items/Ice Missile.png",
             "chest_opened_img": "images/checks/Ice opened.png"
@@ -318,9 +310,10 @@
         ]
       },
       {
-        "name": "Pulse Radar",
+        "name": "Pulse Radar Room",
         "sections": [
           {
+            "name": "Pedestal",
             "chest_unopened_img": "images/items/Scan Pulse.png",
             "chest_opened_img": "images/checks/pulse opened.png"
           }
@@ -331,6 +324,42 @@
             "map": "ghavoran",
             "x": 1222,
             "y": 255
+          }
+        ]
+      },
+      {
+        "name": "Super Missile Room",
+        "sections": [
+          {
+            "name": "Pedestal",
+            "chest_unopened_img": "images/items/Super Missile.png",
+            "chest_opened_img": "images/checks/super opened.png"
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "ghavoran",
+            "x": 745,
+            "y": 975
+          }
+        ]
+      },
+      {
+        "name": "Spin Boost Room",
+        "sections": [
+          {
+            "name": "Pedestal",
+            "chest_unopened_img": "images/items/Spin Boost.png",
+            "chest_opened_img": "images/checks/Spin opened.png"
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "ghavoran",
+            "x": 1195,
+            "y": 540
           }
         ]
       }

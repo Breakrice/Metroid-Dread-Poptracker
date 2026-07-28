@@ -40,7 +40,7 @@
         ]
       },
       {
-        "name": "Space Jump Room",
+        "name": "Space Jump Room (Bomb Puzzle)",
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
@@ -58,12 +58,12 @@
         ]
       },
       {
-        "name": "Seperate Tunnels Room",
+        "name": "Seperate Tunnels Room (Right)",
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
           {
-            "name": "Missile (Right)"
+            "name": "Missile"
           }
         ],
         "map_locations": 
@@ -76,12 +76,12 @@
         ]
       },
       {
-        "name": "Seperate Tunnels Room",
+        "name": "Seperate Tunnels Room (Left)",
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
           {
-            "name": "Missile (Left)"
+            "name": "Missile"
           }
         ],
         "map_locations": 
@@ -130,7 +130,7 @@
         ]
       },
       {
-        "name": "Space Jump Room",
+        "name": "Space Jump Room (Speed Puzzle)",
         "chest_unopened_img": "images/checks/Missile+ Hud Icon.png",
         "chest_opened_img": "images/checks/Missile+ opened.png",
         "sections": [
@@ -166,7 +166,7 @@
         ]
       },
       {
-        "name": "Energy Rechartge Station Secret",
+        "name": "Energy Recharge Station Secret",
         "chest_unopened_img": "images/checks/E-Tank part Hud Icon.png",
         "chest_opened_img": "images/checks/E-Tank part opened.png",
         "sections": [
@@ -225,7 +225,7 @@
         "chest_opened_img": "images/checks/Power bomb opened.png",
         "sections": [
           {
-            "name": "Power Bomb"
+            "name": "Power Bomb Tank"
           }
         ],
         "map_locations": 
@@ -243,7 +243,7 @@
         "chest_opened_img": "images/checks/Power bomb opened.png",
         "sections": [
           {
-            "name": "Power Bomb"
+            "name": "Power Bomb Tank"
           }
         ],
         "map_locations": 
@@ -258,10 +258,6 @@
       {
         "name": "Purple EMMI",
         "sections": [
-          {
-            "chest_unopened_img": "images/bosses/Purple Icon Scaled.png",
-            "chest_opened_img": "images/checks/Purple Defeated.png"
-          },
           {
             "name": "Wave Beam",
             "chest_unopened_img": "images/items/Wave Beam.png",
@@ -278,9 +274,10 @@
         ]
       },
       {
-        "name": "Storm Missiles",
+        "name": "Storm Missiles Room",
         "sections": [
           {
+            "name": "Pedestal",
             "chest_unopened_img": "images/items/Storm Missile.png",
             "chest_opened_img": "images/checks/Storm opened.png"
           }
@@ -295,9 +292,10 @@
         ]
       },
       {
-        "name": "Space Jump",
+        "name": "Space Jump Room",
         "sections": [
           {
+            "name": "Pedestal",
             "chest_unopened_img": "images/items/Space Jump.png",
             "chest_opened_img": "images/checks/space opened.png"
           }

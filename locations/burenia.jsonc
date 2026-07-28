@@ -40,7 +40,7 @@
         ]
       },
       {
-        "name": "Main Hub Tower Top",
+        "name": "Main Hub Tower Top (Cross Bomb Puzzle)",
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
@@ -58,12 +58,12 @@
         ]
       },
       {
-        "name": "Burenia Hub to Dairon",
+        "name": "Burenia Hub to Dairon (Underwater)",
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
           {
-            "name": "Missile (Tunnel)"
+            "name": "Missile"
           }
         ],
         "map_locations": 
@@ -76,7 +76,7 @@
         ]
       },
       {
-        "name": "Gravity Suit Tower",
+        "name": "Gravity Suit Tower (After Twin Chozo Fight)",
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
@@ -94,7 +94,7 @@
         ]
       },
       {
-        "name": "Main Hub Tower Middle",
+        "name": "Main Hub Tower Middle (Shinespark)",
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
@@ -135,7 +135,7 @@
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
           {
-            "name": "Missile (Upper)"
+            "name": "Missile"
           }
         ],
         "map_locations": 
@@ -202,7 +202,7 @@
         ]
       },
       {
-        "name": "Gravity Suit Tower",
+        "name": "Gravity Suit Tower (Screw Attack Blocks)",
         "chest_unopened_img": "images/checks/Missile+ Hud Icon.png",
         "chest_opened_img": "images/checks/Missile+ opened.png",
         "sections": [
@@ -220,7 +220,7 @@
         ]
       },
       {
-        "name": "Main Hub Tower Top",
+        "name": "Main Hub Tower Top (Cubby)",
         "chest_unopened_img": "images/checks/E-Tank Hud Icon.png",
         "chest_opened_img": "images/checks/E-Tank opened.png",
         "sections": [
@@ -256,7 +256,7 @@
         ]
       },
       {
-        "name": "Burenia Hub to Dairon",
+        "name": "Burenia Hub to Dairon (Fan)",
         "chest_unopened_img": "images/checks/E-Tank part Hud Icon.png",
         "chest_opened_img": "images/checks/E-Tank part opened.png",
         "sections": [
@@ -297,7 +297,7 @@
         "chest_opened_img": "images/checks/Power bomb opened.png",
         "sections": [
           {
-            "name": "Power Bomb"
+            "name": "Power Bomb Tank"
           }
         ],
         "map_locations": 
@@ -310,7 +310,7 @@
         ]
       },
       {
-        "name": "Flash Shift",
+        "name": "Flash Shift Room",
         "sections": [
           {
             "chest_unopened_img": "images/items/Flash Shift.png",
@@ -327,7 +327,7 @@
         ]
       },
       {
-        "name": "Gravity Suit",
+        "name": "Gravity Suit Room",
         "sections": [
           {
             "chest_unopened_img": "images/items/Gravity Suit.png",
@@ -347,6 +347,7 @@
         "name": "Drogyga",
         "sections": [
           {
+            "name": "Item",
             "chest_unopened_img": "images/bosses/Drogyga Icon.png",
             "chest_opened_img": "images/checks/Drogyga Defeated.png"
           }
