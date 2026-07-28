@@ -4,12 +4,17 @@
     "children" :
     [
       {
-        "name": "Melee Tutorial Room (Near White EMMI)",
+        "name": "Melee Tutorial Room (Near White EMMI)", //R1329
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
           {
-            "name": "Missile"
+            "name": "Missile",
+            "access_rules": 
+            [ // +R1325
+              "{}",
+              "morph, $CANBLOWUP"
+            ]
           }
         ],
         "map_locations": 
@@ -40,12 +45,25 @@
         ]
       },
       {
-        "name": "Proto EMMI Introduciton",
+        "name": "Proto EMMI Introduction", //R1250
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
           {
-            "name": "Missile"
+            "name": "Missile",
+            "access_rules": 
+            [
+              // +R1251
+              "morph, $CANBLOWUP, flash",
+              "morph, $CANBLOWUP, spin"
+              //"morph, $CANBLOWUP, xpar, ice, Stand on Frozen Enemy [intermediate]",
+              //"morph, $CANBLOWUP, speed, not DoorLocks, Speed Booster Conservation [beginner]",
+
+              // +R1253
+              //"morph, $CANBLOWUP, Diagonal Bomb Jump [beginner]",
+              //"morph, $CANBLOWUP, crossbomb, Infinite Bomb Jump [expert]",
+              //"morph, $CANBLOWUP, crossbomb, Infinite Bomb Jump [advanced]"
+            ]
           }
         ],
         "map_locations": 
@@ -58,12 +76,18 @@
         ]
       },
       {
-        "name": "Invisible Corpius Room",
+        "name": "Invisible Corpius Room", //R1185
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
           {
-            "name": "Missile"
+            "name": "Missile",
+            "access_rules": 
+            [
+              //"R1131",
+              //"R1114",
+              //"R1108, cloak"
+            ]
           }
         ],
         "map_locations": 
@@ -76,12 +100,18 @@
         ]
       },
       {
-        "name": "Thermal Device",
+        "name": "Thermal Device", //R1127
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
           {
-            "name": "Missile"
+            "name": "Missile",
+            "access_rules": 
+            [ // +Artaria: PRP CV Thermal Device (event) [R1128]
+              "{}",
+              "morph"
+              //"no doorlocks"
+            ]
           }
         ],
         "map_locations": 
@@ -94,12 +124,26 @@
         ]
       },
       {
-        "name": "East Lava Missile Room",
+        "name": "East Lava Missile Room", //R1229
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
           {
-            "name": "Missile"
+            "name": "Missile",
+            "access_rules": 
+            [ // +R1230
+              "varia, spider",
+              "varia, space",
+              //"varia, speed, charge, Movement [beginner], not DoorLocks",
+              //"varia, grapple, Grapple Movement [intermediate]",
+
+              //"200dmg, Heat/Cold Runs [intermediate], spider",
+              //"200dmg, Heat/Cold Runs [intermediate], space",
+              //"200dmg, Heat/Cold Runs [intermediate], speed, charge, Movement [beginner], not DoorLocks",
+              //"200dmg, Heat/Cold Runs [intermediate], grapple, Grapple Movement [intermediate]",
+
+              "gravity"
+            ]
           }
         ],
         "map_locations": 
@@ -112,12 +156,28 @@
         ]
       },
       {
-        "name": "Hot Cataris Shortcut",
+        "name": "Hot Cataris Shortcut", //R1099
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
           {
-            "name": "Missile"
+            "name": "Missile",
+            "access_rules": 
+            [
+              //Both R1098 and R1097
+              //"{}", if heat runs
+              "{varia}",
+              //"50dmg, Heat/Cold Runs [intermediate]",
+              "varia, spin",
+              "varia, flash",
+              //"morph, crossbomb, IBJbeginner",
+              //"morph, bomb, IBJintermediate",
+              //"morph, single-wall wall jump [intermediate]"
+              "varia, speed, charge",//+doorlocks = OFF
+
+              //R1097 -> Here
+              "varia, spider"
+            ]
           }
         ],
         "map_locations": 
@@ -130,12 +190,13 @@
         ]
       },
       {
-        "name": "David Jaffe Room",
+        "name": "David Jaffe Room", //R1238
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
           {
-            "name": "Missile"
+            "name": "Missile",
+            "access_rules": []//"R1239"
           }
         ],
         "map_locations": 
@@ -148,12 +209,18 @@
         ]
       },
       {
-        "name": "Arbitrary Enky Room",
+        "name": "Arbitrary Enky Room", //R1119
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
           {
-            "name": "Missile"
+            "name": "Missile",
+            "access_rules": 
+            [
+              "{}",
+              "morph, $CANBLOWUP",// +R1115
+              "morph"// + Artaria: breakable cave"// +R1120
+            ]
           }
         ],
         "map_locations": 
@@ -166,12 +233,38 @@
         ]
       },
       {
-        "name": "EMMI Zone First Entrance",
+        "name": "EMMI Zone First Entrance", //R1317
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
           {
-            "name": "Missile"
+            "name": "Missile",
+            "access_rules": 
+            [
+              //All R1318, R1316, and R1319
+              "spider",
+              "space"
+              //"morph, crossbomb, IBJbeginner",
+              //"morph, bomb, IBJintermediate", 
+              //"spin, wall jump [beginner]",
+              //"grapple, grapple movement [beginner]",
+              //"morph, Single-wall Wall Jump [advanced]",
+
+              //R1318 -> Here
+              //"flash, wall jump [intermediate]",
+
+              //R1316 -> Here
+              //"Knowledge [intermediate]",
+              //"reach Artaria EMMI Magnet Door Lock",
+
+              //R1319 -> Here
+              //"Stand on Frozen Enemy [intermediate], ice, reach Artaria Central Unit",
+              //"Stand on Frozen Enemy [intermediate], ice, xpar",
+              //"flash, wall jump [beginner]",
+              //"speed, no doorlocks, reach Artaria Central Unit",
+              //"speed, no doorlocks, Speed Booster Conservation [beginner]"
+
+            ]
           }
         ],
         "map_locations": 
@@ -202,12 +295,13 @@
         ]
       },
       {
-        "name": "EMMI Zone Spinner",
+        "name": "EMMI Zone Spinner", //R1262
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
           {
-            "name": "Missile"
+            "name": "Missile",
+            "access_rules": []//"reach Artaria EMMI Spinner Pulled, R1260"
           }
         ],
         "map_locations": 
@@ -238,12 +332,17 @@
         ]
       },
       {
-        "name": "Teleport to Cataris (Near Red Teleportal)",
+        "name": "Teleport to Cataris (Near Red Teleportal)", //R1287
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
           {
-            "name": "Missile"
+            "name": "Missile",
+            "access_rules": 
+            [ // +R1288
+              "{}",
+              "morph"
+            ]
           }
         ],
         "map_locations": 
@@ -274,12 +373,26 @@
         ]
       },
       {
-        "name": "Waterfall (After Map Station)",
+        "name": "Waterfall (After Map Station)", //R1162
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
           {
-            "name": "Missile"
+            "name": "Missile",
+            "access_rules": 
+            [
+              //R1163 -> Here
+              "spin",
+              "flash"
+              //"speed, no doorlocks",
+              //"morph, crossbomb, Movement [beginner]",
+              //"morph, bomb, Diagonal Bomb Jump [intermediate]",
+              //"Climb Sloped Surfaces [expert]",
+              //"cloak, Climb Sloped Surfaces [advanced]",
+
+              //"R1148"
+
+            ]
           }
         ],
         "map_locations": 
@@ -436,12 +549,13 @@
         ]
       },
       {
-        "name": "Charge Tutorial",
+        "name": "Charge Tutorial", //R1337
         "chest_unopened_img": "images/checks/E-Tank Hud Icon.png",
         "chest_opened_img": "images/checks/E-Tank opened.png",
         "sections": [
           {
-            "name": "E-Tank"
+            "name": "E-Tank",
+            "access_rules": []// +R1338
           }
         ],
         "map_locations": 
@@ -616,10 +730,15 @@
         ]
       },
       {
-        "name": "Charge Beam Room",
+        "name": "Charge Beam Room", //R1266
         "sections": [
           {
             "name": "Pedestal",
+            "access_rules": 
+            [ //add access to R1265 or R1273
+              "{}", 
+              "charge"
+            ], //You can get out with morph as well but idk if thats in trick logic
             "chest_unopened_img": "images/items/Charge Beam.png",
             "chest_opened_img": "images/checks/Charge opened.png"
           }
