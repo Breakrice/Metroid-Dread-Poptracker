@@ -277,6 +277,9 @@
         "name": "Golzuna",
         "sections": [
           {
+            "hosted_item": "golzuna"
+          },
+          {
             "name": "Cross Bomb",
             "chest_unopened_img": "images/items/Cross Bomb.png",
             "chest_opened_img": "images/checks/Cross opened.png"
@@ -292,8 +295,12 @@
         ]
       },
       {
-        "name": "Cyan EMMI",
+        "name": "Central Unit",
         "sections": [
+          {
+            "name": "Cyan EMMI",
+            "hosted_item": "cyan"
+          },
           {
             "name": "Ice Missiles",
             "chest_unopened_img": "images/items/Ice Missile.png",

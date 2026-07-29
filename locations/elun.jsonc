@@ -12,7 +12,7 @@
             "name": "Missile"
           }
         ],
-        "map_locations": 
+        "map_locations":
         [
           {
             "map": "elun",
@@ -30,7 +30,7 @@
             "name": "Missile"
           }
         ],
-        "map_locations": 
+        "map_locations":
         [
           {
             "map": "elun",
@@ -48,7 +48,7 @@
             "name": "E-Tank"
           }
         ],
-        "map_locations": 
+        "map_locations":
         [
           {
             "map": "elun",
@@ -66,7 +66,7 @@
             "name": "Power Bomb Tank"
           }
         ],
-        "map_locations": 
+        "map_locations":
         [
           {
             "map": "elun",
@@ -84,12 +84,41 @@
             "chest_opened_img": "images/checks/Plasma opened.png"
           }
         ],
-        "map_locations": 
+        "map_locations":
         [
           {
             "map": "elun",
             "x": 1854,
             "y": 366
+          }
+        ]
+      },
+      {
+        "name": "Escue",
+        "sections": [
+          {
+            "hosted_item": "escue"
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "elun",
+            "x": 1824,
+            "y": 147
+          }
+        ]
+      },
+      {
+        "name": "Release the X",
+        "sections": [
+          { "hosted_item": "xpar" }
+        ],
+        "map_locations": [
+          {
+            "map": "elun",
+            "x": 1400,
+            "y": 200
           }
         ]
       }

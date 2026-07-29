@@ -526,8 +526,12 @@
         ]
       },
       {
-        "name": "White EMMI",
+        "name": "Central Unit",
         "sections": [
+          {
+            "name": "White EMMI",
+            "hosted_item": "white"
+          },
           {
             "name": "Spider Magnet",
             "chest_unopened_img": "images/items/Spider Magnet.png",
@@ -546,6 +550,9 @@
       {
         "name": "Corpius",
         "sections": [
+          {
+            "hosted_item": "corpius"
+          },
           {
             "name": "Phantom Cloak",
             "chest_unopened_img": "images/items/Phantom Cloak.png",

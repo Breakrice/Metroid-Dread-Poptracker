@@ -12,7 +12,7 @@
             "name": "Missile"
           }
         ],
-        "map_locations": 
+        "map_locations":
         [
           {
             "map": "ferenia",
@@ -30,7 +30,7 @@
             "name": "Missile"
           }
         ],
-        "map_locations": 
+        "map_locations":
         [
           {
             "map": "ferenia",
@@ -48,7 +48,7 @@
             "name": "Missile"
           }
         ],
-        "map_locations": 
+        "map_locations":
         [
           {
             "map": "ferenia",
@@ -66,7 +66,7 @@
             "name": "Missile"
           }
         ],
-        "map_locations": 
+        "map_locations":
         [
           {
             "map": "ferenia",
@@ -84,7 +84,7 @@
             "name": "Missile"
           }
         ],
-        "map_locations": 
+        "map_locations":
         [
           {
             "map": "ferenia",
@@ -102,7 +102,7 @@
             "name": "Missile"
           }
         ],
-        "map_locations": 
+        "map_locations":
         [
           {
             "map": "ferenia",
@@ -120,7 +120,7 @@
             "name": "Missile+"
           }
         ],
-        "map_locations": 
+        "map_locations":
         [
           {
             "map": "ferenia",
@@ -138,7 +138,7 @@
             "name": "Missile+"
           }
         ],
-        "map_locations": 
+        "map_locations":
         [
           {
             "map": "ferenia",
@@ -156,7 +156,7 @@
             "name": "E-Tank Part"
           }
         ],
-        "map_locations": 
+        "map_locations":
         [
           {
             "map": "ferenia",
@@ -174,7 +174,7 @@
             "name": "E-Tank Part"
           }
         ],
-        "map_locations": 
+        "map_locations":
         [
           {
             "map": "ferenia",
@@ -192,7 +192,7 @@
             "name": "E-Tank Part"
           }
         ],
-        "map_locations": 
+        "map_locations":
         [
           {
             "map": "ferenia",
@@ -210,7 +210,7 @@
             "name": "E-Tank Part"
           }
         ],
-        "map_locations": 
+        "map_locations":
         [
           {
             "map": "ferenia",
@@ -228,7 +228,7 @@
             "name": "Power Bomb Tank"
           }
         ],
-        "map_locations": 
+        "map_locations":
         [
           {
             "map": "ferenia",
@@ -246,7 +246,7 @@
             "name": "Power Bomb Tank"
           }
         ],
-        "map_locations": 
+        "map_locations":
         [
           {
             "map": "ferenia",
@@ -256,15 +256,19 @@
         ]
       },
       {
-        "name": "Purple EMMI",
+        "name": "Central Unit",
         "sections": [
+          {
+            "name": "Purple EMMI",
+            "hosted_item": "purple"
+          },
           {
             "name": "Wave Beam",
             "chest_unopened_img": "images/items/Wave Beam.png",
             "chest_opened_img": "images/checks/Wave opened.png"
           }
         ],
-        "map_locations": 
+        "map_locations":
         [
           {
             "map": "ferenia",
@@ -282,7 +286,7 @@
             "chest_opened_img": "images/checks/Storm opened.png"
           }
         ],
-        "map_locations": 
+        "map_locations":
         [
           {
             "map": "ferenia",
@@ -300,12 +304,25 @@
             "chest_opened_img": "images/checks/space opened.png"
           }
         ],
-        "map_locations": 
+        "map_locations":
         [
           {
             "map": "ferenia",
             "x": 882,
             "y": 390
+          }
+        ]
+      },
+      {
+        "name": "Quiet Robe",
+        "sections": [
+          { "hosted_item": "quietrobe" }
+        ],
+        "map_locations": [
+          {
+            "map": "ferenia",
+            "x": 1215,
+            "y": 910
           }
         ]
       }
