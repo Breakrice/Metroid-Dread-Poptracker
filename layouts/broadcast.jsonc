@@ -3,17 +3,18 @@
   "tracker_broadcast": {
     "type": "array",
     "orientation": "vertical",
-    "margin": "0,0",
     "content": [
       {
-        "type": "array",
-        "orientation": "horizontal",
-        "margin": "0,0",
-        "content": [
-          {
-            "type": "layout",
-            "key": "item_grid"
-          }
+        "type": "itemgrid",
+        "h_alignment": "stretch",
+        "item_size": 40,
+        "item_margin": "2,2",
+        "rows": [
+          [ "pcharge", "wide", "plasma", "wave", "grapple" ],
+          [ "super", "ice", "smissile", "spider", "speed" ],
+          [ "morph", "pbomb", "powerbomb", "pjump", "screw" ],
+          [ "pulse", "cloak", "flash", "psuit" ],
+          [ "quietrobe", "xpar", "dna" ]
         ]
       }
     ]
