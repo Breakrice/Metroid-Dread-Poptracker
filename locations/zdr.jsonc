@@ -634,6 +634,10 @@
                         "name": "Plasma Beam",
                         "chest_unopened_img": "images/items/Plasma Beam.png",
                         "chest_opened_img": "images/checks/Plasma opened.png"
+                    },
+                    {
+                        "name": "Release the X",
+                        "ref": "Elun/Release the X/"
                     }
                 ]
             }
