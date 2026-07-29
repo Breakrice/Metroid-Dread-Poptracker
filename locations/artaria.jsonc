@@ -27,12 +27,20 @@
         ]
       },
       {
-        "name": "Melee Tutorial Room (Near Proto EMMI)",
+        "name": "Melee Tutorial Room (Near Proto EMMI)", //R1328
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
           {
-            "name": "Missile"
+            "name": "Missile",
+            "access_rules": 
+            [
+              //"R1327",
+
+              //"morph, Artaria: PRP DB CV, R1332",
+
+              //"R1251"
+            ]
           }
         ],
         "map_locations": 
@@ -55,14 +63,14 @@
             [
               // +R1251
               "morph, $CANBLOWUP, flash",
-              "morph, $CANBLOWUP, spin"
-              //"morph, $CANBLOWUP, xpar, ice, Stand on Frozen Enemy [intermediate]",
-              //"morph, $CANBLOWUP, speed, not DoorLocks, Speed Booster Conservation [beginner]",
+              "morph, $CANBLOWUP, spin",
+              "morph, $CANBLOWUP, xpar, $has|CONmissile|1, ice, [frozenenemyI]",
+              "morph, $CANBLOWUP, speed, $DOORRANDOOFF, [speedB]",
 
               // +R1253
-              //"morph, $CANBLOWUP, Diagonal Bomb Jump [beginner]",
-              //"morph, $CANBLOWUP, crossbomb, Infinite Bomb Jump [expert]",
-              //"morph, $CANBLOWUP, crossbomb, Infinite Bomb Jump [advanced]"
+              "morph, $CANBLOWUP, [DBJB]",
+              "morph, $CANBLOWUP, crossbomb, [IBJE]",
+              "morph, $CANBLOWUP, crossbomb, [IBJA]"
             ]
           }
         ],
@@ -108,9 +116,9 @@
             "name": "Missile",
             "access_rules": 
             [ // +Artaria: PRP CV Thermal Device (event) [R1128]
-              "{}",
-              "morph"
-              //"no doorlocks"
+              "{$has|CONmissile|1}",
+              "$has|CONmissile|1, morph",
+              "$has|CONmissile|1, $DOORRANDOOFF"
             ]
           }
         ],
@@ -134,13 +142,13 @@
             [ // +R1230
               "varia, spider",
               "varia, space",
-              //"varia, speed, charge, Movement [beginner], not DoorLocks",
-              //"varia, grapple, Grapple Movement [intermediate]",
+              "varia, speed, charge, [movementB], $DOORRANDOOFF",
+              "varia, grapple, [grappleI]",
 
-              //"200dmg, Heat/Cold Runs [intermediate], spider",
-              //"200dmg, Heat/Cold Runs [intermediate], space",
-              //"200dmg, Heat/Cold Runs [intermediate], speed, charge, Movement [beginner], not DoorLocks",
-              //"200dmg, Heat/Cold Runs [intermediate], grapple, Grapple Movement [intermediate]",
+              //"$surviveDMG(200), [suitlessI], spider",
+              //"$surviveDMG(200), [suitlessI], space",
+              //"$surviveDMG(200), [suitlessI], speed, charge, [movementB], $DOORRANDOOFF",
+              //"$surviveDMG(200), [suitlessI], grapple, [grappleI]",
 
               "gravity"
             ]
@@ -164,18 +172,18 @@
             "name": "Missile",
             "access_rules": 
             [
-              //Both R1098 and R1097
-              //"{}", if heat runs
+              // +R1098, +R1097
+              "{suitlessB}",
               "{varia}",
-              //"50dmg, Heat/Cold Runs [intermediate]",
+              //"$surviveDMG(50), [suitlessI]",
               "varia, spin",
               "varia, flash",
-              //"morph, crossbomb, IBJbeginner",
-              //"morph, bomb, IBJintermediate",
-              //"morph, single-wall wall jump [intermediate]"
-              "varia, speed, charge",//+doorlocks = OFF
+              "morph, crossbomb, [IBJB]",
+              "morph, bomb, [IBJI]",
+              "morph, [SwWJI]",
+              "varia, speed, charge, $DOORRANDOOFF",
 
-              //R1097 -> Here
+              //+R1097
               "varia, spider"
             ]
           }
@@ -196,7 +204,7 @@
         "sections": [
           {
             "name": "Missile",
-            "access_rules": []//"R1239"
+            "access_rules": [] //"R1239"
           }
         ],
         "map_locations": 
@@ -217,9 +225,9 @@
             "name": "Missile",
             "access_rules": 
             [
-              "{}",
-              "morph, $CANBLOWUP",// +R1115
-              "morph"// + Artaria: breakable cave"// +R1120
+              "{}", //+R1115, +R1120
+              "morph, $CANBLOWUP", // +R1115
+              "morph" // +Artaria: breakable cave"// +R1120
             ]
           }
         ],
@@ -241,28 +249,28 @@
             "name": "Missile",
             "access_rules": 
             [
-              //All R1318, R1316, and R1319
+              //+R1318, +R1316, +R1319
               "spider",
-              "space"
-              //"morph, crossbomb, IBJbeginner",
-              //"morph, bomb, IBJintermediate", 
-              //"spin, wall jump [beginner]",
-              //"grapple, grapple movement [beginner]",
-              //"morph, Single-wall Wall Jump [advanced]",
+              "space",
+              "morph, crossbomb, [IBJB]",
+              "morph, bomb, [IBJI]", 
+              "spin, [walljumpB]",
+              "grapple, [grappleB]",
+              "morph, [SwWJA]",
 
-              //R1318 -> Here
-              //"flash, wall jump [intermediate]",
+              //+R1318
+              "flash, [walljumpI]",
 
-              //R1316 -> Here
-              //"Knowledge [intermediate]",
+              //+R1316
+              "[knowledgeI]",
               //"reach Artaria EMMI Magnet Door Lock",
 
-              //R1319 -> Here
-              //"Stand on Frozen Enemy [intermediate], ice, reach Artaria Central Unit",
-              //"Stand on Frozen Enemy [intermediate], ice, xpar",
-              //"flash, wall jump [beginner]",
-              //"speed, no doorlocks, reach Artaria Central Unit",
-              //"speed, no doorlocks, Speed Booster Conservation [beginner]"
+              //+R1319
+              "[frozenenemyI], $has|CONmissile|1, ice, reach Artaria Central Unit",
+              "[frozenenemyI], $has|CONmissile|1, ice, xpar",
+              "flash, [walljumpB]",
+              //"speed, $DOORRANDOOFF, reach Artaria Central Unit",
+              "speed, $DOORRANDOOFF, [speedB]"
 
             ]
           }
@@ -277,12 +285,17 @@
         ]
       },
       {
-        "name": "EMMI Zone Exit North",
+        "name": "EMMI Zone Exit North", //R1301
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
           {
-            "name": "Missile"
+            "name": "Missile",
+            "access_rules": 
+            [
+              "speed" // +R1302
+              //"R1058"
+            ]
           }
         ],
         "map_locations": 
@@ -301,7 +314,7 @@
         "sections": [
           {
             "name": "Missile",
-            "access_rules": []//"reach Artaria EMMI Spinner Pulled, R1260"
+            "access_rules": [] //"reach Artaria EMMI Spinner Pulled, R1260"
           }
         ],
         "map_locations": 
@@ -314,12 +327,13 @@
         ]
       },
       {
-        "name": "EMMI Zone Exit Northwest",
+        "name": "EMMI Zone Exit Northwest", //R1182
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
           {
-            "name": "Missile"
+            "name": "Missile",
+            "access_rules": ["morph, speed"] //+R1181
           }
         ],
         "map_locations": 
@@ -340,8 +354,8 @@
             "name": "Missile",
             "access_rules": 
             [ // +R1288
-              "{}",
-              "morph"
+              "{$has|CONmissile|1}",
+              "$has|CONmissile|1, morph"
             ]
           }
         ],
@@ -355,12 +369,13 @@
         ]
       },
       {
-        "name": "Teleport to Cataris (Super Missile Door)",
+        "name": "Teleport to Cataris (Super Missile Door)", //R1285
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
           {
-            "name": "Missile"
+            "name": "Missile",
+            "access_rules": ["morph, $CANBLOWUP"] // +R1284
           }
         ],
         "map_locations": 
@@ -381,14 +396,14 @@
             "name": "Missile",
             "access_rules": 
             [
-              //R1163 -> Here
+              //+R1163
               "spin",
-              "flash"
-              //"speed, no doorlocks",
-              //"morph, crossbomb, Movement [beginner]",
-              //"morph, bomb, Diagonal Bomb Jump [intermediate]",
-              //"Climb Sloped Surfaces [expert]",
-              //"cloak, Climb Sloped Surfaces [advanced]",
+              "flash",
+              "speed, $DOORRANDOOFF",
+              "morph, crossbomb, [movementB]",
+              "morph, bomb, [DBJI]",
+              "[climbslopedsurfacesE]",
+              "cloak, [climbslopedsurfacesA]"
 
               //"R1148"
 
@@ -405,12 +420,32 @@
         ]
       },
       {
-        "name": "Screw Attack Room (Screw Attack Blocks)",
+        "name": "Screw Attack Room (Screw Attack Blocks)", //R1088
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
           {
-            "name": "Missile"
+            "name": "Missile",
+            "access_rules": 
+            [
+              //+R1087
+              //"speed, [speedB], Artaria SA Rotatable, $DOORRANDOOFF, $has|CONmissile|1, screw",
+              //"speed, [speedB], Artaria SA Rotatable, $DOORRANDOOFF, $has|CONmissile|1, morph, gravity",
+
+              //+R1083
+              "morph, Movement [intermediate], screw",
+
+              //+R1090
+              //"Artaria SA Rotatable, spin",
+              //"Artaria SA Rotatable, morph, crossbomb, [IBJB]",
+              //"Artaria SA Rotatable, morph, bomb, [IBJI]",
+
+              //+R1085
+              "screw, [walljumpB]",
+              "screw, morph, crossbomb, [IBJB]",
+              "screw, morph, bomb, [IBJI]",
+              "screw, spin"
+            ]
           }
         ],
         "map_locations": 
@@ -423,12 +458,13 @@
         ]
       },
       {
-        "name": "Screw Attack Room (Underwater)",
+        "name": "Screw Attack Room (Underwater)", //R1086
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
           {
-            "name": "Missile"
+            "name": "Missile",
+            "access_rules": ["morph"] //Artaria: breakable cave //+R1082
           }
         ],
         "map_locations": 
@@ -441,12 +477,13 @@
         ]
       },
       {
-        "name": "Transport to Burenia",
+        "name": "Transport to Burenia", //R1092
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
           {
-            "name": "Missile"
+            "name": "Missile",
+            "access_rules": ["screw"] //+R1093
           }
         ],
         "map_locations": 
@@ -459,12 +496,17 @@
         ]
       },
       {
-        "name": "Freezer",
+        "name": "Freezer", //R1071
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
           {
-            "name": "Missile"
+            "name": "Missile",
+            "access_rules": 
+            [ //+R1073
+              "Gravity Suit"
+              //"$surviveDMG(50), [suitlessI]"
+            ]
           }
         ],
         "map_locations": 
@@ -477,12 +519,17 @@
         ]
       },
       {
-        "name": "Charge Beam Access",
+        "name": "Charge Beam Access", //R1271
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
           {
-            "name": "Missile"
+            "name": "Missile",
+            "access_rules": 
+            [
+              "morph, powerbomb" //+R1273
+              //"morph, R1270"
+            ]
           }
         ],
         "map_locations": 
@@ -495,12 +542,26 @@
         ]
       },
       {
-        "name": "Energy Recharge Station South",
+        "name": "Energy Recharge Station South", //R1173
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
           {
-            "name": "Missile"
+            "name": "Missile",
+            "access_rules": 
+            [
+              "{}", //+R1174 +R1175
+              "flash", //+R1174 +R1175
+
+              //+R1175
+              "grapple, [grappleB]",
+              "spider",
+              "spin",
+              "morph, crossbomb, [IBJB]",
+              "morph, bomb, [IBJI]",
+              "morph, [SwWJI]",
+              "speed"
+            ]
           }
         ],
         "map_locations": 
@@ -513,12 +574,17 @@
         ]
       },
       {
-        "name": "Varia Suit Tutorial North",
+        "name": "Varia Suit Tutorial North", //R1214
         "chest_unopened_img": "images/checks/Missile+ Hud Icon.png",
         "chest_opened_img": "images/checks/Missile+ opened.png",
         "sections": [
           {
-            "name": "Missile+"
+            "name": "Missile+",
+            "access_rules": 
+            [ //+R1213
+              "morph, gravity"
+              //"morph, $surviveDMG(200), [suitlessB]"
+            ]
           }
         ],
         "map_locations": 
@@ -531,12 +597,13 @@
         ]
       },
       {
-        "name": "Speed Hallway (Speed Puzzle)",
+        "name": "Speed Hallway (Speed Puzzle)", //R1063
         "chest_unopened_img": "images/checks/Missile+ Hud Icon.png",
         "chest_opened_img": "images/checks/Missile+ opened.png",
         "sections": [
           {
-            "name": "Missile+"
+            "name": "Missile+",
+            "access_rules": ["speed"] // +1062
           }
         ],
         "map_locations": 
@@ -568,12 +635,19 @@
         ]
       },
       {
-        "name": "Shutter Platform Puzzle",
+        "name": "Shutter Platform Puzzle", //R1212
         "chest_unopened_img": "images/checks/E-Tank Hud Icon.png",
         "chest_opened_img": "images/checks/E-Tank opened.png",
         "sections": [
           {
-            "name": "E-Tank"
+            "name": "E-Tank",
+            "access_rules": 
+            [ //+R1211
+              //"Artaria: grapple pull off, morph, speed, $CANBLOWUP, flash",
+              //"Artaria: grapple pull off, morph, speed, $CANBLOWUP, [flashshiftB], [movementB]",
+              //"Artaria: grapple pull off, morph, speed, $CANBLOWUP, [flashshiftB], morph, crossbomb
+              //"Artaria: grapple pull off, morph, speed, $CANBLOWUP, spin"
+            ]
           }
         ],
         "map_locations": 
@@ -586,12 +660,17 @@
         ]
       },
       {
-        "name": "Waterfall (Path to Varia)",
+        "name": "Waterfall (Path to Varia)", //R1161
         "chest_unopened_img": "images/checks/E-Tank part Hud Icon.png",
         "chest_opened_img": "images/checks/E-Tank part opened.png",
         "sections": [
           {
-            "name": "E-Tank Part"
+            "name": "E-Tank Part",
+            "access_rules": 
+            [ // +1163
+              "{}",
+              "morph"
+            ] 
           }
         ],
         "map_locations": 
@@ -604,12 +683,19 @@
         ]
       },
       {
-        "name": "Speed Hallway",
+        "name": "Speed Hallway", //R1062
         "chest_unopened_img": "images/checks/E-Tank part Hud Icon.png",
         "chest_opened_img": "images/checks/E-Tank part opened.png",
         "sections": [
           {
-            "name": "E-Tank Part"
+            "name": "E-Tank Part",
+            "access_rules": 
+            [
+              //"R1063",
+              //"$has|CONmissile|1, R1061",
+              //"R1069",
+              //"R1047",
+            ]
           }
         ],
         "map_locations": 
@@ -622,12 +708,30 @@
         ]
       },
       {
-        "name": "EMMI Zone Hub",
+        "name": "EMMI Zone Hub", //R1294
         "chest_unopened_img": "images/checks/Power Bomb Hud Icon.png",
         "chest_opened_img": "images/checks/Power bomb opened.png",
         "sections": [
           {
-            "name": "Power Bomb Tank"
+            "name": "Power Bomb Tank",
+            "access_rules": 
+            [
+              "morph, speed, $DOORRANDOOFF", //+R1298
+
+              // +R1293
+              "{}",
+              "morph, space",
+              "morph, grapple, [grappleI]",
+              "morph, spider, spin",
+              "morph, spider, grapple",
+              "morph, spider, speed",
+              //"morph, spider, flash, [SwWJE], Flash Shift Upgrade",
+              //"morph, Artaria Central Unit, $has|CONmissile|1, ice, [frozenenemyI], flash",
+              //"morph, Artaria Central Unit, $has|CONmissile|1, ice, [frozenenemyI], spider",
+              //"morph, Artaria Central Unit, $has|CONmissile|1, ice, [frozenenemyI], spin",
+              //"morph, Artaria Central Unit, $has|CONmissile|1, ice, [frozenenemyI], crossbomb",
+              "morph, speed, [speedB]"
+            ]
           }
         ],
         "map_locations": 
@@ -640,10 +744,11 @@
         ]
       },
       {
-        "name": "White EMMI",
+        "name": "White EMMI", //R1186
         "sections": [
           {
             "name": "Spider Magnet",
+            "access_rules": [], //"Artaria Central Unit, R1187"
             "chest_unopened_img": "images/items/Spider Magnet.png",
             "chest_opened_img": "images/checks/Spider opened.png"
           }
@@ -658,10 +763,11 @@
         ]
       },
       {
-        "name": "Corpius",
+        "name": "Corpius", //R1241
         "sections": [
           {
             "name": "Phantom Cloak",
+            "access_rules": [], //"R1240"
             "chest_unopened_img": "images/items/Phantom Cloak.png",
             "chest_opened_img": "images/checks/cloak opened.png"
           }
@@ -676,10 +782,11 @@
         ]
       },
       {
-        "name": "Grapple Beam Room",
+        "name": "Grapple Beam Room", //R1200
         "sections": [
           {
             "name": "Pedestal",
+            "access_rules": [], //"$has|CONmissile|1, R1056"
             "chest_unopened_img": "images/items/Grapple Beam.png",
             "chest_opened_img": "images/checks/Grapple opened.png"
           }
@@ -694,10 +801,11 @@
         ]
       },
       {
-        "name": "Varia Suit Room",
+        "name": "Varia Suit Room", //R1207
         "sections": [
           {
             "name": "Pedestal",
+            "access_rules": ["morph"], //+R1206
             "chest_unopened_img": "images/items/Varia Suit.png",
             "chest_opened_img": "images/checks/Varia opened.png"
           }
@@ -712,10 +820,22 @@
         ]
       },
       {
-        "name": "Screw Attack Room",
+        "name": "Screw Attack Room", //R1085
         "sections": [
           {
             "name": "Pedestal",
+            "access_rules": 
+            [
+              //+R1084
+              "morph, gravity",
+              "morph, bomb, [WBJB]",
+              "morph, crossbomb, [WBJI]",
+              "morph, speed, [speedB], $DOORRANDOOFF"
+
+              //"morph, R1083",
+
+              //"screw, R1088"
+            ],
             "chest_unopened_img": "images/items/Screw Attack.png",
             "chest_opened_img": "images/checks/Screw opened.png"
           }
@@ -735,7 +855,7 @@
           {
             "name": "Pedestal",
             "access_rules": 
-            [ //add access to R1265 or R1273
+            [ //+R1265, +R1273
               "{}", 
               "charge"
             ], //You can get out with morph as well but idk if thats in trick logic

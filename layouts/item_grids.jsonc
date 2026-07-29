@@ -32,21 +32,5 @@
         ]
       }
     ]
-  },
-  "settings": {
-    "type": "array",
-    "orientation": "vertical",
-		"h_alignment": "left",
-    "content": [
-      {
-        "type": "itemgrid",
-        "h_alignment": "center",
-        "item_size": "40",
-        "item_margin": "2,2",
-        "rows": [
-          ["RequiredDNA"]
-        ]
-      }
-    ]
   }
 }

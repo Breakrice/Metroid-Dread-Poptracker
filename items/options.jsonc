@@ -7,5 +7,1506 @@
         "min_quantity": 0,
         "max_quantity": 12,
         "initial_quantity": 3
+    },
+    {
+    "name": "Starting Area",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/bosses/White Icon Scaled.png",
+        "codes": "pstart",
+        "name": "Starting Location"
+      },
+      {
+        "img": "images/bosses/Corpius Icon.png",
+        "codes": "startA",
+        "name": "Starting Location: Artaria"
+      },
+      {
+        "img": "images/bosses/Kraid Icon.png",
+        "codes": "startC",
+        "name": "Starting Location: Cataris"
+      },
+      {
+        "img": "images/bosses/Yellow Icon Scaled.png",
+        "codes": "startD",
+        "name": "Starting Location: Dairon"
+      },
+      {
+        "img": "images/bosses/Drogyga Icon.png",
+        "codes": "startB",
+        "name": "Starting Location: Burenia"
+      },
+      {
+        "img": "images/bosses/Cyan Icon Scaled.png",
+        "codes": "startG",
+        "name": "Starting Location: Ghavoran"
+      },
+      {
+        "img": "images/bosses/Purple Icon Scaled.png",
+        "codes": "startF",
+        "name": "Starting Location: Ferenia"
+      },
+      {
+        "img": "images/bosses/Orange Icon Scaled.png",
+        "codes": "startH",
+        "name": "Starting Location: Hanubia"
+      }
+     ]
+    },
+    {
+        "name": "Transport Rando",
+        "codes": "transportrando",
+        "type": "toggle",
+        "img": "images/bosses/White Icon Scaled.png"
+    },
+    {
+        "name": "Nerf Power Bombs",
+        "codes": "powerbombnerf",
+        "type": "toggle",
+        "img": "images/items/Power Bomb.png"
+    },
+    {
+        "name": "X Starts Released",
+        "codes": "releasedx",
+        "type": "toggle",
+        "img": "images/items/X Parasite.png"
+    },
+    {
+        "name": "Starting Power Bombs",
+        "codes": "startingpowerbombs",
+        "type": "consumable",
+        "img": "images/checks/Power Bomb Hud Icon.png",
+        "min_quantity": 0,
+        "max_quantity": 5,
+        "initial_quantity": 2
+    },
+    {
+        "name": "Starting Missiles",
+        "codes": "startingmissiles",
+        "type": "consumable",
+        "img": "images/checks/Missile Hud Icon.png",
+        "min_quantity": 0,
+        "max_quantity": 99,
+        "initial_quantity": 15
+    },
+    {
+        "name": "Door Lock Rando",
+        "codes": "doorlockrando",
+        "type": "toggle",
+        "img": "images/bosses/White Icon Scaled.png"
+    },
+    {
+        "name": "Plasma Beam",
+        "codes": "plasmalockchange",
+        "type": "toggle",
+        "img": "images/items/Plasma Beam.png"
+    },
+    {
+        "name": "Sensor Lock",
+        "codes": "sensorlockchange",
+        "type": "toggle",
+        "img": "images/items/Phantom Cloak.png"
+    },
+    {
+        "name": "Grapple Beam",
+        "codes": "grapplelockchange",
+        "type": "toggle",
+        "img": "images/items/Grapple Beam.png"
+    },
+    {
+        "name": "Super Missile",
+        "codes": "superlockchange",
+        "type": "toggle",
+        "img": "images/items/Super Missile.png"
+    },
+    {
+        "name": "Access Open",
+        "codes": "accessopenlockchange",
+        "type": "toggle",
+        "img": "images/items/X Parasite.png"
+    },
+    {
+        "name": "Power Beam",
+        "codes": "beamlockchange",
+        "type": "toggle",
+        "img": "images/items/Progressive Beam.png"
+    },
+    {
+        "name": "Charge Beam",
+        "codes": "chargelockchange",
+        "type": "toggle",
+        "img": "images/items/Charge Beam.png"
+    },
+    {
+        "name": "Wide Beam",
+        "codes": "widelockchange",
+        "type": "toggle",
+        "img": "images/items/Wide Beam.png"
+    },
+    {
+        "name": "Wave Beam",
+        "codes": "wavelockchange",
+        "type": "toggle",
+        "img": "images/items/Wave Beam.png"
+    },
+    {
+        "name": "Missile",
+        "codes": "missilelockchange",
+        "type": "toggle",
+        "img": "images/items/Progressive Missile.png"
+    },
+    {
+        "name": "Plasma Beam",
+        "codes": "plasmalockto",
+        "type": "toggle",
+        "img": "images/items/Plasma Beam.png"
+    },
+    {
+        "name": "Sensor Lock",
+        "codes": "sensorlockto",
+        "type": "toggle",
+        "img": "images/items/Phantom Cloak.png"
+    },
+    {
+        "name": "Grapple Beam",
+        "codes": "grapplelockto",
+        "type": "toggle",
+        "img": "images/items/Grapple Beam.png"
+    },
+    {
+        "name": "Super Missile",
+        "codes": "superlockto",
+        "type": "toggle",
+        "img": "images/items/Super Missile.png"
+    },
+    {
+        "name": "Access Open",
+        "codes": "accessopenlockto",
+        "type": "toggle",
+        "img": "images/items/X Parasite.png"
+    },
+    {
+        "name": "Power Beam",
+        "codes": "beamlockto",
+        "type": "toggle",
+        "img": "images/items/Progressive Beam.png"
+    },
+    {
+        "name": "Charge Beam",
+        "codes": "chargelockto",
+        "type": "toggle",
+        "img": "images/items/Charge Beam.png"
+    },
+    {
+        "name": "Wide Beam",
+        "codes": "widelockto",
+        "type": "toggle",
+        "img": "images/items/Wide Beam.png"
+    },
+    {
+        "name": "Wave Beam",
+        "codes": "wavelockto",
+        "type": "toggle",
+        "img": "images/items/Wave Beam.png"
+    },
+    {
+        "name": "Missile",
+        "codes": "missilelockto",
+        "type": "toggle",
+        "img": "images/items/Progressive Missile.png"
+    },
+    {
+    "name": "Global Trick Difficulty",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/bosses/White Icon Scaled.png",
+        "codes": "ptrickdifficulty",
+        "img_mods": "@disabled",
+        "name": "Global Tricks Disabled"
+      },
+      {
+        "img": "images/bosses/Green Icon Scaled.png",
+        "codes": "globalB",
+        "name": "Global Beginner Tricks"
+      },
+      {
+        "img": "images/bosses/Yellow Icon Scaled.png",
+        "codes": "globalI",
+        "inherit_codes": "globalB",
+        "name": "Global Intermediate Tricks"
+      },
+      {
+        "img": "images/bosses/Cyan Icon Scaled.png",
+        "codes": "globalA",
+        "inherit_codes": ["globalB", "globalI"],
+        "name": "Global Advanced Tricks"
+      },
+      {
+        "img": "images/bosses/Purple Icon Scaled.png",
+        "codes": "globalE",
+        "inherit_codes": ["globalB", "globalI", "globalA"],
+        "name": "Global Expert Tricks"
+      },
+      {
+        "img": "images/bosses/Orange Icon Scaled.png",
+        "codes": "globalM",
+        "inherit_codes": ["globalB", "globalI", "globalA", "globalE"],
+        "name": "Global Mastery Tricks"
+      }
+     ]
+    },
+    {
+    "name": "Knowledge Difficulty",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/bosses/White Icon Scaled.png",
+        "codes": "pknowledgedifficulty",
+        "img_mods": "@disabled",
+        "name": "Knowledge Disabled"
+      },
+      {
+        "img": "images/bosses/White Icon Scaled.png",
+        "codes": "gknowledgedifficulty",
+        "name": "Follow Global Knowledge"
+      },
+      {
+        "img": "images/bosses/Green Icon Scaled.png",
+        "codes": "knowledgeB",
+        "name": "Beginner Knowledge"
+      },
+      {
+        "img": "images/bosses/Yellow Icon Scaled.png",
+        "codes": "knowledgeI",
+        "inherit_codes": "knowledgeB",
+        "name": "Intermediate Knowledge"
+      },
+      {
+        "img": "images/bosses/Cyan Icon Scaled.png",
+        "codes": "knowledgeA",
+        "inherit_codes": ["knowledgeB", "knowledgeI"],
+        "name": "Advanced Knowledge"
+      },
+      {
+        "img": "images/bosses/Purple Icon Scaled.png",
+        "codes": "knowledgeE",
+        "inherit_codes": ["knowledgeB", "knowledgeI", "knowledgeA"],
+        "name": "Expert Knowledge"
+      },
+      {
+        "img": "images/bosses/Orange Icon Scaled.png",
+        "codes": "knowledgeM",
+        "inherit_codes": ["knowledgeB", "knowledgeI", "knowledgeA", "knowledgeE"],
+        "name": "Mastery Knowledge"
+      }
+     ]
+    },
+    {
+    "name": "Movement Difficulty",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/bosses/White Icon Scaled.png",
+        "codes": "pmovementdifficulty",
+        "img_mods": "@disabled",
+        "name": "Movement Disabled"
+      },
+      {
+        "img": "images/bosses/White Icon Scaled.png",
+        "codes": "gmovementdifficulty",
+        "name": "Follow Global Movement"
+      },
+      {
+        "img": "images/bosses/Green Icon Scaled.png",
+        "codes": "movementB",
+        "name": "Beginner Movement"
+      },
+      {
+        "img": "images/bosses/Yellow Icon Scaled.png",
+        "codes": "movementI",
+        "inherit_codes": "movementB",
+        "name": "Intermediate Movement"
+      },
+      {
+        "img": "images/bosses/Cyan Icon Scaled.png",
+        "codes": "movementA",
+        "inherit_codes": ["movementB", "movementI"],
+        "name": "Advanced Movement"
+      },
+      {
+        "img": "images/bosses/Purple Icon Scaled.png",
+        "codes": "movementE",
+        "inherit_codes": ["movementB", "movementI", "movementA"],
+        "name": "Expert Movement"
+      },
+      {
+        "img": "images/bosses/Orange Icon Scaled.png",
+        "codes": "movementM",
+        "inherit_codes": ["movementB", "movementI", "movementA", "movementE"],
+        "name": "Mastery Movement"
+      }
+     ]
+    },
+    {
+    "name": "Combat Difficulty",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/bosses/White Icon Scaled.png",
+        "codes": "pcombatdifficulty",
+        "img_mods": "@disabled",
+        "name": "Combat Disabled"
+      },
+      {
+        "img": "images/bosses/White Icon Scaled.png",
+        "codes": "gcombatdifficulty",
+        "name": "Follow Global Combat"
+      },
+      {
+        "img": "images/bosses/Green Icon Scaled.png",
+        "codes": "combatB",
+        "name": "Beginner Combat"
+      },
+      {
+        "img": "images/bosses/Yellow Icon Scaled.png",
+        "codes": "combatI",
+        "inherit_codes": "combatB",
+        "name": "Intermediate Combat"
+      },
+      {
+        "img": "images/bosses/Cyan Icon Scaled.png",
+        "codes": "combatA",
+        "inherit_codes": ["combatB", "combatI"],
+        "name": "Advanced Combat"
+      },
+      {
+        "img": "images/bosses/Purple Icon Scaled.png",
+        "codes": "combatE",
+        "inherit_codes": ["combatB", "combatI", "combatA"],
+        "name": "Expert Combat"
+      },
+      {
+        "img": "images/bosses/Orange Icon Scaled.png",
+        "codes": "combatM",
+        "inherit_codes": ["combatB", "combatI", "combatA", "combatE"],
+        "name": "Mastery Combat"
+      }
+     ]
+    },
+    {
+    "name": "Pseudo-Wave Beam Difficulty",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/bosses/White Icon Scaled.png",
+        "codes": "ppseudowavedifficulty",
+        "img_mods": "@disabled",
+        "name": "Pseudo-Wave Beam Disabled"
+      },
+      {
+        "img": "images/bosses/White Icon Scaled.png",
+        "codes": "gpseudowavedifficulty",
+        "name": "Follow Global Pseudo-Wave Beam"
+      },
+      {
+        "img": "images/bosses/Green Icon Scaled.png",
+        "codes": "pseudowaveB",
+        "name": "Beginner Pseudo-Wave Beam"
+      },
+      {
+        "img": "images/bosses/Yellow Icon Scaled.png",
+        "codes": "pseudowaveI",
+        "inherit_codes": "pseudowaveB",
+        "name": "Intermediate Pseudo-Wave Beam"
+      },
+      {
+        "img": "images/bosses/Cyan Icon Scaled.png",
+        "codes": "pseudowaveA",
+        "inherit_codes": ["pseudowaveB", "pseudowaveI"],
+        "name": "Advanced Pseudo-Wave Beam"
+      },
+      {
+        "img": "images/bosses/Purple Icon Scaled.png",
+        "codes": "pseudowaveE",
+        "inherit_codes": ["pseudowaveB", "pseudowaveI", "pseudowaveA"],
+        "name": "Expert Pseudo-Wave Beam"
+      },
+      {
+        "img": "images/bosses/Orange Icon Scaled.png",
+        "codes": "pseudowaveM",
+        "inherit_codes": ["pseudowaveB", "pseudowaveI", "pseudowaveA", "pseudowaveE"],
+        "name": "Mastery Pseudo-Wave Beam"
+      }
+     ]
+    },
+    {
+    "name": "Infinite Bomb Jump Difficulty",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/bosses/White Icon Scaled.png",
+        "codes": "pIBJdifficulty",
+        "img_mods": "@disabled",
+        "name": "Infinite Bomb Jump Disabled"
+      },
+      {
+        "img": "images/bosses/White Icon Scaled.png",
+        "codes": "gIBJdifficulty",
+        "name": "Follow Global Infinite Bomb Jump"
+      },
+      {
+        "img": "images/bosses/Green Icon Scaled.png",
+        "codes": "IBJB",
+        "name": "Beginner Infinite Bomb Jump"
+      },
+      {
+        "img": "images/bosses/Yellow Icon Scaled.png",
+        "codes": "IBJI",
+        "inherit_codes": "IBJB",
+        "name": "Intermediate Infinite Bomb Jump"
+      },
+      {
+        "img": "images/bosses/Cyan Icon Scaled.png",
+        "codes": "IBJA",
+        "inherit_codes": ["IBJB", "IBJI"],
+        "name": "Advanced Infinite Bomb Jump"
+      },
+      {
+        "img": "images/bosses/Purple Icon Scaled.png",
+        "codes": "IBJE",
+        "inherit_codes": ["IBJB", "IBJI", "IBJA"],
+        "name": "Expert Infinite Bomb Jump"
+      },
+      {
+        "img": "images/bosses/Orange Icon Scaled.png",
+        "codes": "IBJM",
+        "inherit_codes": ["IBJB", "IBJI", "IBJA", "IBJE"],
+        "name": "Mastery Infinite Bomb Jump"
+      }
+     ]
+    },
+    {
+    "name": "Water Bomb Jump Difficulty",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/bosses/White Icon Scaled.png",
+        "codes": "pWBJdifficulty",
+        "img_mods": "@disabled",
+        "name": "Water Bomb Jump Disabled"
+      },
+      {
+        "img": "images/bosses/White Icon Scaled.png",
+        "codes": "gWBJdifficulty",
+        "name": "Follow Global Water Bomb Jump"
+      },
+      {
+        "img": "images/bosses/Green Icon Scaled.png",
+        "codes": "WBJB",
+        "name": "Beginner Water Bomb Jump"
+      },
+      {
+        "img": "images/bosses/Yellow Icon Scaled.png",
+        "codes": "WBJI",
+        "inherit_codes": "WBJB",
+        "name": "Intermediate Water Bomb Jump"
+      },
+      {
+        "img": "images/bosses/Cyan Icon Scaled.png",
+        "codes": "WBJA",
+        "inherit_codes": ["WBJB", "WBJI"],
+        "name": "Advanced Water Bomb Jump"
+      },
+      {
+        "img": "images/bosses/Purple Icon Scaled.png",
+        "codes": "WBJE",
+        "inherit_codes": ["WBJB", "WBJI", "WBJA"],
+        "name": "Expert Water Bomb Jump"
+      },
+      {
+        "img": "images/bosses/Orange Icon Scaled.png",
+        "codes": "WBJM",
+        "inherit_codes": ["WBJB", "WBJI", "WBJA", "WBJE"],
+        "name": "Mastery Water Bomb Jump"
+      }
+     ]
+    },
+    {
+    "name": "Water Space Jump Difficulty",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/bosses/White Icon Scaled.png",
+        "codes": "pWSJdifficulty",
+        "img_mods": "@disabled",
+        "name": "Water Space Jump Disabled"
+      },
+      {
+        "img": "images/bosses/White Icon Scaled.png",
+        "codes": "gWSJdifficulty",
+        "name": "Follow Global Water Space Jump"
+      },
+      {
+        "img": "images/bosses/Green Icon Scaled.png",
+        "codes": "WSJB",
+        "name": "Beginner Water Space Jump"
+      },
+      {
+        "img": "images/bosses/Yellow Icon Scaled.png",
+        "codes": "WSJI",
+        "inherit_codes": "WSJB",
+        "name": "Intermediate Water Space Jump"
+      },
+      {
+        "img": "images/bosses/Cyan Icon Scaled.png",
+        "codes": "WSJA",
+        "inherit_codes": ["WSJB", "WSJI"],
+        "name": "Advanced Water Space Jump"
+      },
+      {
+        "img": "images/bosses/Purple Icon Scaled.png",
+        "codes": "WSJE",
+        "inherit_codes": ["WSJB", "WSJI", "WSJA"],
+        "name": "Expert Water Space Jump"
+      },
+      {
+        "img": "images/bosses/Orange Icon Scaled.png",
+        "codes": "WSJM",
+        "inherit_codes": ["WSJB", "WSJI", "WSJA", "WSJE"],
+        "name": "Mastery Water Space Jump"
+      }
+     ]
+    },
+    {
+    "name": "Single-wall Wall Jump Difficulty",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/bosses/White Icon Scaled.png",
+        "codes": "pSwWJdifficulty",
+        "img_mods": "@disabled",
+        "name": "Single-wall Wall Jump Disabled"
+      },
+      {
+        "img": "images/bosses/White Icon Scaled.png",
+        "codes": "gSwWJdifficulty",
+        "name": "Follow Global Single-wall Wall Jump"
+      },
+      {
+        "img": "images/bosses/Green Icon Scaled.png",
+        "codes": "SwWJB",
+        "name": "Beginner Single-wall Wall Jump"
+      },
+      {
+        "img": "images/bosses/Yellow Icon Scaled.png",
+        "codes": "SwWJI",
+        "inherit_codes": "SwWJB",
+        "name": "Intermediate Single-wall Wall Jump"
+      },
+      {
+        "img": "images/bosses/Cyan Icon Scaled.png",
+        "codes": "SwWJA",
+        "inherit_codes": ["SwWJB", "SwWJI"],
+        "name": "Advanced Single-wall Wall Jump"
+      },
+      {
+        "img": "images/bosses/Purple Icon Scaled.png",
+        "codes": "SwWJE",
+        "inherit_codes": ["SwWJB", "SwWJI", "SwWJA"],
+        "name": "Expert Single-wall Wall Jump"
+      },
+      {
+        "img": "images/bosses/Orange Icon Scaled.png",
+        "codes": "SwWJM",
+        "inherit_codes": ["SwWJB", "SwWJI", "SwWJA", "SwWJE"],
+        "name": "Mastery Single-wall Wall Jump"
+      }
+     ]
+    },
+    {
+    "name": "Slide Jump Difficulty",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/bosses/White Icon Scaled.png",
+        "codes": "pslidejumpdifficulty",
+        "img_mods": "@disabled",
+        "name": "Slide Jump Disabled"
+      },
+      {
+        "img": "images/bosses/White Icon Scaled.png",
+        "codes": "gslidejumpdifficulty",
+        "name": "Follow Global Slide Jump"
+      },
+      {
+        "img": "images/bosses/Green Icon Scaled.png",
+        "codes": "slidejumpB",
+        "name": "Beginner Slide Jump"
+      },
+      {
+        "img": "images/bosses/Yellow Icon Scaled.png",
+        "codes": "slidejumpI",
+        "inherit_codes": "slidejumpB",
+        "name": "Intermediate Slide Jump"
+      },
+      {
+        "img": "images/bosses/Cyan Icon Scaled.png",
+        "codes": "slidejumpA",
+        "inherit_codes": ["slidejumpB", "slidejumpI"],
+        "name": "Advanced Slide Jump"
+      },
+      {
+        "img": "images/bosses/Purple Icon Scaled.png",
+        "codes": "slidejumpE",
+        "inherit_codes": ["slidejumpB", "slidejumpI", "slidejumpA"],
+        "name": "Expert Slide Jump"
+      },
+      {
+        "img": "images/bosses/Orange Icon Scaled.png",
+        "codes": "slidejumpM",
+        "inherit_codes": ["slidejumpB", "slidejumpI", "slidejumpA", "slidejumpE"],
+        "name": "Mastery Slide Jump"
+      }
+     ]
+    },
+    {
+    "name": "Speed Booster Conservation Difficulty",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/bosses/White Icon Scaled.png",
+        "codes": "pspeeddifficulty",
+        "img_mods": "@disabled",
+        "name": "Speed Booster Conservation Disabled"
+      },
+      {
+        "img": "images/bosses/White Icon Scaled.png",
+        "codes": "gspeeddifficulty",
+        "name": "Follow Global Speed Booster Conservation"
+      },
+      {
+        "img": "images/bosses/Green Icon Scaled.png",
+        "codes": "speedB",
+        "name": "Beginner Speed Booster Conservation"
+      },
+      {
+        "img": "images/bosses/Yellow Icon Scaled.png",
+        "codes": "speedI",
+        "inherit_codes": "speedB",
+        "name": "Intermediate Speed Booster Conservation"
+      },
+      {
+        "img": "images/bosses/Cyan Icon Scaled.png",
+        "codes": "speedA",
+        "inherit_codes": ["speedB", "speedI"],
+        "name": "Advanced Speed Booster Conservation"
+      },
+      {
+        "img": "images/bosses/Purple Icon Scaled.png",
+        "codes": "speedE",
+        "inherit_codes": ["speedB", "speedI", "speedA"],
+        "name": "Expert Speed Booster Conservation"
+      },
+      {
+        "img": "images/bosses/Orange Icon Scaled.png",
+        "codes": "speedM",
+        "inherit_codes": ["speedB", "speedI", "speedA", "speedE"],
+        "name": "Mastery Speed Booster Conservation"
+      }
+     ]
+    },
+    {
+    "name": "Wall Jump Difficulty",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/bosses/White Icon Scaled.png",
+        "codes": "pwalljumpdifficulty",
+        "img_mods": "@disabled",
+        "name": "Wall Jump Disabled"
+      },
+      {
+        "img": "images/bosses/White Icon Scaled.png",
+        "codes": "gwalljumpdifficulty",
+        "name": "Follow Global Wall Jump"
+      },
+      {
+        "img": "images/bosses/Green Icon Scaled.png",
+        "codes": "walljumpB",
+        "name": "Beginner Wall Jump"
+      },
+      {
+        "img": "images/bosses/Yellow Icon Scaled.png",
+        "codes": "walljumpI",
+        "inherit_codes": "walljumpB",
+        "name": "Intermediate Wall Jump"
+      },
+      {
+        "img": "images/bosses/Cyan Icon Scaled.png",
+        "codes": "walljumpA",
+        "inherit_codes": ["walljumpB", "walljumpI"],
+        "name": "Advanced Wall Jump"
+      },
+      {
+        "img": "images/bosses/Purple Icon Scaled.png",
+        "codes": "walljumpE",
+        "inherit_codes": ["walljumpB", "walljumpI", "walljumpA"],
+        "name": "Expert Wall Jump"
+      },
+      {
+        "img": "images/bosses/Orange Icon Scaled.png",
+        "codes": "walljumpM",
+        "inherit_codes": ["walljumpB", "walljumpI", "walljumpA", "walljumpE"],
+        "name": "Mastery Wall Jump"
+      }
+     ]
+    },
+    {
+    "name": "Heat/Cold Runs Difficulty",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/bosses/White Icon Scaled.png",
+        "codes": "psuitlessdifficulty",
+        "img_mods": "@disabled",
+        "name": "Heat/Cold Runs Disabled"
+      },
+      {
+        "img": "images/bosses/White Icon Scaled.png",
+        "codes": "gsuitlessdifficulty",
+        "name": "Follow Global Heat/Cold Runs"
+      },
+      {
+        "img": "images/bosses/Green Icon Scaled.png",
+        "codes": "suitlessB",
+        "name": "Beginner Heat/Cold Runs"
+      },
+      {
+        "img": "images/bosses/Yellow Icon Scaled.png",
+        "codes": "suitlessI",
+        "inherit_codes": "suitlessB",
+        "name": "Intermediate Heat/Cold Runs"
+      },
+      {
+        "img": "images/bosses/Cyan Icon Scaled.png",
+        "codes": "suitlessA",
+        "inherit_codes": ["suitlessB", "suitlessI"],
+        "name": "Advanced Heat/Cold Runs"
+      },
+      {
+        "img": "images/bosses/Purple Icon Scaled.png",
+        "codes": "suitlessE",
+        "inherit_codes": ["suitlessB", "suitlessI", "suitlessA"],
+        "name": "Expert Heat/Cold Runs"
+      },
+      {
+        "img": "images/bosses/Orange Icon Scaled.png",
+        "codes": "suitlessM",
+        "inherit_codes": ["suitlessB", "suitlessI", "suitlessA", "suitlessE"],
+        "name": "Mastery Heat/Cold Runs"
+      }
+     ]
+    },
+    {
+    "name": "Reverse Grapple Block Difficulty",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/bosses/White Icon Scaled.png",
+        "codes": "preversegrappledifficulty",
+        "img_mods": "@disabled",
+        "name": "Reverse Grapple Block Disabled"
+      },
+      {
+        "img": "images/bosses/White Icon Scaled.png",
+        "codes": "greversegrappledifficulty",
+        "name": "Follow Global Reverse Grapple Block"
+      },
+      {
+        "img": "images/bosses/Green Icon Scaled.png",
+        "codes": "reversegrappleB",
+        "name": "Beginner Reverse Grapple Block"
+      },
+      {
+        "img": "images/bosses/Yellow Icon Scaled.png",
+        "codes": "reversegrappleI",
+        "inherit_codes": "reversegrappleB",
+        "name": "Intermediate Reverse Grapple Block"
+      },
+      {
+        "img": "images/bosses/Cyan Icon Scaled.png",
+        "codes": "reversegrappleA",
+        "inherit_codes": ["reversegrappleB", "reversegrappleI"],
+        "name": "Advanced Reverse Grapple Block"
+      },
+      {
+        "img": "images/bosses/Purple Icon Scaled.png",
+        "codes": "reversegrappleE",
+        "inherit_codes": ["reversegrappleB", "reversegrappleI", "reversegrappleA"],
+        "name": "Expert Reverse Grapple Block"
+      },
+      {
+        "img": "images/bosses/Orange Icon Scaled.png",
+        "codes": "reversegrappleM",
+        "inherit_codes": ["reversegrappleB", "reversegrappleI", "reversegrappleA", "reversegrappleE"],
+        "name": "Mastery Reverse Grapple Block"
+      }
+     ]
+    },
+    {
+    "name": "Damage Boost Difficulty",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/bosses/White Icon Scaled.png",
+        "codes": "pdamageboostdifficulty",
+        "img_mods": "@disabled",
+        "name": "Damage Boost Disabled"
+      },
+      {
+        "img": "images/bosses/White Icon Scaled.png",
+        "codes": "gdamageboostdifficulty",
+        "name": "Follow Global Damage Boost"
+      },
+      {
+        "img": "images/bosses/Green Icon Scaled.png",
+        "codes": "damageboostB",
+        "name": "Beginner Damage Boost"
+      },
+      {
+        "img": "images/bosses/Yellow Icon Scaled.png",
+        "codes": "damageboostI",
+        "inherit_codes": "damageboostB",
+        "name": "Intermediate Damage Boost"
+      },
+      {
+        "img": "images/bosses/Cyan Icon Scaled.png",
+        "codes": "damageboostA",
+        "inherit_codes": ["damageboostB", "damageboostI"],
+        "name": "Advanced Damage Boost"
+      },
+      {
+        "img": "images/bosses/Purple Icon Scaled.png",
+        "codes": "damageboostE",
+        "inherit_codes": ["damageboostB", "damageboostI", "damageboostA"],
+        "name": "Expert Damage Boost"
+      },
+      {
+        "img": "images/bosses/Orange Icon Scaled.png",
+        "codes": "damageboostM",
+        "inherit_codes": ["damageboostB", "damageboostI", "damageboostA", "damageboostE"],
+        "name": "Mastery Damage Boost"
+      }
+     ]
+    },
+    {
+    "name": "Stand on Frozen Enemy Difficulty",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/bosses/White Icon Scaled.png",
+        "codes": "pfrozenenemydifficulty",
+        "img_mods": "@disabled",
+        "name": "Stand on Frozen Enemy Disabled"
+      },
+      {
+        "img": "images/bosses/White Icon Scaled.png",
+        "codes": "gfrozenenemydifficulty",
+        "name": "Follow Global Stand on Frozen Enemy"
+      },
+      {
+        "img": "images/bosses/Green Icon Scaled.png",
+        "codes": "frozenenemyB",
+        "name": "Beginner Stand on Frozen Enemy"
+      },
+      {
+        "img": "images/bosses/Yellow Icon Scaled.png",
+        "codes": "frozenenemyI",
+        "inherit_codes": "frozenenemyB",
+        "name": "Intermediate Stand on Frozen Enemy"
+      },
+      {
+        "img": "images/bosses/Cyan Icon Scaled.png",
+        "codes": "frozenenemyA",
+        "inherit_codes": ["frozenenemyB", "frozenenemyI"],
+        "name": "Advanced Stand on Frozen Enemy"
+      },
+      {
+        "img": "images/bosses/Purple Icon Scaled.png",
+        "codes": "frozenenemyE",
+        "inherit_codes": ["frozenenemyB", "frozenenemyI", "frozenenemyA"],
+        "name": "Expert Stand on Frozen Enemy"
+      },
+      {
+        "img": "images/bosses/Orange Icon Scaled.png",
+        "codes": "frozenenemyM",
+        "inherit_codes": ["frozenenemyB", "frozenenemyI", "frozenenemyA", "frozenenemyE"],
+        "name": "Mastery Stand on Frozen Enemy"
+      }
+     ]
+    },
+    {
+    "name": "Grapple Movement Difficulty",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/bosses/White Icon Scaled.png",
+        "codes": "pgrappledifficulty",
+        "img_mods": "@disabled",
+        "name": "Grapple Movement Disabled"
+      },
+      {
+        "img": "images/bosses/White Icon Scaled.png",
+        "codes": "ggrappledifficulty",
+        "name": "Follow Global Grapple Movement"
+      },
+      {
+        "img": "images/bosses/Green Icon Scaled.png",
+        "codes": "grappleB",
+        "name": "Beginner Grapple Movement"
+      },
+      {
+        "img": "images/bosses/Yellow Icon Scaled.png",
+        "codes": "grappleI",
+        "inherit_codes": "grappleB",
+        "name": "Intermediate Grapple Movement"
+      },
+      {
+        "img": "images/bosses/Cyan Icon Scaled.png",
+        "codes": "grappleA",
+        "inherit_codes": ["grappleB", "grappleI"],
+        "name": "Advanced Grapple Movement"
+      },
+      {
+        "img": "images/bosses/Purple Icon Scaled.png",
+        "codes": "grappleE",
+        "inherit_codes": ["grappleB", "grappleI", "grappleA"],
+        "name": "Expert Grapple Movement"
+      },
+      {
+        "img": "images/bosses/Orange Icon Scaled.png",
+        "codes": "grappleM",
+        "inherit_codes": ["grappleB", "grappleI", "grappleA", "grappleE"],
+        "name": "Mastery Grapple Movement"
+      }
+     ]
+    },
+    {
+    "name": "Cross Bomb Skip Difficulty",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/bosses/White Icon Scaled.png",
+        "codes": "pcrossbombdifficulty",
+        "img_mods": "@disabled",
+        "name": "Cross Bomb Skip Disabled"
+      },
+      {
+        "img": "images/bosses/White Icon Scaled.png",
+        "codes": "gcrossbombdifficulty",
+        "name": "Follow Global Cross Bomb Skip"
+      },
+      {
+        "img": "images/bosses/Green Icon Scaled.png",
+        "codes": "crossbombB",
+        "name": "Beginner Cross Bomb Skip"
+      },
+      {
+        "img": "images/bosses/Yellow Icon Scaled.png",
+        "codes": "crossbombI",
+        "inherit_codes": "crossbombB",
+        "name": "Intermediate Cross Bomb Skip"
+      },
+      {
+        "img": "images/bosses/Cyan Icon Scaled.png",
+        "codes": "crossbombA",
+        "inherit_codes": ["crossbombB", "crossbombI"],
+        "name": "Advanced Cross Bomb Skip"
+      },
+      {
+        "img": "images/bosses/Purple Icon Scaled.png",
+        "codes": "crossbombE",
+        "inherit_codes": ["crossbombB", "crossbombI", "crossbombA"],
+        "name": "Expert Cross Bomb Skip"
+      },
+      {
+        "img": "images/bosses/Orange Icon Scaled.png",
+        "codes": "crossbombM",
+        "inherit_codes": ["crossbombB", "crossbombI", "crossbombA", "crossbombE"],
+        "name": "Mastery Cross Bomb Skip"
+      }
+     ]
+    },
+    {
+    "name": "Climb Sloped Tunnels Difficulty",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/bosses/White Icon Scaled.png",
+        "codes": "pslopedtunnelsdifficulty",
+        "img_mods": "@disabled",
+        "name": "Climb Sloped Tunnels Disabled"
+      },
+      {
+        "img": "images/bosses/White Icon Scaled.png",
+        "codes": "gslopedtunnelsdifficulty",
+        "name": "Follow Global Climb Sloped Tunnels"
+      },
+      {
+        "img": "images/bosses/Green Icon Scaled.png",
+        "codes": "slopedtunnelsB",
+        "name": "Beginner Climb Sloped Tunnels"
+      },
+      {
+        "img": "images/bosses/Yellow Icon Scaled.png",
+        "codes": "slopedtunnelsI",
+        "inherit_codes": "slopedtunnelsB",
+        "name": "Intermediate Climb Sloped Tunnels"
+      },
+      {
+        "img": "images/bosses/Cyan Icon Scaled.png",
+        "codes": "slopedtunnelsA",
+        "inherit_codes": ["slopedtunnelsB", "slopedtunnelsI"],
+        "name": "Advanced Climb Sloped Tunnels"
+      },
+      {
+        "img": "images/bosses/Purple Icon Scaled.png",
+        "codes": "slopedtunnelsE",
+        "inherit_codes": ["slopedtunnelsB", "slopedtunnelsI", "slopedtunnelsA"],
+        "name": "Expert Climb Sloped Tunnels"
+      },
+      {
+        "img": "images/bosses/Orange Icon Scaled.png",
+        "codes": "slopedtunnelsM",
+        "inherit_codes": ["slopedtunnelsB", "slopedtunnelsI", "slopedtunnelsA", "slopedtunnelsE"],
+        "name": "Mastery Climb Sloped Tunnels"
+      }
+     ]
+    },
+    {
+    "name": "Short Boost Difficulty",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/bosses/White Icon Scaled.png",
+        "codes": "pshortboostdifficulty",
+        "img_mods": "@disabled",
+        "name": "Short Boost Disabled"
+      },
+      {
+        "img": "images/bosses/White Icon Scaled.png",
+        "codes": "gshortboostdifficulty",
+        "name": "Follow Global Short Boost"
+      },
+      {
+        "img": "images/bosses/Green Icon Scaled.png",
+        "codes": "shortboostB",
+        "name": "Beginner Short Boost"
+      },
+      {
+        "img": "images/bosses/Yellow Icon Scaled.png",
+        "codes": "shortboostI",
+        "inherit_codes": "shortboostB",
+        "name": "Intermediate Short Boost"
+      },
+      {
+        "img": "images/bosses/Cyan Icon Scaled.png",
+        "codes": "shortboostA",
+        "inherit_codes": ["shortboostB", "shortboostI"],
+        "name": "Advanced Short Boost"
+      },
+      {
+        "img": "images/bosses/Purple Icon Scaled.png",
+        "codes": "shortboostE",
+        "inherit_codes": ["shortboostB", "shortboostI", "shortboostA"],
+        "name": "Expert Short Boost"
+      },
+      {
+        "img": "images/bosses/Orange Icon Scaled.png",
+        "codes": "shortboostM",
+        "inherit_codes": ["shortboostB", "shortboostI", "shortboostA", "shortboostE"],
+        "name": "Mastery Short Boost"
+      }
+     ]
+    },
+    {
+    "name": "Diffusion Abuse Difficulty",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/bosses/White Icon Scaled.png",
+        "codes": "pdiffusionabusedifficulty",
+        "img_mods": "@disabled",
+        "name": "Diffusion Abuse Disabled"
+      },
+      {
+        "img": "images/bosses/White Icon Scaled.png",
+        "codes": "gdiffusionabusedifficulty",
+        "name": "Follow Global Diffusion Abuse"
+      },
+      {
+        "img": "images/bosses/Green Icon Scaled.png",
+        "codes": "diffusionabuseB",
+        "name": "Beginner Diffusion Abuse"
+      },
+      {
+        "img": "images/bosses/Yellow Icon Scaled.png",
+        "codes": "diffusionabuseI",
+        "inherit_codes": "diffusionabuseB",
+        "name": "Intermediate Diffusion Abuse"
+      },
+      {
+        "img": "images/bosses/Cyan Icon Scaled.png",
+        "codes": "diffusionabuseA",
+        "inherit_codes": ["diffusionabuseB", "diffusionabuseI"],
+        "name": "Advanced Diffusion Abuse"
+      },
+      {
+        "img": "images/bosses/Purple Icon Scaled.png",
+        "codes": "diffusionabuseE",
+        "inherit_codes": ["diffusionabuseB", "diffusionabuseI", "diffusionabuseA"],
+        "name": "Expert Diffusion Abuse"
+      },
+      {
+        "img": "images/bosses/Orange Icon Scaled.png",
+        "codes": "diffusionabuseM",
+        "inherit_codes": ["diffusionabuseB", "diffusionabuseI", "diffusionabuseA", "diffusionabuseE"],
+        "name": "Mastery Diffusion Abuse"
+      }
+     ]
+    },
+    {
+    "name": "Flash Shift Skip Difficulty",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/bosses/White Icon Scaled.png",
+        "codes": "pflashshiftdifficulty",
+        "img_mods": "@disabled",
+        "name": "Flash Shift Skip Disabled"
+      },
+      {
+        "img": "images/bosses/White Icon Scaled.png",
+        "codes": "gflashshiftdifficulty",
+        "name": "Follow Global Flash Shift Skip"
+      },
+      {
+        "img": "images/bosses/Green Icon Scaled.png",
+        "codes": "flashshiftB",
+        "name": "Beginner Flash Shift Skip"
+      },
+      {
+        "img": "images/bosses/Yellow Icon Scaled.png",
+        "codes": "flashshiftI",
+        "inherit_codes": "flashshiftB",
+        "name": "Intermediate Flash Shift Skip"
+      },
+      {
+        "img": "images/bosses/Cyan Icon Scaled.png",
+        "codes": "flashshiftA",
+        "inherit_codes": ["flashshiftB", "flashshiftI"],
+        "name": "Advanced Flash Shift Skip"
+      },
+      {
+        "img": "images/bosses/Purple Icon Scaled.png",
+        "codes": "flashshiftE",
+        "inherit_codes": ["flashshiftB", "flashshiftI", "flashshiftA"],
+        "name": "Expert Flash Shift Skip"
+      },
+      {
+        "img": "images/bosses/Orange Icon Scaled.png",
+        "codes": "flashshiftM",
+        "inherit_codes": ["flashshiftB", "flashshiftI", "flashshiftA", "flashshiftE"],
+        "name": "Mastery Flash Shift Skip"
+      }
+     ]
+    },
+    {
+    "name": "Diagonal Bomb Jump Difficulty",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/bosses/White Icon Scaled.png",
+        "codes": "pDBJdifficulty",
+        "img_mods": "@disabled",
+        "name": "Diagonal Bomb Jump Disabled"
+      },
+      {
+        "img": "images/bosses/White Icon Scaled.png",
+        "codes": "gDBJdifficulty",
+        "name": "Follow Global Diagonal Bomb Jump"
+      },
+      {
+        "img": "images/bosses/Green Icon Scaled.png",
+        "codes": "DBJB",
+        "name": "Beginner Diagonal Bomb Jump"
+      },
+      {
+        "img": "images/bosses/Yellow Icon Scaled.png",
+        "codes": "DBJI",
+        "inherit_codes": "DBJB",
+        "name": "Intermediate Diagonal Bomb Jump"
+      },
+      {
+        "img": "images/bosses/Cyan Icon Scaled.png",
+        "codes": "DBJA",
+        "inherit_codes": ["DBJB", "DBJI"],
+        "name": "Advanced Diagonal Bomb Jump"
+      },
+      {
+        "img": "images/bosses/Purple Icon Scaled.png",
+        "codes": "DBJE",
+        "inherit_codes": ["DBJB", "DBJI", "DBJA"],
+        "name": "Expert Diagonal Bomb Jump"
+      },
+      {
+        "img": "images/bosses/Orange Icon Scaled.png",
+        "codes": "DBJM",
+        "inherit_codes": ["DBJB", "DBJI", "DBJA", "DBJE"],
+        "name": "Mastery Diagonal Bomb Jump"
+      }
+     ]
+    },
+    {
+    "name": "Ledge Warp Difficulty",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/bosses/White Icon Scaled.png",
+        "codes": "pledgewarpdifficulty",
+        "img_mods": "@disabled",
+        "name": "Ledge Warp Disabled"
+      },
+      {
+        "img": "images/bosses/White Icon Scaled.png",
+        "codes": "gledgewarpdifficulty",
+        "name": "Follow Global Ledge Warp"
+      },
+      {
+        "img": "images/bosses/Green Icon Scaled.png",
+        "codes": "ledgewarpB",
+        "name": "Beginner Ledge Warp"
+      },
+      {
+        "img": "images/bosses/Yellow Icon Scaled.png",
+        "codes": "ledgewarpI",
+        "inherit_codes": "ledgewarpB",
+        "name": "Intermediate Ledge Warp"
+      },
+      {
+        "img": "images/bosses/Cyan Icon Scaled.png",
+        "codes": "ledgewarpA",
+        "inherit_codes": ["ledgewarpB", "ledgewarpI"],
+        "name": "Advanced Ledge Warp"
+      },
+      {
+        "img": "images/bosses/Purple Icon Scaled.png",
+        "codes": "ledgewarpE",
+        "inherit_codes": ["ledgewarpB", "ledgewarpI", "ledgewarpA"],
+        "name": "Expert Ledge Warp"
+      },
+      {
+        "img": "images/bosses/Orange Icon Scaled.png",
+        "codes": "ledgewarpM",
+        "inherit_codes": ["ledgewarpB", "ledgewarpI", "ledgewarpA", "ledgewarpE"],
+        "name": "Mastery Ledge Warp"
+      }
+     ]
+    },
+    {
+    "name": "Cross Bomb Launch Difficulty",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/bosses/White Icon Scaled.png",
+        "codes": "pcblaunchdifficulty",
+        "img_mods": "@disabled",
+        "name": "Cross Bomb Launch Disabled"
+      },
+      {
+        "img": "images/bosses/White Icon Scaled.png",
+        "codes": "gcblaunchdifficulty",
+        "name": "Follow Global Cross Bomb Launch"
+      },
+      {
+        "img": "images/bosses/Green Icon Scaled.png",
+        "codes": "cblaunchB",
+        "name": "Beginner Cross Bomb Launch"
+      },
+      {
+        "img": "images/bosses/Yellow Icon Scaled.png",
+        "codes": "cblaunchI",
+        "inherit_codes": "cblaunchB",
+        "name": "Intermediate Cross Bomb Launch"
+      },
+      {
+        "img": "images/bosses/Cyan Icon Scaled.png",
+        "codes": "cblaunchA",
+        "inherit_codes": ["cblaunchB", "cblaunchI"],
+        "name": "Advanced Cross Bomb Launch"
+      },
+      {
+        "img": "images/bosses/Purple Icon Scaled.png",
+        "codes": "cblaunchE",
+        "inherit_codes": ["cblaunchB", "cblaunchI", "cblaunchA"],
+        "name": "Expert Cross Bomb Launch"
+      },
+      {
+        "img": "images/bosses/Orange Icon Scaled.png",
+        "codes": "cblaunchM",
+        "inherit_codes": ["cblaunchB", "cblaunchI", "cblaunchA", "cblaunchE"],
+        "name": "Mastery Cross Bomb Launch"
+      }
+     ]
+    },
+    {
+    "name": "Floor Clip Difficulty",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/bosses/White Icon Scaled.png",
+        "codes": "pfloorclipdifficulty",
+        "img_mods": "@disabled",
+        "name": "Floor Clip Disabled"
+      },
+      {
+        "img": "images/bosses/White Icon Scaled.png",
+        "codes": "gfloorclipdifficulty",
+        "name": "Follow Global Floor Clip"
+      },
+      {
+        "img": "images/bosses/Green Icon Scaled.png",
+        "codes": "floorclipB",
+        "name": "Beginner Floor Clip"
+      },
+      {
+        "img": "images/bosses/Yellow Icon Scaled.png",
+        "codes": "floorclipI",
+        "inherit_codes": "floorclipB",
+        "name": "Intermediate Floor Clip"
+      },
+      {
+        "img": "images/bosses/Cyan Icon Scaled.png",
+        "codes": "floorclipA",
+        "inherit_codes": ["floorclipB", "floorclipI"],
+        "name": "Advanced Floor Clip"
+      },
+      {
+        "img": "images/bosses/Purple Icon Scaled.png",
+        "codes": "floorclipE",
+        "inherit_codes": ["floorclipB", "floorclipI", "floorclipA"],
+        "name": "Expert Floor Clip"
+      },
+      {
+        "img": "images/bosses/Orange Icon Scaled.png",
+        "codes": "floorclipM",
+        "inherit_codes": ["floorclipB", "floorclipI", "floorclipA", "floorclipE"],
+        "name": "Mastery Floor Clip"
+      }
+     ]
+    },
+    {
+    "name": "Climb Sloped Surfaces Difficulty",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/bosses/White Icon Scaled.png",
+        "codes": "pclimbslopedsurfacesdifficulty",
+        "img_mods": "@disabled",
+        "name": "Climb Sloped Surfaces Disabled"
+      },
+      {
+        "img": "images/bosses/White Icon Scaled.png",
+        "codes": "gclimbslopedsurfacesdifficulty",
+        "name": "Follow Global Climb Sloped Surfaces"
+      },
+      {
+        "img": "images/bosses/Green Icon Scaled.png",
+        "codes": "climbslopedsurfacesB",
+        "name": "Beginner Climb Sloped Surfaces"
+      },
+      {
+        "img": "images/bosses/Yellow Icon Scaled.png",
+        "codes": "climbslopedsurfacesI",
+        "inherit_codes": "climbslopedsurfacesB",
+        "name": "Intermediate Climb Sloped Surfaces"
+      },
+      {
+        "img": "images/bosses/Cyan Icon Scaled.png",
+        "codes": "climbslopedsurfacesA",
+        "inherit_codes": ["climbslopedsurfacesB", "climbslopedsurfacesI"],
+        "name": "Advanced Climb Sloped Surfaces"
+      },
+      {
+        "img": "images/bosses/Purple Icon Scaled.png",
+        "codes": "climbslopedsurfacesE",
+        "inherit_codes": ["climbslopedsurfacesB", "climbslopedsurfacesI", "climbslopedsurfacesA"],
+        "name": "Expert Climb Sloped Surfaces"
+      },
+      {
+        "img": "images/bosses/Orange Icon Scaled.png",
+        "codes": "climbslopedsurfacesM",
+        "inherit_codes": ["climbslopedsurfacesB", "climbslopedsurfacesI", "climbslopedsurfacesA", "climbslopedsurfacesE"],
+        "name": "Mastery Climb Sloped Surfaces"
+      }
+     ]
     }
 ]

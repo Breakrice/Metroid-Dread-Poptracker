@@ -1,0 +1,60 @@
+{
+  "settings_popup": {
+    "type": "container",
+    "background": "#000000",
+    "content": {
+      "type": "tabbed",
+      "tabs": [
+        {
+          "title": "Logic Settings",
+          "content": [
+            {
+              "type": "itemgrid",
+              "item_h_alignment": "left",
+              "item_size": "45, 45",
+              "rows": [
+                [ "pstart", "transportrando", "powerbombnerf", "releasedx", "RequiredDNA", "startingpowerbombs", "startingmissiles" ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Door Lock Rando",
+          "content": [
+            {
+              "type": "itemgrid",
+              "item_h_alignment": "left",
+              "item_size": "45, 45",
+              "rows": [
+                [ "doorlockrando" ],
+                [ ],
+                ["plasmalockchange", "sensorlockchange", "grapplelockchange", "superlockchange", "accessopenlockchange", "beamlockchange", "chargelockchange", "widelockchange", "wavelockchange", "missilelockchange"],
+                [ ],
+                ["plasmalockto", "sensorlockto", "grapplelockto", "superlockto", "accessopenlockto", "beamlockto", "chargelockto", "widelockto", "wavelockto", "missilelockto"]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Trick Settings",
+          "content": [
+            {
+              "type": "itemgrid",
+              "item_h_alignment": "left",
+              "item_size": "45, 45",
+              "rows": [
+                [ "ptrickdifficulty" ],
+                [ ],
+                [ "pknowledgedifficulty", "pmovementdifficulty", "pcombatdifficulty" ],
+                [ "ppseudowavedifficulty", "pIBJdifficulty", "pWBJdifficulty", "pWSJdifficulty", "gSwWJdifficulty", "pslidejumpdifficulty" ],
+                [ "pspeeddifficulty", "pwalljumpdifficulty", "psuitlessdifficulty", "preversegrappledifficulty", "pdamageboostdifficulty", "pfrozenenemydifficulty" ],
+                [ "pgrappledifficulty", "pcrossbombdifficulty","pslopedtunnelsdifficulty","pshortboostdifficulty", "pdiffusionabusedifficulty", "pflashshiftdifficulty" ],
+                [ "pDBJdifficulty", "pledgewarpdifficulty", "pcblaunchdifficulty", "pfloorclipdifficulty", "pclimbslopedsurfacesdifficulty"]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
