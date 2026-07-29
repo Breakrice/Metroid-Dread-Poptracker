@@ -12,7 +12,7 @@
             "name": "Missile"
           }
         ],
-        "map_locations": 
+        "map_locations":
         [
           {
             "map": "hanubia",
@@ -30,7 +30,7 @@
             "name": "Missile"
           }
         ],
-        "map_locations": 
+        "map_locations":
         [
           {
             "map": "hanubia",
@@ -40,7 +40,7 @@
         ]
       },
       {
-        "name": "Vertical Bomb Maze",
+        "name": "Speedboost Puzzle Room",
         "chest_unopened_img": "images/checks/Power Bomb Hud Icon.png",
         "chest_opened_img": "images/checks/Power bomb opened.png",
         "sections": [
@@ -48,7 +48,7 @@
             "name": "Power Bomb Tank"
           }
         ],
-        "map_locations": 
+        "map_locations":
         [
           {
             "map": "hanubia",
@@ -70,7 +70,7 @@
             "chest_opened_img": "images/checks/powerbomb opened.png"
           }
         ],
-        "map_locations": 
+        "map_locations":
         [
           {
             "map": "hanubia",

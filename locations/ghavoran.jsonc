@@ -12,7 +12,7 @@
             "name": "Missile"
           }
         ],
-        "map_locations": 
+        "map_locations":
         [
           {
             "map": "ghavoran",
@@ -22,7 +22,7 @@
         ]
       },
       {
-        "name": "Teleport to Burenia (Storm Gate)",
+        "name": "Energy Recharge Station North",
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
@@ -30,7 +30,7 @@
             "name": "Missile"
           }
         ],
-        "map_locations": 
+        "map_locations":
         [
           {
             "map": "ghavoran",
@@ -40,7 +40,7 @@
         ]
       },
       {
-        "name": "Teleport to Burenia (Tunnel)",
+        "name": "Teleport to Burenia",
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
@@ -48,7 +48,7 @@
             "name": "Missile"
           }
         ],
-        "map_locations": 
+        "map_locations":
         [
           {
             "map": "ghavoran",
@@ -66,7 +66,7 @@
             "name": "Missile"
           }
         ],
-        "map_locations": 
+        "map_locations":
         [
           {
             "map": "ghavoran",
@@ -84,7 +84,7 @@
             "name": "Missile"
           }
         ],
-        "map_locations": 
+        "map_locations":
         [
           {
             "map": "ghavoran",
@@ -102,7 +102,7 @@
             "name": "Missile"
           }
         ],
-        "map_locations": 
+        "map_locations":
         [
           {
             "map": "ghavoran",
@@ -120,7 +120,7 @@
             "name": "Missile"
           }
         ],
-        "map_locations": 
+        "map_locations":
         [
           {
             "map": "ghavoran",
@@ -138,7 +138,7 @@
             "name": "Missile"
           }
         ],
-        "map_locations": 
+        "map_locations":
         [
           {
             "map": "ghavoran",
@@ -156,7 +156,7 @@
             "name": "Missile"
           }
         ],
-        "map_locations": 
+        "map_locations":
         [
           {
             "map": "ghavoran",
@@ -174,7 +174,7 @@
             "name": "Missile"
           }
         ],
-        "map_locations": 
+        "map_locations":
         [
           {
             "map": "ghavoran",
@@ -192,7 +192,7 @@
             "name": "Missile+"
           }
         ],
-        "map_locations": 
+        "map_locations":
         [
           {
             "map": "ghavoran",
@@ -210,7 +210,7 @@
             "name": "E-Tank"
           }
         ],
-        "map_locations": 
+        "map_locations":
         [
           {
             "map": "ghavoran",
@@ -228,7 +228,7 @@
             "name": "E-Tank Part"
           }
         ],
-        "map_locations": 
+        "map_locations":
         [
           {
             "map": "ghavoran",
@@ -246,7 +246,7 @@
             "name": "E-Tank Part"
           }
         ],
-        "map_locations": 
+        "map_locations":
         [
           {
             "map": "ghavoran",
@@ -264,7 +264,7 @@
             "name": "Power Bomb Tank"
           }
         ],
-        "map_locations": 
+        "map_locations":
         [
           {
             "map": "ghavoran",
@@ -285,7 +285,7 @@
             "chest_opened_img": "images/checks/Cross opened.png"
           }
         ],
-        "map_locations": 
+        "map_locations":
         [
           {
             "map": "ghavoran",
@@ -307,7 +307,7 @@
             "chest_opened_img": "images/checks/Ice opened.png"
           }
         ],
-        "map_locations": 
+        "map_locations":
         [
           {
             "map": "ghavoran",
@@ -325,7 +325,7 @@
             "chest_opened_img": "images/checks/pulse opened.png"
           }
         ],
-        "map_locations": 
+        "map_locations":
         [
           {
             "map": "ghavoran",
@@ -343,7 +343,7 @@
             "chest_opened_img": "images/checks/super opened.png"
           }
         ],
-        "map_locations": 
+        "map_locations":
         [
           {
             "map": "ghavoran",
@@ -361,7 +361,7 @@
             "chest_opened_img": "images/checks/Spin opened.png"
           }
         ],
-        "map_locations": 
+        "map_locations":
         [
           {
             "map": "ghavoran",

@@ -651,12 +651,12 @@
                         "ref": "Ghavoran/Cross Bomb Tutorial/Missile"
                     },
                     {
-                        "name": "Teleport to Burenia (Storm Gate)",
-                        "ref": "Ghavoran/Teleport to Burenia (Storm Gate)/Missile"
+                        "name": "Energy Recharge Station North",
+                        "ref": "Ghavoran/Energy Recharge Station North/Missile"
                     },
                     {
-                        "name": "Teleport to Burenia (Tunnel)",
-                        "ref": "Ghavoran/Teleport to Burenia (Tunnel)/Missile"
+                        "name": "Teleport to Burenia",
+                        "ref": "Ghavoran/Teleport to Burenia/Missile"
                     },
                     {
                         "name": "Golzuna Tower (Tunnel)",
@@ -760,8 +760,8 @@
                         "ref": "Hanubia/Ferenia Shortcut/Missile"
                     },
                     {
-                        "name": "Vertical Bomb Maze",
-                        "ref": "Hanubia/Vertical Bomb Maze/Power Bomb Tank"
+                        "name": "Speedboost Puzzle Room",
+                        "ref": "Hanubia/Speedboost Puzzle Room/Power Bomb Tank"
                     },
                     {
                         "name": "Orange EMMI",
