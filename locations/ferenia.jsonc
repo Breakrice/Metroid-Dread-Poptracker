@@ -1,7 +1,7 @@
 [
   {
     "name": "Ferenia",
-    "children" :
+    "children":
     [
       {
         "name": "Escue Eyedoor Room",
@@ -58,7 +58,7 @@
         ]
       },
       {
-        "name": "Seperate Tunnels Room (Right)",
+        "name": "Separate Tunnels Room (Right)",
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
@@ -76,7 +76,7 @@
         ]
       },
       {
-        "name": "Seperate Tunnels Room (Left)",
+        "name": "Separate Tunnels Room (Left)",
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [

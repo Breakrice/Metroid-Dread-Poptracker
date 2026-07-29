@@ -1,7 +1,7 @@
 [
   {
     "name": "Ghavoran",
-    "children" :
+    "children":
     [
       {
         "name": "Cross Bomb Tutorial",
@@ -304,7 +304,7 @@
           {
             "name": "Ice Missiles",
             "chest_unopened_img": "images/items/Ice Missile.png",
-            "chest_opened_img": "images/checks/Ice opened.png"
+            "chest_opened_img": "images/checks/Ice Opened.png"
           }
         ],
         "map_locations":
