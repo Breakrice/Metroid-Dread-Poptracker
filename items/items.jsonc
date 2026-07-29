@@ -208,6 +208,12 @@
     "codes": "pulse"
   },
   {
+    "name": "Quiet Robe",
+    "type": "toggle",
+    "img": "images/items/quietrobe_closeup.png",
+    "codes": "quietrobe"
+  },
+  {
     "name": "Released X Parasite",
     "type": "toggle",
     "img": "images/items/X Parasite.png",

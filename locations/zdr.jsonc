@@ -361,6 +361,10 @@
                     {
                         "name": "Morph Ball / Green EMMI",
                         "ref": "Cataris/Green EMMI/Morph Ball"
+                    },
+                    {
+                        "name": "Experiment No. Z-57",
+                        "ref": "Cataris/Experiment No. Z-57/"
                     }
                 ]
             }
@@ -507,6 +511,10 @@
                     {
                         "name": "Plasma Beam Room",
                         "ref": "Elun/Plasma Beam Room/Pedestal"
+                    },
+                    {
+                        "name": "Escue",
+                        "ref": "Elun/Escue/"
                     }
                 ]
             }

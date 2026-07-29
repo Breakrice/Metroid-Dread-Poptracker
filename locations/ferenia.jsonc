@@ -308,6 +308,19 @@
             "y": 390
           }
         ]
+      },
+      {
+        "name": "Quiet Robe",
+        "sections": [
+          { "hosted_item": "quietrobe" }
+        ],
+        "map_locations": [
+          {
+            "map": "ferenia",
+            "x": 1215,
+            "y": 910
+          }
+        ]
       }
     ]
   }

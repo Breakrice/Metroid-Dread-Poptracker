@@ -11,7 +11,7 @@
         "rows": [
           [ "wide", "plasma", "wave", "grapple", "morph", "pbomb", "powerbomb", "CONpowerbomb", "" ],
           [ "pcharge", "super", "ice", "smissile", "pjump", "screw", "psuit", "CONmissile", "" ],
-          [ "spider", "speed", "cloak", "flash", "pulse", "", "xpar", "CONetank", "CONetank part" ]
+          [ "spider", "speed", "cloak", "flash", "pulse", "xpar", "quietrobe", "CONetank", "CONetank part" ]
         ]
       }
     ]
