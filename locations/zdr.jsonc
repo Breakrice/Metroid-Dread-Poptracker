@@ -745,6 +745,10 @@
                         "name": "Purple EMMI",
                         "chest_unopened_img": "images/bosses/Purple Icon Scaled.png",
                         "chest_opened_img": "images/checks/Purple Defeated.png"
+                    },
+                    {
+                        "name": "Quiet Robe",
+                        "ref": "Ferenia/Quiet Robe/"
                     }
                 ]
             }

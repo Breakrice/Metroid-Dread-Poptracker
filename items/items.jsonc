@@ -199,13 +199,18 @@
     "type": "toggle",
     "img": "images/items/Flash Shift.png",
     "codes": "flash"
-  }
-  ,
+  },
   {
     "name": "Pulse Radar",
     "type": "toggle",
     "img": "images/items/Scan Pulse.png",
     "codes": "pulse"
+  },
+  {
+    "name": "Quiet Robe",
+    "type": "toggle",
+    "img": "images/items/quietrobe_closeup.png",
+    "codes": "quietrobe"
   },
   {
     "name": "Released X Parasite",
