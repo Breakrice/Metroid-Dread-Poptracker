@@ -256,8 +256,12 @@
         ]
       },
       {
-        "name": "Purple EMMI",
+        "name": "Central Unit",
         "sections": [
+          {
+            "name": "Purple EMMI",
+            "hosted_item": "purple"
+          },
           {
             "name": "Wave Beam",
             "chest_unopened_img": "images/items/Wave Beam.png",

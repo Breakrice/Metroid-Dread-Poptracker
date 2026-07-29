@@ -58,8 +58,12 @@
         ]
       },
       {
-        "name": "Orange EMMI",
+        "name": "Red Chozo Soldier",
         "sections": [
+          {
+            "name": "Orange EMMI",
+            "hosted_item": "orange"
+          },
           {
             "name": "Power Bomb",
             "chest_unopened_img": "images/items/Power Bomb.png",

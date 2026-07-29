@@ -382,8 +382,12 @@
         ]
       },
       {
-        "name": "Green EMMI",
+        "name": "Central Unit",
         "sections": [
+          {
+            "name": "Green EMMI",
+            "hosted_item": "green"
+          },
           {
             "name": "Morph Ball",
             "chest_unopened_img": "images/items/Morph Ball.png",
@@ -403,9 +407,7 @@
         "name": "Kraid",
         "sections": [
           {
-            "name": "Item",
-            "chest_unopened_img": "images/bosses/Kraid Icon.png",
-            "chest_opened_img": "images/checks/Kraid Defeated.png"
+            "hosted_item": "kraid"
           }
         ],
         "map_locations": 
@@ -432,6 +434,22 @@
             "map": "cataris",
             "x": 664,
             "y": 1254
+          }
+        ]
+      },
+      {
+        "name": "Experiment No. Z-57",
+        "sections": [
+          {
+            "hosted_item": "z57"
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "cataris",
+            "x": 1695,
+            "y": 1365
           }
         ]
       }

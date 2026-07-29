@@ -347,9 +347,7 @@
         "name": "Drogyga",
         "sections": [
           {
-            "name": "Item",
-            "chest_unopened_img": "images/bosses/Drogyga Icon.png",
-            "chest_opened_img": "images/checks/Drogyga Defeated.png"
+            "hosted_item": "drogyga"
           }
         ],
         "map_locations": 

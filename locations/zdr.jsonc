@@ -145,12 +145,20 @@
                         "ref": "Artaria/Screw Attack Room/Pedestal"
                     },
                     {
-                        "name": "Phantom Cloak / Corpius",
+                        "name": "Corpius",
+                        "ref": "Artaria/Corpius/"
+                    },
+                    {
+                        "name": "Phantom Cloak",
                         "ref": "Artaria/Corpius/Phantom Cloak"
                     },
                     {
+                        "name": "White EMMI",
+                        "ref": "Artaria/Central Unit/White EMMI"
+                    },
+                    {
                         "name": "Spider Magnet / White EMMI",
-                        "ref": "Artaria/White EMMI/Spider Magnet"
+                        "ref": "Artaria/Central Unit/Spider Magnet"
                     }
                 ]
             }
@@ -247,7 +255,7 @@
                     },
                     {
                         "name": "Drogyga",
-                        "ref": "Burenia/Drogyga/Item"
+                        "ref": "Burenia/Drogyga/"
                     }
                 ]
             }
@@ -356,11 +364,19 @@
                     },
                     {
                         "name": "Kraid",
-                        "ref": "Cataris/Kraid/Item"
+                        "ref": "Cataris/Kraid/"
                     },
                     {
-                        "name": "Morph Ball / Green EMMI",
-                        "ref": "Cataris/Green EMMI/Morph Ball"
+                        "name": "Green EMMI",
+                        "ref": "Cataris/Central Unit/Green EMMI"
+                    },
+                    {
+                        "name": "Morph Ball",
+                        "ref": "Cataris/Central Unit/Morph Ball"
+                    },
+                    {
+                        "name": "Experiment No. Z-57",
+                        "ref": "Cataris/Experiment No. Z-57/"
                     }
                 ]
             }
@@ -468,8 +484,12 @@
                         "ref": "Dairon/Wide Beam Room/Pedestal"
                     },
                     {
-                        "name": "Speed Booster / Yellow EMMI",
-                        "ref": "Dairon/Yellow EMMI/Speed Booster"
+                        "name": "Yellow EMMI",
+                        "ref": "Dairon/Central Unit/Yellow EMMI"
+                    },
+                    {
+                        "name": "Speed Booster",
+                        "ref": "Dairon/Central Unit/Speed Booster"
                     }
                 ]
             }
@@ -507,6 +527,10 @@
                     {
                         "name": "Plasma Beam Room",
                         "ref": "Elun/Plasma Beam Room/Pedestal"
+                    },
+                    {
+                        "name": "Escue",
+                        "ref": "Elun/Escue/"
                     },
                     {
                         "name": "Release the X",
@@ -594,8 +618,12 @@
                         "ref": "Ferenia/Space Jump Room/Pedestal"
                     },
                     {
-                        "name": "Wave Beam / Purple EMMI",
-                        "ref": "Ferenia/Purple EMMI/Wave Beam"
+                        "name": "Purple EMMI",
+                        "ref": "Ferenia/Central Unit/Purple EMMI"
+                    },
+                    {
+                        "name": "Wave Beam",
+                        "ref": "Ferenia/Central Unit/Wave Beam"
                     },
                     {
                         "name": "Quiet Robe",
@@ -683,10 +711,6 @@
                         "ref": "Ghavoran/Pulse Radar Room/Pedestal"
                     },
                     {
-                        "name": "Cross Bomb / Golzuna",
-                        "ref": "Ghavoran/Golzuna/Cross Bomb"
-                    },
-                    {
                         "name": "Super Missile Room",
                         "ref": "Ghavoran/Super Missile Room/Pedestal"
                     },
@@ -695,8 +719,20 @@
                         "ref": "Ghavoran/Spin Boost Room/Pedestal"
                     },
                     {
-                        "name": "Ice Missiles / Cyan EMMI",
-                        "ref": "Ghavoran/Cyan EMMI/Ice Missiles"
+                        "name": "Cyan EMMI",
+                        "ref": "Ghavoran/Central Unit/Cyan EMMI"
+                    },
+                    {
+                        "name": "Ice Missiles",
+                        "ref": "Ghavoran/Central Unit/Ice Missiles"
+                    },
+                    {
+                        "name": "Golzuna",
+                        "ref": "Ghavoran/Golzuna/"
+                    },
+                    {
+                        "name": "Cross Bomb",
+                        "ref": "Ghavoran/Golzuna/Cross Bomb"
                     }
                 ]
             }
@@ -728,8 +764,12 @@
                         "ref": "Hanubia/Vertical Bomb Maze/Power Bomb Tank"
                     },
                     {
-                        "name": "Power Bomb / Orange EMMI",
-                        "ref": "Hanubia/Orange EMMI/Power Bomb"
+                        "name": "Orange EMMI",
+                        "ref": "Hanubia/Red Chozo Soldier/Orange EMMI"
+                    },
+                    {
+                        "name": "Power Bomb",
+                        "ref": "Hanubia/Red Chozo Soldier/Power Bomb"
                     }
                 ]
             }

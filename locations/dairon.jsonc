@@ -364,8 +364,12 @@
         ]
       },
       {
-        "name": "Yellow EMMI",
+        "name": "Central Unit",
         "sections": [
+          {
+            "name": "Yellow EMMI",
+            "hosted_item": "yellow"
+          },
           {
             "name": "Speed Booster",
             "chest_unopened_img": "images/items/Speed Booster.png",

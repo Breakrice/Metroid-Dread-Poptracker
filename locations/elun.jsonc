@@ -94,6 +94,22 @@
         ]
       },
       {
+        "name": "Escue",
+        "sections": [
+          {
+            "hosted_item": "escue"
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "elun",
+            "x": 1824,
+            "y": 147
+          }
+        ]
+      },
+      {
         "name": "Release the X",
         "sections": [
           { "hosted_item": "xpar" }
