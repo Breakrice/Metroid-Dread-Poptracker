@@ -278,10 +278,13 @@
         ]
       },
       {
-        "name": "Storm Missiles Room",
+        "name": "Escue",
         "sections": [
           {
-            "name": "Pedestal",
+            "hosted_item": "escue"
+          },
+          {
+            "name": "Storm Missiles",
             "chest_unopened_img": "images/items/Storm Missile.png",
             "chest_opened_img": "images/checks/Storm opened.png"
           }

@@ -529,10 +529,6 @@
                         "ref": "Elun/Plasma Beam Room/Pedestal"
                     },
                     {
-                        "name": "Escue",
-                        "ref": "Elun/Escue/"
-                    },
-                    {
                         "name": "Release the X",
                         "ref": "Elun/Release the X/"
                     }
@@ -610,12 +606,16 @@
                         "ref": "Ferenia/Twin Robot Arena/Power Bomb Tank"
                     },
                     {
-                        "name": "Storm Missiles Room",
-                        "ref": "Ferenia/Storm Missiles Room/Pedestal"
-                    },
-                    {
                         "name": "Space Jump Room",
                         "ref": "Ferenia/Space Jump Room/Pedestal"
+                    },
+                    {
+                        "name": "Escue",
+                        "ref": "Ferenia/Escue/"
+                    },
+                    {
+                        "name": "Storm Missiles",
+                        "ref": "Ferenia/Escue/Storm Missiles"
                     },
                     {
                         "name": "Purple EMMI",
