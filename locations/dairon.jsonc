@@ -40,12 +40,12 @@
         ]
       },
       {
-        "name": "Early Grapple Room",
+        "name": "Early Grapple Room (Speed Puzzle)",
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
           {
-            "name": "Missile (Speedboost)"
+            "name": "Missile"
           }
         ],
         "map_locations": 
@@ -58,12 +58,12 @@
         ]
       },
       {
-        "name": "Early Grapple Room",
+        "name": "Early Grapple Room (Tunnel)",
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
           {
-            "name": "Missile (Tunnel)"
+            "name": "Missile"
           }
         ],
         "map_locations": 
@@ -130,12 +130,12 @@
         ]
       },
       {
-        "name": "Freezer",
+        "name": "Freezer (Upper)",
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
           {
-            "name": "Missile (Upper)"
+            "name": "Missile"
           }
         ],
         "map_locations": 
@@ -148,12 +148,12 @@
         ]
       },
       {
-        "name": "Freezer",
+        "name": "Freezer (Lower)",
         "chest_unopened_img": "images/checks/Missile Hud Icon.png",
         "chest_opened_img": "images/checks/Missile opened.png",
         "sections": [
           {
-            "name": "Missile (Lower)"
+            "name": "Missile"
           }
         ],
         "map_locations": 
@@ -315,7 +315,7 @@
         "chest_opened_img": "images/checks/Power bomb opened.png",
         "sections": [
           {
-            "name": "Power Bomb"
+            "name": "Power Bomb Tank"
           }
         ],
         "map_locations": 
@@ -333,7 +333,7 @@
         "chest_opened_img": "images/checks/Power bomb opened.png",
         "sections": [
           {
-            "name": "Power Bomb"
+            "name": "Power Bomb Tank"
           }
         ],
         "map_locations": 
@@ -351,7 +351,7 @@
         "chest_opened_img": "images/checks/Power bomb opened.png",
         "sections": [
           {
-            "name": "Power Bomb"
+            "name": "Power Bomb Tank"
           }
         ],
         "map_locations": 
@@ -366,10 +366,6 @@
       {
         "name": "Yellow EMMI",
         "sections": [
-          {
-            "chest_unopened_img": "images/bosses/Yellow Icon Scaled.png",
-            "chest_opened_img": "images/checks/Yellow Defeated.png"
-          },
           {
             "name": "Speed Booster",
             "chest_unopened_img": "images/items/Speed Booster.png",
@@ -386,9 +382,10 @@
         ]
       },
       {
-        "name": "Morph Bomb",
+        "name": "Morph Bomb Room",
         "sections": [
           {
+            "name": "Pedestal",
             "chest_unopened_img": "images/items/Morph Bomb.png",
             "chest_opened_img": "images/checks/morphbomb opened.png"
           }
@@ -403,9 +400,10 @@
         ]
       },
       {
-        "name": "Wide Beam",
+        "name": "Wide Beam Room",
         "sections": [
           {
+            "name": "Pedestal",
             "chest_unopened_img": "images/items/Wide Beam.png",
             "chest_opened_img": "images/checks/Wide opened.png"
           }
