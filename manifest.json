@@ -10,7 +10,7 @@
   "variants": {
     "standard": {
       "display_name": "Map Tracker",
-      "flags": []
+      "flags": [ "ap" ]
     }
   },
   "versions_url": "https://github.com/Breakrice/Metroid-Dread-Poptracker"

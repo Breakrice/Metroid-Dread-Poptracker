@@ -21,8 +21,8 @@
                         "ref": "Artaria/Melee Tutorial Room (Near White EMMI)/Missile"
                     },
                     {
-                        "name": "Proto EMMI Introduciton",
-                        "ref": "Artaria/Proto EMMI Introduciton/Missile"
+                        "name": "Proto EMMI Introduction",
+                        "ref": "Artaria/Proto EMMI Introduction/Missile"
                     },
                     {
                         "name": "Invisible Corpius Room",
@@ -81,7 +81,7 @@
                         "ref": "Artaria/Screw Attack Room (Screw Attack Blocks)/Missile"
                     },
                     {
-                        "name": "Scew Attack Room (Underwater)",
+                        "name": "Screw Attack Room (Underwater)",
                         "ref": "Artaria/Screw Attack Room (Underwater)/Missile"
                     },
                     {
@@ -529,10 +529,6 @@
                         "ref": "Elun/Plasma Beam Room/Pedestal"
                     },
                     {
-                        "name": "Escue",
-                        "ref": "Elun/Escue/"
-                    },
-                    {
                         "name": "Release the X",
                         "ref": "Elun/Release the X/"
                     }
@@ -566,12 +562,12 @@
                         "ref": "Ferenia/Space Jump Room (Bomb Puzzle)/Missile"
                     },
                     {
-                        "name": "Seperate Tunnels Room (Right)",
-                        "ref": "Ferenia/Seperate Tunnels Room (Right)/Missile"
+                        "name": "Separate Tunnels Room (Right)",
+                        "ref": "Ferenia/Separate Tunnels Room (Right)/Missile"
                     },
                     {
-                        "name": "Seperate Tunnels Room (Left)",
-                        "ref": "Ferenia/Seperate Tunnels Room (Left)/Missile"
+                        "name": "Separate Tunnels Room (Left)",
+                        "ref": "Ferenia/Separate Tunnels Room (Left)/Missile"
                     },
                     {
                         "name": "Pitfall Puzzle Room",
@@ -610,12 +606,16 @@
                         "ref": "Ferenia/Twin Robot Arena/Power Bomb Tank"
                     },
                     {
-                        "name": "Storm Missiles Room",
-                        "ref": "Ferenia/Storm Missiles Room/Pedestal"
-                    },
-                    {
                         "name": "Space Jump Room",
                         "ref": "Ferenia/Space Jump Room/Pedestal"
+                    },
+                    {
+                        "name": "Escue",
+                        "ref": "Ferenia/Escue/"
+                    },
+                    {
+                        "name": "Storm Missiles",
+                        "ref": "Ferenia/Escue/Storm Missiles"
                     },
                     {
                         "name": "Purple EMMI",
@@ -651,12 +651,12 @@
                         "ref": "Ghavoran/Cross Bomb Tutorial/Missile"
                     },
                     {
-                        "name": "Teleport to Burenia (Storm Gate)",
-                        "ref": "Ghavoran/Teleport to Burenia (Storm Gate)/Missile"
+                        "name": "Energy Recharge Station North",
+                        "ref": "Ghavoran/Energy Recharge Station North/Missile"
                     },
                     {
-                        "name": "Teleport to Burenia (Tunnel)",
-                        "ref": "Ghavoran/Teleport to Burenia (Tunnel)/Missile"
+                        "name": "Teleport to Burenia",
+                        "ref": "Ghavoran/Teleport to Burenia/Missile"
                     },
                     {
                         "name": "Golzuna Tower (Tunnel)",
@@ -760,8 +760,8 @@
                         "ref": "Hanubia/Ferenia Shortcut/Missile"
                     },
                     {
-                        "name": "Vertical Bomb Maze",
-                        "ref": "Hanubia/Vertical Bomb Maze/Power Bomb Tank"
+                        "name": "Speedboost Puzzle Room",
+                        "ref": "Hanubia/Speedboost Puzzle Room/Power Bomb Tank"
                     },
                     {
                         "name": "Orange EMMI",
