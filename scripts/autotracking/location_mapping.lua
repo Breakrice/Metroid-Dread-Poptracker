@@ -5,8 +5,8 @@
 -- here are the SM locations as an example: https://github.com/Cyb3RGER/sm_ap_tracker/blob/main/scripts/autotracking/location_mapping.lua
 LOCATION_MAPPING = {
 	-- Artaria
-	[31166] = {{"@Artaria/Melee Tutorial Room (Near Proto EMMI)/Missile"}},
-	[31185] = {{"@Artaria/Melee Tutorial Room (Near White EMMI)/Missile"}},
+	[31185] = {{"@Artaria/Melee Tutorial Room (Near Proto EMMI)/Missile"}},
+	[31166] = {{"@Artaria/Melee Tutorial Room (Near White EMMI)/Missile"}},
 	[31167] = {{"@Artaria/Proto EMMI Introduction/Missile"}},
 	[31160] = {{"@Artaria/Invisible Corpius Room/Missile"}},
 	[31164] = {{"@Artaria/Thermal Device/Missile"}},

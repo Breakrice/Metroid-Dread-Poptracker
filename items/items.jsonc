@@ -212,10 +212,10 @@
     "type": "consumable",
     "img": "images/checks/Missile Hud Icon.png",
     "codes": "CONmissile",
-    "static": true,
     "increment": 2,
     "decrement": 2,
-    "min_quantity": 15,
+    "min_quantity": 13, // AP world has one in start inventory???
+    "initial_quantity": 15,
     "max_quantity": 285
   },
   {
@@ -223,7 +223,7 @@
     "type": "consumable",
     "img": "images/checks/Power Bomb Hud Icon.png",
     "codes": "CONpowerbomb",
-    "min_quantity": 2,
+    "min_quantity": 0,
     "max_quantity": 15
   }
 ]
