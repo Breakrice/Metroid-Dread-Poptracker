@@ -30,6 +30,10 @@ function resetItem(item_code, item_type)
 			obj.AcquiredCount = obj.MinCount
 		elseif item_type == "custom" then
 			-- your code for your custom lua items goes here
+			if item_code == "dna" then
+				MetroidDNA.count = 0
+				MetroidDNA:updateGfx()
+			end
 		elseif item_type == "static" and AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
 			print(string.format("resetItem: tried to reset static item %s", item_code))
 		elseif item_type == "composite_toggle" and AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
@@ -71,7 +75,14 @@ function incrementItem(item_code, item_type, multiplier)
 		elseif item_type == "custom" then
 			-- your code for your custom lua items goes here
 			--- @cast obj LuaItem
-			obj:OnLeftClickFunc()
+			if item_code == "dna" then
+				if MetroidDNA.count < 12 then
+					MetroidDNA.count = MetroidDNA.count + 1
+					MetroidDNA:updateGfx()
+				end
+			else
+				obj:OnLeftClickFunc()
+			end
 		elseif item_type == "static" and AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
 			print(string.format("incrementItem: tried to increment static item %s", item_code))
 		elseif item_type == "composite_toggle" and AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
