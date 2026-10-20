@@ -7,9 +7,3 @@ function has(item, amount)
         return count == amount
     end
 end
-
-function compareCounts(item1, item2)
-    local count1 = Tracker:ProviderCountForCode(item1)
-    local count2 = Tracker:ProviderCountForCode(item2)
-    return count1 >= count2
-end

@@ -18,15 +18,15 @@ ScriptHost:LoadScript("scripts/utils.lua")
 -- Logic
 ScriptHost:LoadScript("scripts/logic.lua")
 
--- Custom Items
-ScriptHost:LoadScript("scripts/custom_items/class.lua")
-ScriptHost:LoadScript("scripts/custom_items/progressiveTogglePlus.lua")
-ScriptHost:LoadScript("scripts/custom_items/progressiveTogglePlusWrapper.lua")
-
 -- Items
 Tracker:AddItems("items/items.jsonc")
 Tracker:AddItems("items/bosses.jsonc")
 Tracker:AddItems("items/options.jsonc")
+
+-- Custom Items
+ScriptHost:LoadScript("scripts/custom_items/class.lua")
+ScriptHost:LoadScript("scripts/custom_items/custom_item.lua")
+ScriptHost:LoadScript("scripts/custom_items/dna.lua")
 
 if not IS_ITEMS_ONLY then -- <--- use variant info to optimize loading
     -- Maps

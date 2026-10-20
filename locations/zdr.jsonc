@@ -792,7 +792,7 @@
                         "name": "Raven Beak",
                         "chest_unopened_img": "images/bosses/Raven Beak Icon.png",
                         "chest_opened_img": "images/bosses/Raven Beak Icon.png",
-                        "access_rules": [ "$compareCounts|dna|RequiredDNA" ]
+                        "access_rules": [ "dna" ]
                     }
                 ]
             }
